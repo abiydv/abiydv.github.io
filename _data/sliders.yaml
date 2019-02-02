@@ -1,0 +1,11 @@
+- selector: slider3
+  images:
+    - src: https://github.com/abiydv/ref-docs/blob/master/images/logos/terraform_small.png
+      alt: tf
+    - src: https://github.com/abiydv/ref-docs/blob/master/images/logos/javascript_small.png
+      alt: js
+    - src: https://github.com/abiydv/ref-docs/blob/master/images/logos/aws-cf_small.png
+      alt: cf
+  settings:
+    height: "'auto'"
+disableNav: true
