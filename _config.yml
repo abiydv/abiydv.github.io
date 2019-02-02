@@ -1,5 +1,5 @@
 title: abiydv
-url: "https://abiydv.github.io/"
+url: "https://abiydv.github.io"
 baseurl: ""
 
 markdown: kramdown
@@ -7,3 +7,7 @@ markdown: kramdown
 sass:
     style: compressed
     sass_dir: _sass
+    
+nav:
+ - name: "Home"
+   link: "https://abiydv.github.io"
