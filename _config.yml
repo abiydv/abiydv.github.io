@@ -1,1 +1,15 @@
-theme: jekyll-theme-minimal
+title: abiydv
+url: "https://abiydv.github.io/"
+baseurl: ""
+
+markdown: kramdown
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+nav:
+ - name: "About"
+   link: "/about"
+ - name: "Contact"
+   link: "contact"
