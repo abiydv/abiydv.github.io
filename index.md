@@ -13,6 +13,8 @@ Super enthusiastic about trying *new* stuff :)
 
 I have put up some things on Github, you can see the full source code [here](https://github.com/abiydv)
 
+![tf](https://github.com/abiydv/ref-docs/blob/master/images/logos/terraform_small.png)
+
 ### Contact
 
 Email me - abiydv@protonmail.com
