@@ -32,9 +32,15 @@ hr {
  * Navbar
  */
 
-#author-name {
+#head-name {
     font-size: 30px;
     color: #272727;
+    display: inline-block;
+}
+#head-base {
+    font-size: 12px;
+    margin-top: 36px;
+    margin-left: -73px;
     display: inline-block;
 }
 .navbar {
