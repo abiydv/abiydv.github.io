@@ -14,7 +14,7 @@ Super enthusiastic about trying *new* stuff :)
 I have put up some things on Github, you can see the full source code [here](https://github.com/abiydv)
 
 
-{% include slider.html selector="slider3" %}
+<img src="https://github.com/abiydv/ref-docs/blob/master/images/logos/terraform_small.png" style="display: block; margin: auto;" />
 
 ### Contact
 
