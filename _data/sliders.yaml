@@ -1,10 +1,10 @@
 - selector: slider3
   images:
-    - src: /images/logos/terraform.png
+    - src: /images/terraform.png
       alt: tf
-    - src: /images/logos/javascript.png
+    - src: /images/javascript.png
       alt: js
-    - src: /images/logos/serverless.png
+    - src: /images/serverless.png
       alt: cf
   settings:
     height: "'auto'"
