@@ -17,4 +17,4 @@ I have put up some things on Github, you can see the full source code [here](htt
 
 ### Contact
 
-Email me - abiydv@protonmail.com
+Email me - abiydv@outlook.com
