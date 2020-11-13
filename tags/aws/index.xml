@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>elasaticsearch on @abiydv</title>
-    <link>https://abiydv.github.io/tags/elasaticsearch/</link>
-    <description>Recent content in elasaticsearch on @abiydv</description>
+    <title>aws on @abiydv</title>
+    <link>https://abiydv.github.io/tags/aws/</link>
+    <description>Recent content in aws on @abiydv</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 12 Sep 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/elasaticsearch/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Sep 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Elasticsearch Ingest Pipelines</title>
       <link>https://abiydv.github.io/posts/elasticsearch-ingest-pipelines/</link>

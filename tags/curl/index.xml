@@ -8,10 +8,10 @@
     <lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/curl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Curl cheatsheet</title>
-      <link>https://abiydv.github.io/posts/curl/</link>
+      <link>https://abiydv.github.io/posts/curl-cheatsheet/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://abiydv.github.io/posts/curl/</guid>
+      <guid>https://abiydv.github.io/posts/curl-cheatsheet/</guid>
       <description>Curl is an invaluable tool for anyone who needs to debug webapps fequently. Given it&amp;rsquo;s vast amount of options, it is easy to miss some of it&amp;rsquo;s simplest yet powerful uses.
 Let me add a few here, and I&amp;rsquo;ll keep updating it as and when I discover something new! 🤘
 Inspect response headers The simplest way to do that is by using the -I option -
