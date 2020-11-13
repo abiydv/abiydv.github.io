@@ -5,7 +5,18 @@
     <link>https://abiydv.github.io/</link>
     <description>Recent content on @abiydv</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fastly BDD</title>
+      <link>https://abiydv.github.io/posts/fastly-bdd/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/fastly-bdd/</guid>
+      <description>Fastly is a popular CDN based on the open-source Varnish. This allows to offload a lot of &amp;ldquo;logic&amp;rdquo; to the edge compared to traditional CDNs which focus on caching content only.
+As it supports VCL, you can easily add a lot of custom logic to handle incoming requests right at the edge. This frees up the origin servers from a lot of overhead.
+Let&amp;rsquo;s take an example of redirects. Traditionally, they are applied on webservers and often involve not-so-straightforward syntax for complex rules (if you need to check multiple things like referrer, custom headers, cookies etc.</description>
+    </item>
+    
     <item>
       <title>Curl cheatsheet</title>
       <link>https://abiydv.github.io/posts/curl-cheatsheet/</link>
@@ -24,7 +35,8 @@ $ curl -I https://httpbin.org/ipHTTP/2 200 date: Thu, 12 Nov 2019 19:08:13 GMT
       <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/posts/elasticsearch-ingest-pipelines/</guid>
-      <description>Elasticsearch is an open-source search solution which is quite popular for centralzed logs ingestion. It allows logs from various different sources to be available and searchable at a single place. Ingesting data from various sources creates a problem. How do you normalize the incoming data, split it into some common fields, add or remove metadata etc. To perform all of this (and more), Logstash is the go-to solution. It can manipulate, transform incoming data before pushing it off to Elasticsearch for indexing.</description>
+      <description>Elasticsearch is an open-source search solution which is quite popular for centralzed logs ingestion. It allows logs from various different sources to be available and searchable at a centralized location.
+Ingesting data from various sources though, creates a problem. How do you normalize the incoming data, split it into some common fields, add or remove metadata etc? To perform all of this (and more), Logstash is the go-to solution. It can manipulate, transform incoming data before pushing it off to Elasticsearch for indexing.</description>
     </item>
     
     <item>

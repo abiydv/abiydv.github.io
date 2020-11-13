@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>behave on @abiydv</title>
+    <link>https://abiydv.github.io/tags/behave/</link>
+    <description>Recent content in behave on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/behave/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fastly BDD</title>
+      <link>https://abiydv.github.io/posts/fastly-bdd/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/fastly-bdd/</guid>
+      <description>Fastly is a popular CDN based on the open-source Varnish. This allows to offload a lot of &amp;ldquo;logic&amp;rdquo; to the edge compared to traditional CDNs which focus on caching content only.
+As it supports VCL, you can easily add a lot of custom logic to handle incoming requests right at the edge. This frees up the origin servers from a lot of overhead.
+Let&amp;rsquo;s take an example of redirects. Traditionally, they are applied on webservers and often involve not-so-straightforward syntax for complex rules (if you need to check multiple things like referrer, custom headers, cookies etc.</description>
+    </item>
+    
+  </channel>
+</rss>
