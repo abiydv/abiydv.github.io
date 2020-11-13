@@ -12,8 +12,7 @@
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/posts/fastly-bdd/</guid>
-      <description>Fastly is a popular CDN based on the open-source Varnish. This allows to offload a lot of &amp;ldquo;logic&amp;rdquo; to the edge compared to traditional CDNs which focus on caching content only.
-As it supports VCL, you can easily add a lot of custom logic to handle incoming requests right at the edge. This frees up the origin servers from a lot of overhead.
+      <description>Fastly is a popular CDN based on the open-source Varnish. Since it supports VCL, a lot of custom &amp;ldquo;logic&amp;rdquo; to handle incoming requests can be added, right at the edge. This improves the user experience as well as frees up the overhead on origin servers.
 Let&amp;rsquo;s take an example of redirects. Traditionally, they are applied on webservers and often involve not-so-straightforward syntax for complex rules (if you need to check multiple things like referrer, custom headers, cookies etc.</description>
     </item>
     
