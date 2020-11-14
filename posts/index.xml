@@ -27,15 +27,15 @@ Let&amp;rsquo;s take an example of redirects. Traditionally, they are applied on
     </item>
     
     <item>
-      <title>Curl cheatsheet</title>
+      <title>Curl Cheatsheet</title>
       <link>https://abiydv.github.io/posts/curl-cheatsheet/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/posts/curl-cheatsheet/</guid>
       <description>Curl is an invaluable tool for anyone who needs to debug webapps fequently. Given it&amp;rsquo;s vast amount of options, it is easy to miss some of it&amp;rsquo;s simplest yet powerful uses.
-Let me add a few here, and I&amp;rsquo;ll keep updating it as and when I discover something new! 🤘
+Listing here some options that I use everyday. I&amp;rsquo;ll keep updating it as and when I discover something new! 🤘
 Inspect response headers The simplest way to do that is by using the -I option -
-$ curl -I https://httpbin.org/ipHTTP/2 200 date: Thu, 12 Nov 2019 19:08:13 GMTcontent-type: application/jsoncontent-length: 32server: gunicorn/19.</description>
+$ curl -I https://httpbin.</description>
     </item>
     
     <item>
