@@ -22,8 +22,19 @@ We&amp;rsquo;ll implement a simple service which will return details about users
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/posts/fastly-bdd/</guid>
-      <description>Fastly is a popular CDN based on the open-source Varnish. Since it supports VCL, a lot of custom &amp;ldquo;logic&amp;rdquo; to handle incoming requests can be added, right at the edge. This improves the user experience as well as frees up the overhead on origin servers.
-Let&amp;rsquo;s take an example of redirects. Traditionally, they are applied on webservers and often involve not-so-straightforward syntax for complex rules (if you need to check multiple things like referrer, custom headers, cookies etc.</description>
+      <description>Fastly is a popular CDN based on the open-source Varnish. Since it supports VCL, a lot of custom &amp;ldquo;logic&amp;rdquo; to handle incoming requests can be added, right at the edge. This improves the user experience as well as reduces the overhead on origin servers.
+Let&amp;rsquo;s take an example of redirects. Traditionally, they are applied on webservers and often involve not-so-straightforward syntax for complex rules (multiple checks for various headers, cookies, referrers, urls etc.</description>
+    </item>
+    
+    <item>
+      <title>AWS CLI MFA Login</title>
+      <link>https://abiydv.github.io/posts/aws-cli-mfa-login/</link>
+      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/aws-cli-mfa-login/</guid>
+      <description>One of the basic but crucial things to secure cloud account(s) is to enable MFA. And restirct access to services for non-MFA authenticated users. This creates an issue for aws cli use. Due to the restricted policy, regular secret key &amp;amp; access key don&amp;rsquo;t work. A new temporary credential needs to be requested everytime you want to work with the aws cli.
+How can we address this issue?
+The Long Way Assuming you already have a default named profile setup like so,</description>
     </item>
     
     <item>
