@@ -13,7 +13,7 @@
       
       <guid>https://abiydv.github.io/posts/day-0-gcp/</guid>
       <description>GCP or Google Cloud Platform is quickly emerging as a major force in the public cloud space. It is at no.3 right now by marketshare(7%) behind AWS(32%) and Azure (19%)1. As per the 2020 Magic Quadrant report, it is very close to bridging the gap with the other 2 leaders2.
-In this series, We will walk setup a free tier GCP account and explore some of the services by creating some basic projects.</description>
+In this series, We will setup a free tier GCP account and explore some of the services by creating some basic projects.</description>
     </item>
     
     <item>
