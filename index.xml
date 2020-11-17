@@ -27,6 +27,16 @@ We&amp;rsquo;ll implement a simple service which will return details about users
     </item>
     
     <item>
+      <title>Adobe IO and Cloud Manager API</title>
+      <link>https://abiydv.github.io/posts/adobe-io-cloudmanager-api/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/adobe-io-cloudmanager-api/</guid>
+      <description>Cloud Manager, part of the Adobe Managed Services, is a continuous integration and continuous delivery (CI/CD) framework that lets organisations deploy code to their AEM environments. This is only applicable for organisations which use Adobe Managed Services to host their AEM installations with Adobe.
+The pipeline runs through a standard set of steps as shown below. Output of each step is available via an API through Adobe I/O, which is like a central place to manage all Adobe APIs.</description>
+    </item>
+    
+    <item>
       <title>Fastly BDD</title>
       <link>https://abiydv.github.io/posts/fastly-bdd/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>

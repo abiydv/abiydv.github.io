@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>adobe on @abiydv</title>
+    <link>https://abiydv.github.io/tags/adobe/</link>
+    <description>Recent content in adobe on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/adobe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adobe IO and Cloud Manager API</title>
+      <link>https://abiydv.github.io/posts/adobe-io-cloudmanager-api/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/adobe-io-cloudmanager-api/</guid>
+      <description>Cloud Manager, part of the Adobe Managed Services, is a continuous integration and continuous delivery (CI/CD) framework that lets organisations deploy code to their AEM environments. This is only applicable for organisations which use Adobe Managed Services to host their AEM installations with Adobe.
+The pipeline runs through a standard set of steps as shown below. Output of each step is available via an API through Adobe I/O, which is like a central place to manage all Adobe APIs.</description>
+    </item>
+    
+  </channel>
+</rss>
