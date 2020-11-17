@@ -5,22 +5,58 @@
     <link>https://abiydv.github.io/tags/</link>
     <description>Recent content in Tags on @abiydv</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>fastly</title>
-      <link>https://abiydv.github.io/tags/fastly/</link>
-      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      <title>gcloud</title>
+      <link>https://abiydv.github.io/tags/gcloud/</link>
+      <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://abiydv.github.io/tags/fastly/</guid>
+      <guid>https://abiydv.github.io/tags/gcloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gcp</title>
+      <link>https://abiydv.github.io/tags/gcp/</link>
+      <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/tags/gcp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quickstart</title>
+      <link>https://abiydv.github.io/tags/quickstart/</link>
+      <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/tags/quickstart/</guid>
       <description></description>
     </item>
     
     <item>
       <title>terraform</title>
       <link>https://abiydv.github.io/tags/terraform/</link>
-      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/tags/terraform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vm</title>
+      <link>https://abiydv.github.io/tags/vm/</link>
+      <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/tags/vm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fastly</title>
+      <link>https://abiydv.github.io/tags/fastly/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/tags/fastly/</guid>
       <description></description>
     </item>
     

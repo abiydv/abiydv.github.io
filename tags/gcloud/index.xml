@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gcloud on @abiydv</title>
+    <link>https://abiydv.github.io/tags/gcloud/</link>
+    <description>Recent content in gcloud on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/gcloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 0 with GCP (Google Cloud)</title>
+      <link>https://abiydv.github.io/posts/day-0-gcp/</link>
+      <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/day-0-gcp/</guid>
+      <description>GCP or Google Cloud Platform is the third largest cloud provider by marketshare(7%) behind AWS(32%) and Azure (19%)1. And it also figures in the &amp;ldquo;Leaders&amp;rdquo; quadrant along with the other two2.
+In this series, I will walk through some of the basic concepts of GCP and also create some side-projects as we go along.
+The first step is to enroll yourself for the free GCP account (with $300 credit - 90 days).</description>
+    </item>
+    
+  </channel>
+</rss>
