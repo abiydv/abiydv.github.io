@@ -63,6 +63,26 @@
   </url>
   
   <url>
+    <loc>https://abiydv.github.io/tags/ci-cd/</loc>
+    <lastmod>2020-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abiydv.github.io/posts/python-github-actions/</loc>
+    <lastmod>2020-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abiydv.github.io/tags/github-actions/</loc>
+    <lastmod>2020-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abiydv.github.io/tags/python/</loc>
+    <lastmod>2020-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://abiydv.github.io/tags/adobe/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url>
@@ -109,11 +129,6 @@
   
   <url>
     <loc>https://abiydv.github.io/posts/fastly-bdd/</loc>
-    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://abiydv.github.io/tags/python/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url>
   
