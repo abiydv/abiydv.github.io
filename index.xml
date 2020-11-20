@@ -5,13 +5,25 @@
     <link>https://abiydv.github.io/</link>
     <description>Recent content on @abiydv</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 1 with GCP - Cloud Functions</title>
+      <link>https://abiydv.github.io/posts/day1-gcp-cloud-functions/</link>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/day1-gcp-cloud-functions/</guid>
+      <description>In the previous post, we completed a few basic things like - creating a free tier GCP account, a new project, service role, launched an instance etc.
+Today, let&amp;rsquo;s look at creating a cloud function. These are similar to what AWS refers as Lambda functions.
+Exercise We will keep this fairly simple. It will involve
+ Enable required googleapis to work with - like cloudfunctions, iam etc. Set up additional permissions for service-account Create a sample function Create the terraform config necessary to deploy the function Make the function endpoint public, to allow unauthenticated users to invoke it.</description>
+    </item>
+    
     <item>
       <title>Day 0 with GCP (Google Cloud)</title>
-      <link>https://abiydv.github.io/posts/day-0-gcp/</link>
+      <link>https://abiydv.github.io/posts/day0-gcp/</link>
       <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://abiydv.github.io/posts/day-0-gcp/</guid>
+      <guid>https://abiydv.github.io/posts/day0-gcp/</guid>
       <description>GCP or Google Cloud Platform is quickly emerging as a major force in the public cloud space. It is at no.3 right now by marketshare(7%) behind AWS(32%) and Azure (19%)1. As per the 2020 Magic Quadrant report, it is very close to bridging the gap with the other 2 leaders2.
 In this series, We will setup a free tier GCP account and explore some of the services by creating some basic projects.</description>
     </item>

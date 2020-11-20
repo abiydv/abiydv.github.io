@@ -5,7 +5,19 @@
     <link>https://abiydv.github.io/tags/serverless/</link>
     <description>Recent content in serverless on @abiydv</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/serverless/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/serverless/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 1 with GCP - Cloud Functions</title>
+      <link>https://abiydv.github.io/posts/day1-gcp-cloud-functions/</link>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/day1-gcp-cloud-functions/</guid>
+      <description>In the previous post, we completed a few basic things like - creating a free tier GCP account, a new project, service role, launched an instance etc.
+Today, let&amp;rsquo;s look at creating a cloud function. These are similar to what AWS refers as Lambda functions.
+Exercise We will keep this fairly simple. It will involve
+ Enable required googleapis to work with - like cloudfunctions, iam etc. Set up additional permissions for service-account Create a sample function Create the terraform config necessary to deploy the function Make the function endpoint public, to allow unauthenticated users to invoke it.</description>
+    </item>
+    
     <item>
       <title>Adobe IO and Cloud Manager API</title>
       <link>https://abiydv.github.io/posts/adobe-io-cloudmanager-api/</link>
@@ -14,6 +26,16 @@
       <guid>https://abiydv.github.io/posts/adobe-io-cloudmanager-api/</guid>
       <description>Cloud Manager, part of the Adobe Managed Services, is a continuous integration and continuous delivery (CI/CD) framework that lets organisations deploy code to their AEM environments. This is only applicable for organisations which use Adobe Managed Services to host their AEM installations with Adobe.
 The pipeline runs through a standard set of steps as shown below. Output of each step is available via an API through Adobe I/O, which is like a central place to manage all Adobe APIs.</description>
+    </item>
+    
+    <item>
+      <title>Elasticsearch Ingest Pipelines</title>
+      <link>https://abiydv.github.io/posts/elasticsearch-ingest-pipelines/</link>
+      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/elasticsearch-ingest-pipelines/</guid>
+      <description>Elasticsearch is an open-source search solution which is quite popular for centralzed logs ingestion. It allows logs from various different sources to be available and searchable at a centralized location.
+Ingesting data from various sources though, creates a problem. How do you normalize the incoming data, split it into some common fields, add or remove metadata etc? To perform all of this (and more), Logstash is the go-to solution. It can manipulate, transform incoming data before pushing it off to Elasticsearch for indexing.</description>
     </item>
     
   </channel>
