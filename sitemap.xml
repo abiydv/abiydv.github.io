@@ -4,7 +4,32 @@
   
   <url>
     <loc>https://abiydv.github.io/</loc>
-    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abiydv.github.io/tags/certification/</loc>
+    <lastmod>2020-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abiydv.github.io/posts/certified-terraform-associate/</loc>
+    <lastmod>2020-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abiydv.github.io/posts/</loc>
+    <lastmod>2020-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abiydv.github.io/tags/</loc>
+    <lastmod>2020-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abiydv.github.io/tags/terraform/</loc>
+    <lastmod>2020-12-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -28,27 +53,12 @@
   </url>
   
   <url>
-    <loc>https://abiydv.github.io/posts/</loc>
-    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://abiydv.github.io/tags/quickstart/</loc>
     <lastmod>2020-11-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://abiydv.github.io/tags/serverless/</loc>
-    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://abiydv.github.io/tags/</loc>
-    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://abiydv.github.io/tags/terraform/</loc>
     <lastmod>2020-11-19T00:00:00+00:00</lastmod>
   </url>
   
