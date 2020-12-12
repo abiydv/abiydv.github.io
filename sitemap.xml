@@ -4,26 +4,36 @@
   
   <url>
     <loc>https://abiydv.github.io/</loc>
-    <lastmod>2020-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abiydv.github.io/tags/aws/</loc>
+    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://abiydv.github.io/tags/certification/</loc>
-    <lastmod>2020-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://abiydv.github.io/posts/certified-terraform-associate/</loc>
-    <lastmod>2020-12-11T00:00:00+00:00</lastmod>
+    <loc>https://abiydv.github.io/posts/certified-solutions-architect/</loc>
+    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://abiydv.github.io/posts/</loc>
-    <lastmod>2020-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://abiydv.github.io/tags/</loc>
+    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abiydv.github.io/posts/certified-terraform-associate/</loc>
     <lastmod>2020-12-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -150,11 +160,6 @@
   <url>
     <loc>https://abiydv.github.io/posts/fastly-bdd/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://abiydv.github.io/tags/aws/</loc>
-    <lastmod>2020-08-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
