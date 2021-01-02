@@ -5,7 +5,18 @@
     <link>https://abiydv.github.io/tags/aws/</link>
     <description>Recent content in aws on @abiydv</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Index Logs to Elasticsearch</title>
+      <link>https://abiydv.github.io/posts/index-elasticsearch/</link>
+      <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/index-elasticsearch/</guid>
+      <description>Elasticsearch is an open-source search solution which is quite popular for logs analysis. It allows data from various different sources to be available and searchable at a centralized location.
+In this post, we will see how to ingest logs from S3 into Elasticsearch using AWS Lambda.
+The Architecture The stack will look like the following once launched. Logs are written to the S3 bucket. Our ingestion lambda is then triggered based on these events.</description>
+    </item>
+    
     <item>
       <title>Certified Solutions Architect (SAA-C02) - My Experience</title>
       <link>https://abiydv.github.io/posts/certified-solutions-architect/</link>
@@ -25,17 +36,6 @@ I had always read about their certification paths, but never got around to dig d
       <description>One of the basic but crucial things to secure cloud account(s) is to enable MFA. And restirct access to services for non-MFA authenticated users. This creates an issue for aws cli use. Due to the restricted policy, regular secret key &amp;amp; access key don&amp;rsquo;t work. A new temporary credential needs to be requested everytime you want to work with the aws cli.
 How can we address this issue?
 The Long Way Assuming you already have a default named profile setup like so,</description>
-    </item>
-    
-    <item>
-      <title>Index Logs to Elasticsearch</title>
-      <link>https://abiydv.github.io/posts/index-elasticsearch/</link>
-      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://abiydv.github.io/posts/index-elasticsearch/</guid>
-      <description>Elasticsearch is an open-source search solution which is quite popular for logs analysis. It allows data from various different sources to be available and searchable at a centralized location.
-In this post, we will see how to ingest logs from S3 into Elasticsearch using AWS Lambda.
-The Architecture The stack will look like the following once launched. Logs are written to the S3 bucket. Our ingestion lambda is then triggered based on these events.</description>
     </item>
     
     <item>

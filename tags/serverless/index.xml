@@ -5,7 +5,18 @@
     <link>https://abiydv.github.io/tags/serverless/</link>
     <description>Recent content in serverless on @abiydv</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 19 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/serverless/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/serverless/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Index Logs to Elasticsearch</title>
+      <link>https://abiydv.github.io/posts/index-elasticsearch/</link>
+      <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/index-elasticsearch/</guid>
+      <description>Elasticsearch is an open-source search solution which is quite popular for logs analysis. It allows data from various different sources to be available and searchable at a centralized location.
+In this post, we will see how to ingest logs from S3 into Elasticsearch using AWS Lambda.
+The Architecture The stack will look like the following once launched. Logs are written to the S3 bucket. Our ingestion lambda is then triggered based on these events.</description>
+    </item>
+    
     <item>
       <title>Day 1 with GCP - Cloud Functions</title>
       <link>https://abiydv.github.io/posts/day1-gcp-cloud-functions/</link>
@@ -26,17 +37,6 @@ Exercise We will keep this fairly simple. It will involve
       <guid>https://abiydv.github.io/posts/adobe-io-cloudmanager-api/</guid>
       <description>Cloud Manager, part of the Adobe Managed Services, is a continuous integration and continuous delivery (CI/CD) framework that lets organisations deploy code to their AEM environments. This is only applicable for organisations which use Adobe Managed Services to host their AEM installations with Adobe.
 The pipeline runs through a standard set of steps as shown below. Output of each step is available via an API through Adobe I/O, which is like a central place to manage all Adobe APIs.</description>
-    </item>
-    
-    <item>
-      <title>Index Logs to Elasticsearch</title>
-      <link>https://abiydv.github.io/posts/index-elasticsearch/</link>
-      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://abiydv.github.io/posts/index-elasticsearch/</guid>
-      <description>Elasticsearch is an open-source search solution which is quite popular for logs analysis. It allows data from various different sources to be available and searchable at a centralized location.
-In this post, we will see how to ingest logs from S3 into Elasticsearch using AWS Lambda.
-The Architecture The stack will look like the following once launched. Logs are written to the S3 bucket. Our ingestion lambda is then triggered based on these events.</description>
     </item>
     
     <item>
