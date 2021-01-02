@@ -5,7 +5,19 @@
     <link>https://abiydv.github.io/tags/quickstart/</link>
     <description>Recent content in quickstart on @abiydv</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 19 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/quickstart/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/quickstart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 2 with GCP - Google Kubernetes Engine</title>
+      <link>https://abiydv.github.io/posts/day2-kubernetes-engine/</link>
+      <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/day2-kubernetes-engine/</guid>
+      <description>In the previous post, we launched a Cloud Function in GCP.
+Today, let&amp;rsquo;s look at creating a Kubernetes cluster and deploying Grafana on it. Google calls it&amp;rsquo;s Kubernetes offering GKE - Google Kubernetes Engine. It is a fully managed service which considerably reduces the operational overhead of maintaining and running a production grade cluster.
+Exercise We will keep this fairly simple. It will involve
+ Enable required googleapis to work with - container in this case.</description>
+    </item>
+    
     <item>
       <title>Day 1 with GCP - Cloud Functions</title>
       <link>https://abiydv.github.io/posts/day1-gcp-cloud-functions/</link>
