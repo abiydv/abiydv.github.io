@@ -193,6 +193,21 @@
   </url>
   
   <url>
+    <loc>https://abiydv.github.io/tags/elasticsearch/</loc>
+    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abiydv.github.io/tags/elk/</loc>
+    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abiydv.github.io/posts/index-elasticsearch/</loc>
+    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://abiydv.github.io/tags/curl/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
   </url>
@@ -203,17 +218,7 @@
   </url>
   
   <url>
-    <loc>https://abiydv.github.io/tags/elasticsearch/</loc>
-    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://abiydv.github.io/posts/elasticsearch-ingest-pipelines/</loc>
-    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://abiydv.github.io/tags/elk/</loc>
     <lastmod>2019-09-12T00:00:00+00:00</lastmod>
   </url>
   

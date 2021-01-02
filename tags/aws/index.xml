@@ -28,6 +28,17 @@ The Long Way Assuming you already have a default named profile setup like so,</d
     </item>
     
     <item>
+      <title>Index Logs to Elasticsearch</title>
+      <link>https://abiydv.github.io/posts/index-elasticsearch/</link>
+      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/index-elasticsearch/</guid>
+      <description>Elasticsearch is an open-source search solution which is quite popular for logs analysis. It allows data from various different sources to be available and searchable at a centralized location.
+In this post, we will see how to ingest logs from S3 into Elasticsearch using AWS Lambda.
+The Architecture The stack will look like the following once launched. Logs are written to the S3 bucket. Our ingestion lambda is then triggered based on these events.</description>
+    </item>
+    
+    <item>
       <title>Elasticsearch Ingest Pipelines</title>
       <link>https://abiydv.github.io/posts/elasticsearch-ingest-pipelines/</link>
       <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
