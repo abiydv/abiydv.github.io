@@ -5,7 +5,29 @@
     <link>https://abiydv.github.io/posts/</link>
     <description>Recent content in Posts on @abiydv</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 30 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git History Wars</title>
+      <link>https://abiydv.github.io/posts/git-history/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/git-history/</guid>
+      <description>Those who do not learn from history are doomed to repeat it!
+ This is incredibly apt for the software development world as well. And the act of keeping a tab on a project&amp;rsquo;s Git history has split the world in half, quite literally.
+On one side, there are people who want the history to be a snashot of what exactly happened in a repo, and a non-linear history is not much of a concern to them.</description>
+    </item>
+    
+    <item>
+      <title>Git Hooks</title>
+      <link>https://abiydv.github.io/posts/git-hooks/</link>
+      <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/git-hooks/</guid>
+      <description>A consistent convention, whether it is for naming branches or adding commit messages is absolutely essential for a team. Following a common theme or standard ensures the readability and maintainability of the project. It also makes the lives of people who will come after you a lot easier.
+Problem Standards or conventions can be set, however, without oversight there are always chances of people overlooking them.
+Solution Git provides scripts out of the box, which run on certain events.</description>
+    </item>
+    
     <item>
       <title>Index Logs to Elasticsearch</title>
       <link>https://abiydv.github.io/posts/index-elasticsearch/</link>
