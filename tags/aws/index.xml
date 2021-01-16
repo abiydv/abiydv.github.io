@@ -5,7 +5,16 @@
     <link>https://abiydv.github.io/tags/aws/</link>
     <description>Recent content in aws on @abiydv</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 30 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Certified Security Specialty (SCS-C01) - My Experience</title>
+      <link>https://abiydv.github.io/posts/certified-security-speciality/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/certified-security-speciality/</guid>
+      <description>Amazon Web Services (AWS) offers certifications in 4 broad categories - Foundational, Associate, Professional and Speciality. I recently cleared the Solutions Architect Associate certification. This time, wanted to attempt a &amp;ldquo;Speciality&amp;rdquo; certification. And what better topic to delve into than Cloud security. As much of a boon cloud is, it&amp;rsquo;s Achilies&#39; heel remains unsecure workloads. Although AWS provides a ton of tools to mitigate and potentially limit security incidents, but they still do happen and often cost not just in monetary terms but also reduced customer confidence.</description>
+    </item>
+    
     <item>
       <title>Index Logs to Elasticsearch</title>
       <link>https://abiydv.github.io/posts/index-elasticsearch/</link>
@@ -18,7 +27,7 @@ The Architecture The stack will look like the following once launched. Logs are 
     </item>
     
     <item>
-      <title>Certified Solutions Architect (SAA-C02) - My Experience</title>
+      <title>AWS Certified Solutions Architect (SAA-C02) - My Experience</title>
       <link>https://abiydv.github.io/posts/certified-solutions-architect/</link>
       <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
       
