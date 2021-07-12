@@ -16,6 +16,24 @@
     </item>
     
     <item>
+      <title>curl</title>
+      <link>https://abiydv.github.io/tags/curl/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/tags/curl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://abiydv.github.io/tags/python/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>s3</title>
       <link>https://abiydv.github.io/tags/s3/</link>
       <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
@@ -214,15 +232,6 @@
     </item>
     
     <item>
-      <title>python</title>
-      <link>https://abiydv.github.io/tags/python/</link>
-      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://abiydv.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>adobe</title>
       <link>https://abiydv.github.io/tags/adobe/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
@@ -273,15 +282,6 @@
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/tags/behave/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>curl</title>
-      <link>https://abiydv.github.io/tags/curl/</link>
-      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://abiydv.github.io/tags/curl/</guid>
       <description></description>
     </item>
     
