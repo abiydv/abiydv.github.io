@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>vm on @abiydv</title>
     <link>https://abiydv.github.io/tags/vm/</link>
@@ -12,8 +12,7 @@
       <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/posts/day0-gcp/</guid>
-      <description>GCP or Google Cloud Platform is quickly emerging as a major force in the public cloud space. It is at no.3 right now by marketshare(7%) behind AWS(32%) and Azure (19%)1. As per the 2020 Magic Quadrant report, it is very close to bridging the gap with the other 2 leaders2.
-In this series, We will setup a free tier GCP account and explore some of the services by creating some basic projects.</description>
+      <description>Get started quick with GCP/Google Cloud</description>
     </item>
     
   </channel>

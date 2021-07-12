@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>python on @abiydv</title>
     <link>https://abiydv.github.io/tags/python/</link>
@@ -12,8 +12,7 @@
       <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/posts/python-github-actions/</guid>
-      <description>GitHub Actions are event-driven (new commits, pull requests, tags etc.). Based on the config, it runs a series of commands after a specified event has occurred. For example, every time someone creates a pull request for a repository, it can automatically run a set of tests, coverage and code quality checks.
-It makes it so much easier to create a cohesive &amp;ldquo;GitOps&amp;rdquo; flow as you can now see everything in a single place - without creating too much custom plumbing.</description>
+      <description>Using Github actions for a Python project</description>
     </item>
     
     <item>
@@ -22,8 +21,7 @@ It makes it so much easier to create a cohesive &amp;ldquo;GitOps&amp;rdquo; flo
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/posts/fastly-bdd/</guid>
-      <description>Fastly is a popular CDN based on the open-source Varnish. Since it supports VCL, a lot of custom &amp;ldquo;logic&amp;rdquo; to handle incoming requests can be added, right at the edge. This improves the user experience as well as reduces the overhead on origin servers.
-Let&amp;rsquo;s take an example of redirects. Traditionally, they are applied on webservers and often involve not-so-straightforward syntax for complex rules (multiple checks for various headers, cookies, referrers, urls etc.</description>
+      <description>Implement BDD for Fastly</description>
     </item>
     
   </channel>

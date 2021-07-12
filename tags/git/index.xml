@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>git on @abiydv</title>
     <link>https://abiydv.github.io/tags/git/</link>
@@ -12,9 +12,7 @@
       <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/posts/git-history/</guid>
-      <description>Those who do not learn from history are doomed to repeat it!
- This is incredibly apt for the software development world as well. And the act of keeping a tab on a project&amp;rsquo;s Git history has split the world in half, quite literally.
-On one side, there are people who want the history to be a snashot of what exactly happened in a repo, and a non-linear history is not much of a concern to them.</description>
+      <description>Git history - which side are you on?</description>
     </item>
     
     <item>
@@ -23,9 +21,7 @@ On one side, there are people who want the history to be a snashot of what exact
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/posts/git-hooks/</guid>
-      <description>A consistent convention, whether it is for naming branches or adding commit messages is absolutely essential for a team. Following a common theme or standard ensures the readability and maintainability of the project. It also makes the lives of people who will come after you a lot easier.
-Problem Standards or conventions can be set, however, without oversight there are always chances of people overlooking them.
-Solution Git provides scripts out of the box, which run on certain events.</description>
+      <description>Git Hooks for better commits!</description>
     </item>
     
   </channel>

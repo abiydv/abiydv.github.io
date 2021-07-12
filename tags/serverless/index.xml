@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>serverless on @abiydv</title>
     <link>https://abiydv.github.io/tags/serverless/</link>
@@ -12,9 +12,7 @@
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/posts/index-elasticsearch/</guid>
-      <description>Elasticsearch is an open-source search solution which is quite popular for logs analysis. It allows data from various different sources to be available and searchable at a centralized location.
-In this post, we will see how to ingest logs from S3 into Elasticsearch using AWS Lambda.
-The Architecture The stack will look like the following once launched. Logs are written to the S3 bucket. Our ingestion lambda is then triggered based on these events.</description>
+      <description>Guide to index logs from S3 to Elasticsearch</description>
     </item>
     
     <item>
@@ -23,10 +21,7 @@ The Architecture The stack will look like the following once launched. Logs are 
       <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/posts/day1-gcp-cloud-functions/</guid>
-      <description>In the previous post, we completed a few basic things like - creating a free tier GCP account, a new project, service role, launched an instance etc.
-Today, let&amp;rsquo;s look at creating a cloud function. These are similar to what AWS refers as Lambda functions.
-Exercise We will keep this fairly simple. It will involve
- Enable required googleapis to work with - like cloudfunctions, iam etc. Set up additional permissions for service-account Create a sample function Create the terraform config necessary to deploy the function Make the function endpoint public, to allow unauthenticated users to invoke it.</description>
+      <description>Deploying and using Google Cloud Functions</description>
     </item>
     
     <item>
@@ -35,8 +30,7 @@ Exercise We will keep this fairly simple. It will involve
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/posts/adobe-io-cloudmanager-api/</guid>
-      <description>Cloud Manager, part of the Adobe Managed Services, is a continuous integration and continuous delivery (CI/CD) framework that lets organisations deploy code to their AEM environments. This is only applicable for organisations which use Adobe Managed Services to host their AEM installations with Adobe.
-The pipeline runs through a standard set of steps as shown below. Output of each step is available via an API through Adobe I/O, which is like a central place to manage all Adobe APIs.</description>
+      <description>Notifications from Cloud Manager using Adobe IO</description>
     </item>
     
     <item>
@@ -45,8 +39,7 @@ The pipeline runs through a standard set of steps as shown below. Output of each
       <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/posts/elasticsearch-ingest-pipelines/</guid>
-      <description>Elasticsearch is an open-source search solution which is quite popular for centralzed logs ingestion. It allows logs from various different sources to be available and searchable at a centralized location.
-Ingesting data from various sources though, creates a problem. How do you normalize the incoming data, split it into some common fields, add or remove metadata etc? To perform all of this (and more), Logstash is the go-to solution. It can manipulate, transform incoming data before pushing it off to Elasticsearch for indexing.</description>
+      <description>Guide to Elasticsearch Ingest Pipelines</description>
     </item>
     
   </channel>

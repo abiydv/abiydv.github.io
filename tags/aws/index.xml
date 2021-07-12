@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>aws on @abiydv</title>
     <link>https://abiydv.github.io/tags/aws/</link>
@@ -12,7 +12,7 @@
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/posts/certified-security-speciality/</guid>
-      <description>Amazon Web Services (AWS) offers certifications in 4 broad categories - Foundational, Associate, Professional and Speciality. I recently cleared the Solutions Architect Associate certification. This time, wanted to attempt a &amp;ldquo;Speciality&amp;rdquo; certification. And what better topic to delve into than Cloud security. As much of a boon cloud is, it&amp;rsquo;s Achilies&#39; heel remains unsecure workloads. Although AWS provides a ton of tools to mitigate and potentially limit security incidents, but they still do happen and often cost not just in monetary terms but also reduced customer confidence.</description>
+      <description>AWS Certified Security Specialty (SCS-C01) - My Experience</description>
     </item>
     
     <item>
@@ -21,9 +21,7 @@
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/posts/index-elasticsearch/</guid>
-      <description>Elasticsearch is an open-source search solution which is quite popular for logs analysis. It allows data from various different sources to be available and searchable at a centralized location.
-In this post, we will see how to ingest logs from S3 into Elasticsearch using AWS Lambda.
-The Architecture The stack will look like the following once launched. Logs are written to the S3 bucket. Our ingestion lambda is then triggered based on these events.</description>
+      <description>Guide to index logs from S3 to Elasticsearch</description>
     </item>
     
     <item>
@@ -32,8 +30,7 @@ The Architecture The stack will look like the following once launched. Logs are 
       <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/posts/certified-solutions-architect/</guid>
-      <description>In their own words, Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform, offering over 175 fully featured services from data centers globally. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—are using AWS to lower costs, become more agile, and innovate faster.
-I had always read about their certification paths, but never got around to dig deeper. Until last week. Decided to have a go at it, to validate my knowledge and experience.</description>
+      <description>AWS Certified Solutions Architect (SAA-C02) - My Experience</description>
     </item>
     
     <item>
@@ -42,9 +39,7 @@ I had always read about their certification paths, but never got around to dig d
       <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/posts/aws-cli-mfa-login/</guid>
-      <description>One of the basic but crucial things to secure cloud account(s) is to enable MFA. And restirct access to services for non-MFA authenticated users. This creates an issue for aws cli use. Due to the restricted policy, regular secret key &amp;amp; access key don&amp;rsquo;t work. A new temporary credential needs to be requested everytime you want to work with the aws cli.
-How can we address this issue?
-The Long Way Assuming you already have a default named profile setup like so,</description>
+      <description>Authenticate using MFA using AWS CLI</description>
     </item>
     
     <item>
@@ -53,8 +48,7 @@ The Long Way Assuming you already have a default named profile setup like so,</d
       <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/posts/elasticsearch-ingest-pipelines/</guid>
-      <description>Elasticsearch is an open-source search solution which is quite popular for centralzed logs ingestion. It allows logs from various different sources to be available and searchable at a centralized location.
-Ingesting data from various sources though, creates a problem. How do you normalize the incoming data, split it into some common fields, add or remove metadata etc? To perform all of this (and more), Logstash is the go-to solution. It can manipulate, transform incoming data before pushing it off to Elasticsearch for indexing.</description>
+      <description>Guide to Elasticsearch Ingest Pipelines</description>
     </item>
     
   </channel>
