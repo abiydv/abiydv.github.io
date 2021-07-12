@@ -5,7 +5,34 @@
     <link>https://abiydv.github.io/tags/</link>
     <description>Recent content in Tags on @abiydv</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 06 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>aws</title>
+      <link>https://abiydv.github.io/tags/aws/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>s3</title>
+      <link>https://abiydv.github.io/tags/s3/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/tags/s3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://abiydv.github.io/tags/security/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/tags/security/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>fastly</title>
       <link>https://abiydv.github.io/tags/fastly/</link>
@@ -34,29 +61,11 @@
     </item>
     
     <item>
-      <title>aws</title>
-      <link>https://abiydv.github.io/tags/aws/</link>
-      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://abiydv.github.io/tags/aws/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>certification</title>
       <link>https://abiydv.github.io/tags/certification/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/tags/certification/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>security</title>
-      <link>https://abiydv.github.io/tags/security/</link>
-      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://abiydv.github.io/tags/security/</guid>
       <description></description>
     </item>
     

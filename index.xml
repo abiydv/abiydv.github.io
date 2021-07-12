@@ -5,7 +5,16 @@
     <link>https://abiydv.github.io/</link>
     <description>Recent content on @abiydv</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 06 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>S3 Presigned URLs</title>
+      <link>https://abiydv.github.io/posts/s3-presigned-urls/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/s3-presigned-urls/</guid>
+      <description>S3 presigned url creation using boto3, and use for uploads or downloads</description>
+    </item>
+    
     <item>
       <title>Fastly Geolocation Service</title>
       <link>https://abiydv.github.io/posts/fastly-geo-service/</link>
