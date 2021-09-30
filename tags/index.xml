@@ -5,7 +5,61 @@
     <link>https://abiydv.github.io/tags/</link>
     <description>Recent content in Tags on @abiydv</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>aws</title>
+      <link>https://abiydv.github.io/tags/aws/</link>
+      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bitbucket</title>
+      <link>https://abiydv.github.io/tags/bitbucket/</link>
+      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/tags/bitbucket/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cicd</title>
+      <link>https://abiydv.github.io/tags/cicd/</link>
+      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/tags/cicd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloudformation</title>
+      <link>https://abiydv.github.io/tags/cloudformation/</link>
+      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/tags/cloudformation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pipelines</title>
+      <link>https://abiydv.github.io/tags/pipelines/</link>
+      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/tags/pipelines/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terraform</title>
+      <link>https://abiydv.github.io/tags/terraform/</link>
+      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/tags/terraform/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>blackbox</title>
       <link>https://abiydv.github.io/tags/blackbox/</link>
@@ -30,15 +84,6 @@
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/tags/prometheus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>aws</title>
-      <link>https://abiydv.github.io/tags/aws/</link>
-      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://abiydv.github.io/tags/aws/</guid>
       <description></description>
     </item>
     
@@ -84,15 +129,6 @@
       <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/tags/fastly/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>terraform</title>
-      <link>https://abiydv.github.io/tags/terraform/</link>
-      <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://abiydv.github.io/tags/terraform/</guid>
       <description></description>
     </item>
     
