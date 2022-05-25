@@ -5,13 +5,40 @@
     <link>https://abiydv.github.io/tags/</link>
     <description>Recent content in Tags on @abiydv</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 30 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>aws</title>
       <link>https://abiydv.github.io/tags/aws/</link>
-      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cicd</title>
+      <link>https://abiydv.github.io/tags/cicd/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/tags/cicd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cli</title>
+      <link>https://abiydv.github.io/tags/cli/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/tags/cli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terraform</title>
+      <link>https://abiydv.github.io/tags/terraform/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/tags/terraform/</guid>
       <description></description>
     </item>
     
@@ -21,15 +48,6 @@
       <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/tags/bitbucket/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cicd</title>
-      <link>https://abiydv.github.io/tags/cicd/</link>
-      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://abiydv.github.io/tags/cicd/</guid>
       <description></description>
     </item>
     
@@ -48,15 +66,6 @@
       <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/tags/pipelines/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>terraform</title>
-      <link>https://abiydv.github.io/tags/terraform/</link>
-      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://abiydv.github.io/tags/terraform/</guid>
       <description></description>
     </item>
     

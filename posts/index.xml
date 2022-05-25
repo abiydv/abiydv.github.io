@@ -5,7 +5,16 @@
     <link>https://abiydv.github.io/posts/</link>
     <description>Recent content in Posts on @abiydv</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 30 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terraform &amp; multi-account, multi-region workloads</title>
+      <link>https://abiydv.github.io/posts/terraform-multiaccount-multiregion/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/terraform-multiaccount-multiregion/</guid>
+      <description>Managing multi-account, multi-region workloads using Terraform</description>
+    </item>
+    
     <item>
       <title>Terraform, Bitbucket pipelines and OIDC</title>
       <link>https://abiydv.github.io/posts/terraform-bitbucket-pipeline-oidc/</link>

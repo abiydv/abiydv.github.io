@@ -3,30 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://abiydv.github.io/</loc>
-    <lastmod>2021-09-30T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abiydv.github.io/tags/aws/</loc>
-    <lastmod>2021-09-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abiydv.github.io/tags/bitbucket/</loc>
-    <lastmod>2021-09-30T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abiydv.github.io/tags/cicd/</loc>
+    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abiydv.github.io/tags/cli/</loc>
+    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abiydv.github.io/posts/</loc>
+    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abiydv.github.io/tags/</loc>
+    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abiydv.github.io/tags/terraform/</loc>
+    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abiydv.github.io/posts/terraform-multiaccount-multiregion/</loc>
+    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abiydv.github.io/tags/bitbucket/</loc>
     <lastmod>2021-09-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abiydv.github.io/tags/cloudformation/</loc>
     <lastmod>2021-09-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abiydv.github.io/tags/pipelines/</loc>
-    <lastmod>2021-09-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abiydv.github.io/posts/</loc>
-    <lastmod>2021-09-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abiydv.github.io/tags/</loc>
-    <lastmod>2021-09-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abiydv.github.io/tags/terraform/</loc>
     <lastmod>2021-09-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abiydv.github.io/posts/terraform-bitbucket-pipeline-oidc/</loc>
