@@ -24,5 +24,14 @@
       <description>How to setup a Terraform CI/CD in Bitbucket pipeline using OIDC role based access</description>
     </item>
     
+    <item>
+      <title>Github Actions for Python</title>
+      <link>https://abiydv.github.io/posts/python-github-actions/</link>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/python-github-actions/</guid>
+      <description>Using Github actions for a Python project</description>
+    </item>
+    
   </channel>
 </rss>
