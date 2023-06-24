@@ -3,21 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://abiydv.github.io/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abiydv.github.io/tags/aws/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abiydv.github.io/posts/aws-eks-okta-auth/</loc>
+    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abiydv.github.io/tags/eks/</loc>
+    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abiydv.github.io/tags/idp/</loc>
+    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abiydv.github.io/tags/k8s/</loc>
+    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abiydv.github.io/tags/okta/</loc>
+    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abiydv.github.io/posts/</loc>
+    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abiydv.github.io/tags/</loc>
+    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abiydv.github.io/tags/cicd/</loc>
     <lastmod>2022-05-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abiydv.github.io/tags/cli/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abiydv.github.io/posts/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abiydv.github.io/tags/</loc>
     <lastmod>2022-05-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abiydv.github.io/tags/terraform/</loc>
@@ -183,21 +198,6 @@
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abiydv.github.io/posts/aws-cli-mfa-login/</loc>
-    <lastmod>2020-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abiydv.github.io/posts/aws-eks-okta-auth/</loc>
-    <lastmod>2020-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abiydv.github.io/tags/eks/</loc>
-    <lastmod>2020-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abiydv.github.io/tags/idp/</loc>
-    <lastmod>2020-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abiydv.github.io/tags/k8s/</loc>
-    <lastmod>2020-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abiydv.github.io/tags/okta/</loc>
     <lastmod>2020-08-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abiydv.github.io/posts/curl-cheatsheet/</loc>
