@@ -5,9 +5,10 @@
     <link>https://abiydv.github.io/tags/</link>
     <description>Recent content in Tags on @abiydv</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Sat, 24 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>aws</title>
+      <title>Aws</title>
       <link>https://abiydv.github.io/tags/aws/</link>
       <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
       
@@ -16,7 +17,7 @@
     </item>
     
     <item>
-      <title>eks</title>
+      <title>Eks</title>
       <link>https://abiydv.github.io/tags/eks/</link>
       <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
       
@@ -25,7 +26,7 @@
     </item>
     
     <item>
-      <title>idp</title>
+      <title>Idp</title>
       <link>https://abiydv.github.io/tags/idp/</link>
       <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
       
@@ -34,7 +35,7 @@
     </item>
     
     <item>
-      <title>k8s</title>
+      <title>K8s</title>
       <link>https://abiydv.github.io/tags/k8s/</link>
       <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
       
@@ -43,7 +44,7 @@
     </item>
     
     <item>
-      <title>okta</title>
+      <title>Okta</title>
       <link>https://abiydv.github.io/tags/okta/</link>
       <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
       
@@ -52,7 +53,7 @@
     </item>
     
     <item>
-      <title>cicd</title>
+      <title>Cicd</title>
       <link>https://abiydv.github.io/tags/cicd/</link>
       <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
       
@@ -61,7 +62,7 @@
     </item>
     
     <item>
-      <title>cli</title>
+      <title>Cli</title>
       <link>https://abiydv.github.io/tags/cli/</link>
       <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
       
@@ -70,7 +71,7 @@
     </item>
     
     <item>
-      <title>terraform</title>
+      <title>Terraform</title>
       <link>https://abiydv.github.io/tags/terraform/</link>
       <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
       
@@ -79,7 +80,7 @@
     </item>
     
     <item>
-      <title>bitbucket</title>
+      <title>Bitbucket</title>
       <link>https://abiydv.github.io/tags/bitbucket/</link>
       <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
       
@@ -88,7 +89,7 @@
     </item>
     
     <item>
-      <title>cloudformation</title>
+      <title>Cloudformation</title>
       <link>https://abiydv.github.io/tags/cloudformation/</link>
       <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
       
@@ -97,7 +98,7 @@
     </item>
     
     <item>
-      <title>pipelines</title>
+      <title>Pipelines</title>
       <link>https://abiydv.github.io/tags/pipelines/</link>
       <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
       
@@ -106,7 +107,7 @@
     </item>
     
     <item>
-      <title>blackbox</title>
+      <title>Blackbox</title>
       <link>https://abiydv.github.io/tags/blackbox/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
       
@@ -115,7 +116,7 @@
     </item>
     
     <item>
-      <title>cncf</title>
+      <title>Cncf</title>
       <link>https://abiydv.github.io/tags/cncf/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
       
@@ -124,7 +125,7 @@
     </item>
     
     <item>
-      <title>prometheus</title>
+      <title>Prometheus</title>
       <link>https://abiydv.github.io/tags/prometheus/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
       
@@ -133,7 +134,7 @@
     </item>
     
     <item>
-      <title>curl</title>
+      <title>Curl</title>
       <link>https://abiydv.github.io/tags/curl/</link>
       <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
       
@@ -142,7 +143,7 @@
     </item>
     
     <item>
-      <title>python</title>
+      <title>Python</title>
       <link>https://abiydv.github.io/tags/python/</link>
       <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
       
@@ -151,7 +152,7 @@
     </item>
     
     <item>
-      <title>s3</title>
+      <title>S3</title>
       <link>https://abiydv.github.io/tags/s3/</link>
       <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
       
@@ -160,7 +161,7 @@
     </item>
     
     <item>
-      <title>security</title>
+      <title>Security</title>
       <link>https://abiydv.github.io/tags/security/</link>
       <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
       
@@ -169,7 +170,7 @@
     </item>
     
     <item>
-      <title>fastly</title>
+      <title>Fastly</title>
       <link>https://abiydv.github.io/tags/fastly/</link>
       <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
       
@@ -178,7 +179,7 @@
     </item>
     
     <item>
-      <title>vcl</title>
+      <title>Vcl</title>
       <link>https://abiydv.github.io/tags/vcl/</link>
       <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
       
@@ -187,7 +188,7 @@
     </item>
     
     <item>
-      <title>certification</title>
+      <title>Certification</title>
       <link>https://abiydv.github.io/tags/certification/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
@@ -196,7 +197,7 @@
     </item>
     
     <item>
-      <title>git</title>
+      <title>Git</title>
       <link>https://abiydv.github.io/tags/git/</link>
       <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
       
@@ -205,7 +206,7 @@
     </item>
     
     <item>
-      <title>aws-lambda</title>
+      <title>Aws-Lambda</title>
       <link>https://abiydv.github.io/tags/aws-lambda/</link>
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -214,7 +215,7 @@
     </item>
     
     <item>
-      <title>elasticsearch</title>
+      <title>Elasticsearch</title>
       <link>https://abiydv.github.io/tags/elasticsearch/</link>
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -223,7 +224,7 @@
     </item>
     
     <item>
-      <title>elk</title>
+      <title>Elk</title>
       <link>https://abiydv.github.io/tags/elk/</link>
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -232,7 +233,7 @@
     </item>
     
     <item>
-      <title>serverless</title>
+      <title>Serverless</title>
       <link>https://abiydv.github.io/tags/serverless/</link>
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -241,7 +242,7 @@
     </item>
     
     <item>
-      <title>gcloud</title>
+      <title>Gcloud</title>
       <link>https://abiydv.github.io/tags/gcloud/</link>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -250,7 +251,7 @@
     </item>
     
     <item>
-      <title>gcp</title>
+      <title>Gcp</title>
       <link>https://abiydv.github.io/tags/gcp/</link>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -259,7 +260,7 @@
     </item>
     
     <item>
-      <title>gke</title>
+      <title>Gke</title>
       <link>https://abiydv.github.io/tags/gke/</link>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -268,7 +269,7 @@
     </item>
     
     <item>
-      <title>grafana</title>
+      <title>Grafana</title>
       <link>https://abiydv.github.io/tags/grafana/</link>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -277,7 +278,7 @@
     </item>
     
     <item>
-      <title>kubernetes</title>
+      <title>Kubernetes</title>
       <link>https://abiydv.github.io/tags/kubernetes/</link>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -286,7 +287,7 @@
     </item>
     
     <item>
-      <title>quickstart</title>
+      <title>Quickstart</title>
       <link>https://abiydv.github.io/tags/quickstart/</link>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -295,7 +296,7 @@
     </item>
     
     <item>
-      <title>hashicorp</title>
+      <title>Hashicorp</title>
       <link>https://abiydv.github.io/tags/hashicorp/</link>
       <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -304,7 +305,7 @@
     </item>
     
     <item>
-      <title>cloud-functions</title>
+      <title>Cloud-Functions</title>
       <link>https://abiydv.github.io/tags/cloud-functions/</link>
       <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -313,7 +314,7 @@
     </item>
     
     <item>
-      <title>vm</title>
+      <title>Vm</title>
       <link>https://abiydv.github.io/tags/vm/</link>
       <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -322,7 +323,7 @@
     </item>
     
     <item>
-      <title>github-actions</title>
+      <title>Github-Actions</title>
       <link>https://abiydv.github.io/tags/github-actions/</link>
       <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -331,7 +332,7 @@
     </item>
     
     <item>
-      <title>adobe</title>
+      <title>Adobe</title>
       <link>https://abiydv.github.io/tags/adobe/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -340,7 +341,7 @@
     </item>
     
     <item>
-      <title>aem</title>
+      <title>Aem</title>
       <link>https://abiydv.github.io/tags/aem/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -349,7 +350,7 @@
     </item>
     
     <item>
-      <title>api</title>
+      <title>Api</title>
       <link>https://abiydv.github.io/tags/api/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -358,7 +359,7 @@
     </item>
     
     <item>
-      <title>webhook</title>
+      <title>Webhook</title>
       <link>https://abiydv.github.io/tags/webhook/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -367,7 +368,7 @@
     </item>
     
     <item>
-      <title>bdd</title>
+      <title>Bdd</title>
       <link>https://abiydv.github.io/tags/bdd/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
@@ -376,7 +377,7 @@
     </item>
     
     <item>
-      <title>behave</title>
+      <title>Behave</title>
       <link>https://abiydv.github.io/tags/behave/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
