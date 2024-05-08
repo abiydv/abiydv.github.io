@@ -6,7 +6,16 @@
     <description>Recent content on @abiydv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git default commit msg hook</title>
+      <link>https://abiydv.github.io/posts/git-commit-msg-hook/</link>
+      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/git-commit-msg-hook/</guid>
+      <description>How to add a default commit message hook which works for all local repositories?</description>
+    </item>
+    
     <item>
       <title>AWS EKS Okta Auth</title>
       <link>https://abiydv.github.io/posts/aws-eks-okta-auth/</link>
