@@ -5,8 +5,7 @@
     <link>https://abiydv.github.io/posts/</link>
     <description>Recent content in Posts on @abiydv</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 08 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://abiydv.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git default commit msg hook</title>
       <link>https://abiydv.github.io/posts/git-commit-msg-hook/</link>
