@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>k8s on @abiydv</title>
+    <link>https://abiydv.github.io/topics/k8s/</link>
+    <description>Recent content in k8s on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/k8s/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Elastic Kubernetes Service (EKS)</title>
+      <link>https://abiydv.github.io/notes/eks/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/eks/</guid>
+      <description>Workshop - https://www.eksworkshop.com/docs/introduction/
+Networking https://aws.github.io/aws-eks-best-practices/networking/
+https://github.com/aws/amazon-vpc-cni-k8s
+Advanced Networking https://aws.amazon.com/blogs/containers/eks-vpc-routable-ip-address-conservation/
+can use both Fargate and EC2 clusters to launch nodes. STS endpoint for the deployment region must be enabled. worker nodes must have a private DNS entry or a node not found error will occur. node IAM role must be present in the aws-auth-cm.yaml file when using self-managed Amazon Linux nodes. Ref: https://docs.aws.amazon.com/eks/latest/userguide/troubleshooting.html, https://docs.aws.amazon.com/eks/latest/userguide/eks-connector.html</description>
+    </item>
+    
+  </channel>
+</rss>

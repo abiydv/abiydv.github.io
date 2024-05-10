@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>data-integration on @abiydv</title>
+    <link>https://abiydv.github.io/topics/data-integration/</link>
+    <description>Recent content in data-integration on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/data-integration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Athena</title>
+      <link>https://abiydv.github.io/notes/athena/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/athena/</guid>
+      <description>Athena Region scope 3x Replication Performance? DocumentDB</description>
+    </item>
+    
+    <item>
+      <title>AWS Elastic Map Reduce (EMR)</title>
+      <link>https://abiydv.github.io/notes/emr/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/emr/</guid>
+      <description>EMR Fleet mix of spot and on-demand instances Provide a list of up to 5 instance types with corresponding weighted capacities and spot bid prices (including spot blocks)! EMR will automatically provision On-Demand and Spot capacity across these instance types when creating your cluster. This can make it easier and more cost effective to quickly obtain and maintain your desired capacity for your clusters. EMR States EMR Alarms, Metrics https://docs.aws.amazon.com/emr/latest/ManagementGuide/UsingEMR_ViewingMetrics.html</description>
+    </item>
+    
+    <item>
+      <title>AWS Redshift</title>
+      <link>https://abiydv.github.io/notes/redshift/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/redshift/</guid>
+      <description>Scope AZ scope
+Features Data warehouse for VERY LARGE amounts of data
+MPP (Massively parallel processing)
+sql analytics on exabytes of data for business insights - complex BI workloads
+provisioned amd serverless
+managed storage - scale storage and compute needs independently
+Replication to S3
+3 9s SLA
+redshift spectrum to query data lake in S3
+data exchange to share/use data in standard formats easily with 3rd parties
+manual scaling options</description>
+    </item>
+    
+    <item>
+      <title>AWS Glue</title>
+      <link>https://abiydv.github.io/notes/glue/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/glue/</guid>
+      <description> Data integration service to process/prepare data before analysis. Data catalog to manage data from different sources in a central place. ETL pipelines to load data into data warehouses/data lakes etc. </description>
+    </item>
+    
+  </channel>
+</rss>

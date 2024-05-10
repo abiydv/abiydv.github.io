@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>refine on @abiydv</title>
+    <link>https://abiydv.github.io/topics/refine/</link>
+    <description>Recent content in refine on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/refine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Transit Gateway</title>
+      <link>https://abiydv.github.io/notes/transit-gateway/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/transit-gateway/</guid>
+      <description>Managed service which offers a hub and spoke model for connecting AWS VPCs and on prem networks. Low operational overhead but not the cheapest.
+Features Multiple VPCs can connect to a single transit gateway, which can allow on-prem connectivity via direct connect or cross region connectivity via transit gateway peering.
+When using a VPN, or direct-connect, each VPC must only be connected to the TGW, which in turn is coonected to the DC or VPN.</description>
+    </item>
+    
+    <item>
+      <title>AWS Virtual Private Cloud (VPC)</title>
+      <link>https://abiydv.github.io/notes/vpc/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/vpc/</guid>
+      <description>What is a VPC? Virtual Private Cloud
+An isolated virtual network present in your AWS account. There is a default VPC present. However, it is recommended to create your own custom VPC based on your environment.
+You can create a IPv4 only or Dual stack (IPv4 + IPv6) VPC.
+Default VPC You can modify, delete, recreate a default VPC Creating a default VPC does not need VPC specific permissions as all resources are created by AWS</description>
+    </item>
+    
+  </channel>
+</rss>
