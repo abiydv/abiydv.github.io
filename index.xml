@@ -930,6 +930,19 @@ ONE VPC ONE Direct Connect Gateway (DXGW) ONE Virtual Interface (VIF) </descript
     </item>
     
     <item>
+      <title>About</title>
+      <link>https://abiydv.github.io/about/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/about/</guid>
+      <description>Hello! &amp;#x1f44b;
+I&amp;rsquo;m Abhi, a knowledge worker with a keen interest in tech, automation and continuos learning. I usually write about tech, and solutions here.
+In my spare time, I enjoy reading, collecting scale models and photography.
+Certifications &amp;#x1f4c4; Current Previous More about my certification experiences here
+Skills &amp;#x1f4bb; A brief list of Tech I usually work with (or have worked with). With the ever changing landscape in Tech, and the nature of projects, it is hard to keep this up-to-date (but I try!</description>
+    </item>
+    
+    <item>
       <title>Fastly Meta Service</title>
       <link>https://abiydv.github.io/posts/fastly-meta-service/</link>
       <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
@@ -990,19 +1003,6 @@ ONE VPC ONE Direct Connect Gateway (DXGW) ONE Virtual Interface (VIF) </descript
       
       <guid>https://abiydv.github.io/posts/elasticsearch-ingest-pipelines/</guid>
       <description>Guide to Elasticsearch Ingest Pipelines</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://abiydv.github.io/about/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://abiydv.github.io/about/</guid>
-      <description>Hello! &amp;#x1f44b;
-I&amp;rsquo;m Abhi, a knowledge worker with a keen interest in tech, automation and continuos learning. I usually write about tech, and solutions here.
-In my spare time, I enjoy reading, collecting scale models and photography.
-Certifications &amp;#x1f4c4; Current Previous More about my certification experiences here
-Skills &amp;#x1f4bb; A brief list of Tech I usually work with (or have worked with). With the ever changing landscape in Tech, and the nature of projects, it is hard to keep this up-to-date (but I try!</description>
     </item>
     
     
