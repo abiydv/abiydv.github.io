@@ -26,6 +26,15 @@
     </item>
     
     <item>
+      <title>Git Hooks Redux</title>
+      <link>https://abiydv.github.io/posts/git-hooks-redux/</link>
+      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/git-hooks-redux/</guid>
+      <description>Use a default commit message hook which works for all local repos</description>
+    </item>
+    
+    <item>
       <title>Amazon MQ</title>
       <link>https://abiydv.github.io/notes/mq/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>

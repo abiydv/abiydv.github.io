@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>Git Hooks Redux</title>
+      <link>https://abiydv.github.io/posts/git-hooks-redux/</link>
+      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/git-hooks-redux/</guid>
+      <description>Use a default commit message hook which works for all local repos</description>
+    </item>
+    
+    <item>
       <title>Git History Wars</title>
       <link>https://abiydv.github.io/posts/git-history/</link>
       <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
