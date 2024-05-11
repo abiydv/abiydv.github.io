@@ -17,15 +17,6 @@
     </item>
     
     <item>
-      <title>Git default commit msg hook</title>
-      <link>https://abiydv.github.io/posts/git-commit-msg-hook/</link>
-      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://abiydv.github.io/posts/git-commit-msg-hook/</guid>
-      <description>How to add a default commit message hook which works for all local repositories?</description>
-    </item>
-    
-    <item>
       <title>Git Hooks Redux</title>
       <link>https://abiydv.github.io/posts/git-hooks-redux/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
