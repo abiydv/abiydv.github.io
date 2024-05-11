@@ -622,7 +622,7 @@ manage software bill of materials (SBOM) exports for all monitored resources.</d
       <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/cloudwatch/</guid>
-      <description>[!info] FYI AWS use “CloudWatch” in docs, “cloudwatch“ in cli/sdk, “monitoring” as the API endpoint, and “cloud-watch” in other service API calls like when setting flow logs for VPC, log_destination_type = &amp;ldquo;cloud-watch-logs&amp;rdquo;
+      <description>info FYI AWS use “CloudWatch” in docs, “cloudwatch“ in cli/sdk, “monitoring” as the API endpoint, and “cloud-watch” in other service API calls like when setting flow logs for VPC, log_destination_type = &amp;ldquo;cloud-watch-logs&amp;rdquo;
 Custom log groups Now it&amp;rsquo;s possible to use a custom log group for a lambda function. Use this to send logs from multiple lambda functions to the same log group - each function gets it&amp;rsquo;s own log stream!</description>
     </item>
     
@@ -734,7 +734,7 @@ Features Multi region - replicate easily Automatic key rotation, uses lambda Enc
 Features Apps PUSH messages to a topic.
 You can subscribe a queue (SQS) or Lambda to a topic cross-region, cross-account. When doing so it is important to use the global condition key SourceArn or SourceAccount in queue resource policy to restrict which topic can publish to the queue.
 Often the first building block of a fan out architectural pattern.
-graph LR src(source) --&amp;gt; sns sns(sns use1) --&amp;gt; q1(sqs1 usw1) --&amp;gt; app1 sns --&amp;gt; q2(sqs2 use1) --&amp;gt; app2 sns --&amp;gt; q3(sqs3 euw1) --&amp;gt; app3 </description>
+graph LR src(source) --&gt; sns sns(sns use1) --&gt; q1(sqs1 usw1) --&gt; app1 sns --&gt; q2(sqs2 use1) --&gt; app2 sns --&gt; q3(sqs3 euw1) --&gt; app3 </description>
     </item>
     
     <item>

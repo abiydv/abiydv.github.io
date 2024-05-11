@@ -38,7 +38,7 @@ For high volume applications, throughput optimized storage is better, can provid
 Features Apps PUSH messages to a topic.
 You can subscribe a queue (SQS) or Lambda to a topic cross-region, cross-account. When doing so it is important to use the global condition key SourceArn or SourceAccount in queue resource policy to restrict which topic can publish to the queue.
 Often the first building block of a fan out architectural pattern.
-graph LR src(source) --&amp;gt; sns sns(sns use1) --&amp;gt; q1(sqs1 usw1) --&amp;gt; app1 sns --&amp;gt; q2(sqs2 use1) --&amp;gt; app2 sns --&amp;gt; q3(sqs3 euw1) --&amp;gt; app3 </description>
+graph LR src(source) --&gt; sns sns(sns use1) --&gt; q1(sqs1 usw1) --&gt; app1 sns --&gt; q2(sqs2 use1) --&gt; app2 sns --&gt; q3(sqs3 euw1) --&gt; app3 </description>
     </item>
     
     <item>
