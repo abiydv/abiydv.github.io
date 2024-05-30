@@ -57,7 +57,8 @@ POSIX permissions are maintained when moving data between S3 and FSx</descriptio
       <description>Object storage offering 99.999999999% (11 nines) data durability.
 Scope Regional, although AWS does call it global at places.
 Can you create a bucket without specifying region?
-Storage class Standard Intelligent tiering Express One-Zone (High Performance) Standard Infrequent Access One-Zone Infrequent Access Glacier Instant Retrieval Glacier Flexible Retrieval Glacier Deep Archive S3 on [outposts] More https://aws.amazon.com/s3/storage-classes/&amp;nbsp; Lifecycle rules Use to transition between storage classes or deleting/expiring objects etc. Be sure to not operate on too many small objects as the transition cost will be more than any cost gains due to storage class change.</description>
+Storage class Standard Intelligent tiering Express One-Zone (High Performance) Standard Infrequent Access One-Zone Infrequent Access Glacier Instant Retrieval Glacier Flexible Retrieval Glacier Deep Archive S3 on [outposts] More https://aws.amazon.com/s3/storage-classes/
+Lifecycle rules Use to transition between storage classes or deleting/expiring objects etc. Be sure to not operate on too many small objects as the transition cost will be more than any cost gains due to storage class change.</description>
     </item>
     
     <item>

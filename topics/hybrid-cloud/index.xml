@@ -22,7 +22,7 @@
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/outposts/</guid>
-      <description>AWS Outposts&amp;nbsp; are fully managed and configurable compute and storage racks built with AWS-designed hardware that allow customers to run compute and storage on-premises, while seamlessly connecting to AWS’s broad array of services in the cloud. Features Run AWS services on-prem
+      <description>AWS Outposts are fully managed and configurable compute and storage racks built with AWS-designed hardware that allow customers to run compute and storage on-premises, while seamlessly connecting to AWS’s broad array of services in the cloud. Features Run AWS services on-prem
 Low latency local compute
 Data residency requirements for compliance
 Local data processing for M/L workloads
@@ -38,7 +38,7 @@ Types Racks Servers </description>
       <description>Keywords - SAAS, Private connectivity
 Connect to services outside your VPC using private addresses as if the external service is within your VPC.
 Uses Network load balancer to connect an interface VPC endpoint to a service.
-In service provider VPC (right) Create a VPC endpoint service (VPC &amp;gt; Endpoint services) which points to either a NLB or Gateway Load Balancer . The load balancer then forwards the traffic to the service compute.</description>
+In service provider VPC (right) Create a VPC endpoint service (VPC &amp;gt; Endpoint services) which points to either a NLB or Gateway Load Balancer. The load balancer then forwards the traffic to the service compute.</description>
     </item>
     
     <item>
@@ -47,7 +47,7 @@ In service provider VPC (right) Create a VPC endpoint service (VPC &amp;gt; Endp
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/wavelength/</guid>
-      <description>Wavelength&amp;nbsp; is designed to deliver ultra-low latency applications to 5G devices by extending AWS infrastructure, services, APIs, and tools to 5G networks.
+      <description>Wavelength is designed to deliver ultra-low latency applications to 5G devices by extending AWS infrastructure, services, APIs, and tools to 5G networks.
 embeds storage and compute inside telco providers 5G networks to help developers build new applications for 5G end users that require single-digit millisecond latency, like IoT devices, game streaming, autonomous vehicles, and live media production.</description>
     </item>
     
@@ -57,7 +57,8 @@ embeds storage and compute inside telco providers 5G networks to help developers
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/migration/</guid>
-      <description>Strategies 6 R https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-migration/welcome.html&amp;nbsp; Rehosting Lift and shift
+      <description>Strategies 6 R https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-migration/welcome.html
+Rehosting Lift and shift
 Homogeneous (made of same things before/after) No changes to the applications, simply move the location from on-prem to cloud.
 Tools = VM Import/Export, [[#Application Migration Service (MGN)]]
 Replatforming Lift, tinker and shift
@@ -71,7 +72,7 @@ Homogeneous (made of same things before/after) No big changes to the application
       
       <guid>https://abiydv.github.io/notes/direct-connect/</guid>
       <description>While VPN connections are OK, for some critical workloads, VPN over internet may not be stable or available enough.
-If a customer doesn&amp;rsquo;t want to connect to AWS over the internet, they can alternatively use Direct Connect&amp;nbsp; . This ensures the traffic to/from AWS flows through the customer&amp;rsquo;s network directely on to AWS backbone network without going over the internet.
+If a customer doesn&amp;rsquo;t want to connect to AWS over the internet, they can alternatively use Direct Connect. This ensures the traffic to/from AWS flows through the customer&amp;rsquo;s network directely on to AWS backbone network without going over the internet.
 Cost effective, secure, performant private network connectivity between on-prem private network and AWS.</description>
     </item>
     

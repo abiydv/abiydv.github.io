@@ -13,7 +13,7 @@
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/athena/</guid>
-      <description>Athena Region scope 3x Replication Performance? DocumentDB </description>
+      <description>Athena Region scope 3x Replication Performance? DocumentDB</description>
     </item>
     
     <item>
@@ -22,7 +22,7 @@
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/emr/</guid>
-      <description>EMR Fleet mix of spot and on-demand instances Provide a list of up to 5 instance types with corresponding weighted capacities and spot bid prices (including spot blocks)! EMR will automatically provision On-Demand and Spot capacity across these instance types when creating your cluster. This can make it easier and more cost effective to quickly obtain and maintain your desired capacity for your clusters. EMR States EMR Alarms, Metrics https://docs.aws.amazon.com/emr/latest/ManagementGuide/UsingEMR_ViewingMetrics.html&amp;nbsp; </description>
+      <description>EMR Fleet mix of spot and on-demand instances Provide a list of up to 5 instance types with corresponding weighted capacities and spot bid prices (including spot blocks)! EMR will automatically provision On-Demand and Spot capacity across these instance types when creating your cluster. This can make it easier and more cost effective to quickly obtain and maintain your desired capacity for your clusters. EMR States EMR Alarms, Metrics https://docs.aws.amazon.com/emr/latest/ManagementGuide/UsingEMR_ViewingMetrics.html</description>
     </item>
     
     <item>

@@ -25,8 +25,9 @@ Pricing is based on data ingestion, analysis and retention. It can retain data u
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/config/</guid>
-      <description>What is it? AWS Config records and saves configuration of supported resources&amp;nbsp; .
-You can use these records to audit whether the resources align to best practices, or org specific patterns/rules. It can also highlight 2-way relationships between different resources. For ex - an instance is related to a vpc, a subnet, and a security group. This relation will show up in both the instance, and vpc records under relationships.</description>
+      <description>What is it? AWS Config records and saves configuration of supported resources.
+You can use these records to audit whether the resources align to best practices, or org specific patterns/rules. It can also highlight 2-way relationships between different resources. For ex - an instance is related to a vpc, a subnet, and a security group. This relation will show up in both the instance, and vpc records under relationships.
+Resource Schema https://github.</description>
     </item>
     
     <item>
@@ -35,8 +36,8 @@ You can use these records to audit whether the resources align to best practices
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/firewall-manager/</guid>
-      <description>AWS Firewall Manager&amp;nbsp; simplifies your AWS WAF administration and helps you enforce WAF rules on the resources across all the accounts in an AWS Organization by using AWS Config in the background. AWS Firewall Manager also enables you to selectively apply the rules to specific resources.
-AWS WAF&amp;nbsp; is a web application firewall that lets you monitor the HTTP and HTTPS requests that are forwarded to CloudFront or Application Load Balancer .</description>
+      <description>AWS Firewall Manager simplifies your AWS WAF administration and helps you enforce WAF rules on the resources across all the accounts in an AWS Organization by using AWS Config in the background. AWS Firewall Manager also enables you to selectively apply the rules to specific resources.
+AWS WAF is a web application firewall that lets you monitor the HTTP and HTTPS requests that are forwarded to CloudFront or Application Load Balancer.</description>
     </item>
     
     <item>
@@ -45,7 +46,8 @@ AWS WAF&amp;nbsp; is a web application firewall that lets you monitor the HTTP a
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/iam/</guid>
-      <description>Access Analyzer https://aws.amazon.com/blogs/security/how-to-prioritize-iam-access-analyzer-findings/&amp;nbsp; In addition to roles, it also analyzes resource policies on supported resources
+      <description>Access Analyzer https://aws.amazon.com/blogs/security/how-to-prioritize-iam-access-analyzer-findings/
+In addition to roles, it also analyzes resource policies on supported resources
 Monitors resources for external access AWS Simple Storage(S3) buckets AWS Identity and Access Management roles AWS Key Management Service Keys AWS Lambda functions and layers AWS Simple Queue Service queues AWS Secrets Manager secrets
 Identity Center SSO for Org
 Policy Conditions Useful to allow/deny actions based on certain conditions in addition to resource arn or patterns.</description>
@@ -66,7 +68,7 @@ Policy Conditions Useful to allow/deny actions based on certain conditions in ad
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/network-firewall/</guid>
-      <description>Features Stateful Fully managed IPS (Intrusion Prevention Service) DPI (Deep Packet Inspection) References https://aws.amazon.com/blogs/networking-and-content-delivery/deployment-models-for-aws-network-firewall&amp;nbsp; https://aws.amazon.com/blogs/networking-and-content-delivery/deployment-models-for-aws-network-firewall-with-vpc-routing-enhancements&amp;nbsp; </description>
+      <description>Features Stateful Fully managed IPS (Intrusion Prevention Service) DPI (Deep Packet Inspection) References https://aws.amazon.com/blogs/networking-and-content-delivery/deployment-models-for-aws-network-firewall https://aws.amazon.com/blogs/networking-and-content-delivery/deployment-models-for-aws-network-firewall-with-vpc-routing-enhancements </description>
     </item>
     
     <item>
@@ -76,7 +78,8 @@ Policy Conditions Useful to allow/deny actions based on certain conditions in ad
       
       <guid>https://abiydv.github.io/notes/security-services/</guid>
       <description>Security Hub Add details
-AWS Inspector automated vulnerability management service that continually scans Amazon Elastic Compute Cloud (EC2) AWS Lambda functions , and container images in Amazon ECR and within continuous integration and continuous delivery (CI/CD) tools, in near-real time for software vulnerabilities and unintended network exposure.
+AWS Inspector automated vulnerability management service that continually scans Amazon Elastic Compute Cloud (EC2)
+AWS Lambda functions, and container images in Amazon ECR and within continuous integration and continuous delivery (CI/CD) tools, in near-real time for software vulnerabilities and unintended network exposure.
 Common Vulnerability Scoring System (CVSS) v2 and v3 scores from both National Vulnerability Database (NVD) and vendors
 manage software bill of materials (SBOM) exports for all monitored resources.</description>
     </item>

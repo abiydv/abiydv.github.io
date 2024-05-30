@@ -13,7 +13,8 @@
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/mq/</guid>
-      <description>Amazon MQ is a managed message broker service for Apache ActiveMQ&amp;nbsp; and RabbitMQ&amp;nbsp; Amazon MQ supports industry standard APIs such as JMS and NMS, and protocols for messaging, including AMQP, STOMP, MQTT, and WebSocket.
+      <description>Amazon MQ is a managed message broker service for Apache ActiveMQ and RabbitMQ
+Amazon MQ supports industry standard APIs such as JMS and NMS, and protocols for messaging, including AMQP, STOMP, MQTT, and WebSocket.
 two types of broker storage – durability optimized (EFS), and throughput optimized (EBS).
 For high volume applications, throughput optimized storage is better, can provide the required throughput and optimize costs by reducing the number of brokers required.</description>
     </item>
@@ -34,7 +35,11 @@ Questions What is on-demand mode for DocumentDB </description>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/eks/</guid>
-      <description>Workshop - https://www.eksworkshop.com/docs/introduction/&amp;nbsp; Networking https://aws.github.io/aws-eks-best-practices/networking/&amp;nbsp; https://github.com/aws/amazon-vpc-cni-k8s&amp;nbsp; Advanced Networking https://aws.amazon.com/blogs/containers/eks-vpc-routable-ip-address-conservation/&amp;nbsp; can use both Fargate and EC2 clusters to launch nodes. STS endpoint for the deployment region must be enabled. worker nodes must have a private DNS entry or a node not found error will occur. node IAM role must be present in the aws-auth-cm.yaml file when using self-managed Amazon Linux nodes. Ref: https://docs.aws.amazon.com/eks/latest/userguide/troubleshooting.html&amp;nbsp; , https://docs.aws.amazon.com/eks/latest/userguide/eks-connector.html&amp;nbsp; </description>
+      <description>Workshop - https://www.eksworkshop.com/docs/introduction/
+Networking https://aws.github.io/aws-eks-best-practices/networking/
+https://github.com/aws/amazon-vpc-cni-k8s
+Advanced Networking https://aws.amazon.com/blogs/containers/eks-vpc-routable-ip-address-conservation/
+can use both Fargate and EC2 clusters to launch nodes. STS endpoint for the deployment region must be enabled. worker nodes must have a private DNS entry or a node not found error will occur. node IAM role must be present in the aws-auth-cm.yaml file when using self-managed Amazon Linux nodes. Ref: https://docs.aws.amazon.com/eks/latest/userguide/troubleshooting.html, https://docs.aws.amazon.com/eks/latest/userguide/eks-connector.html</description>
     </item>
     
     <item>
@@ -43,7 +48,7 @@ Questions What is on-demand mode for DocumentDB </description>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/emr/</guid>
-      <description>EMR Fleet mix of spot and on-demand instances Provide a list of up to 5 instance types with corresponding weighted capacities and spot bid prices (including spot blocks)! EMR will automatically provision On-Demand and Spot capacity across these instance types when creating your cluster. This can make it easier and more cost effective to quickly obtain and maintain your desired capacity for your clusters. EMR States EMR Alarms, Metrics https://docs.aws.amazon.com/emr/latest/ManagementGuide/UsingEMR_ViewingMetrics.html&amp;nbsp; </description>
+      <description>EMR Fleet mix of spot and on-demand instances Provide a list of up to 5 instance types with corresponding weighted capacities and spot bid prices (including spot blocks)! EMR will automatically provision On-Demand and Spot capacity across these instance types when creating your cluster. This can make it easier and more cost effective to quickly obtain and maintain your desired capacity for your clusters. EMR States EMR Alarms, Metrics https://docs.aws.amazon.com/emr/latest/ManagementGuide/UsingEMR_ViewingMetrics.html</description>
     </item>
     
     <item>

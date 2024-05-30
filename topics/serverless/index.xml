@@ -13,7 +13,7 @@
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/aurora/</guid>
-      <description>Relational Database , MySQL, PostgreSQL
+      <description>Relational Database, MySQL, PostgreSQL
 Scope = AZ based, needs 3 subnets during creation.
 Global Database = Global, available across regions
 Auto-scaling upto 128 TB/db instance. Fault tolerant, Cross-AZ replication Self healing = divides data into 10GB chunk and each chuck is replicated 6 times, including across 3 AZ, can handle loss of 2 copies of data w/o affecting write ability, and 3 copies without affecting read ability. Continuous backups to S3 upto 15 low-latency read replicas</description>
@@ -25,7 +25,7 @@ Auto-scaling upto 128 TB/db instance. Fault tolerant, Cross-AZ replication Self 
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/dynamodb/</guid>
-      <description>Scope standard tables - regional global tables - global (cross-region replication) Table classes Standard Standard-IA infrequently accessed data. Similar to S3 storage classes ? consider standard-IA if the storage cost &amp;gt; 50% throughput cost (read/write units) Capacity Modes on-demand provisioned throughput Cache DAX, DAX cluster - Dynamodb accelerator provisioned in a VPC.
+      <description>Scope standard tables - regional global tables - global (cross-region replication) Table classes Standard Standard-IA infrequently accessed data. Similar to S3 storage classes? consider standard-IA if the storage cost &amp;gt; 50% throughput cost (read/write units) Capacity Modes on-demand provisioned throughput Cache DAX, DAX cluster - Dynamodb accelerator provisioned in a VPC.
 providing in-memory cache, and increases performance by 10x
 Autoscaling Use auto scaling policy for [[AWS AutoScaling]] to adjust the provisioned read/write throughput to meet demand.</description>
     </item>
@@ -79,7 +79,7 @@ Alias - allows to test a new version without impacting live traffic which is ser
       <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/api-gateway/</guid>
-      <description>REST API CloudFormation resource AWS::ApiGateway::RestApi Regional service Edge-optimized Can be made private Integration types AWS Use this to create AWS API proxies for virtually any service AWS_PROXY lambda HTTP_PROXY HTTP MOCK Offers caching HTTP API CloudFormation resource AWS::ApiGatewayV2::Api Lightweight version of the REST API Regional service NOT Edge-optimized NOT Private Integration types AWS_PROXY Lambda , SQS , Kinesis Data Stream , AppConfig , Step Functions , EventBridge with proper integration sub-types.</description>
+      <description>REST API CloudFormation resource AWS::ApiGateway::RestApi Regional service Edge-optimized Can be made private Integration types AWS Use this to create AWS API proxies for virtually any service AWS_PROXY lambda HTTP_PROXY HTTP MOCK Offers caching HTTP API CloudFormation resource AWS::ApiGatewayV2::Api Lightweight version of the REST API Regional service NOT Edge-optimized NOT Private Integration types AWS_PROXY Lambda, SQS, Kinesis Data Stream, AppConfig, Step Functions, EventBridge with proper integration sub-types. Ref HTTP_PROXY WebSocket API Integration types AWS AWS_PROXY Lambda HTTP_PROXY HTTP MOCK Usage plan Set throttling limits and send a 429 Too many requests HTTP response to clients</description>
     </item>
     
     <item>

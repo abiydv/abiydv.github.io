@@ -14,7 +14,8 @@
       
       <guid>https://abiydv.github.io/notes/aws-well-architected/</guid>
       <description>Introduction Pillars 6 pillars of AWS Well Architected framework, as of 05-Dec-2023
-S Security C Cost Optimization O Operational Excellence R Reliability P Performance Efficiency S Sustainability Patterns Static Stability https://aws.amazon.com/builders-library/static-stability-using-availability-zones/&amp;nbsp; Be ready for impairments before they happen
+S Security C Cost Optimization O Operational Excellence R Reliability P Performance Efficiency S Sustainability Patterns Static Stability https://aws.amazon.com/builders-library/static-stability-using-availability-zones/
+Be ready for impairments before they happen
 Over-provisioning is not necessarily a bad thing. It can provide some static stability in the sense that an AZ failure will not cause a full outage, the existing capacity in other AZ can continue to handle the load while the fault recovers or additional capacity is provisioned reactively to the AZ failure event.</description>
     </item>
     
@@ -25,8 +26,8 @@ Over-provisioning is not necessarily a bad thing. It can provide some static sta
       
       <guid>https://abiydv.github.io/notes/multi-az-rchitectures/</guid>
       <description>Questions What is the scope? AZ, Regional, Global
-When or why will you choose both CloudFront AND Load balancer ?
-What is an AZ? AZ or availability zone is an independent data center within a specific geographic region. An AWS Region is a collection of multiple availability zones. Regarded as a fault boundary. Data transfer across AZ is not free. Cross AZ traffic should be controlled for cost optimization and performance efficiency .</description>
+When or why will you choose both CloudFront AND Load balancer?
+What is an AZ? AZ or availability zone is an independent data center within a specific geographic region. An AWS Region is a collection of multiple availability zones. Regarded as a fault boundary. Data transfer across AZ is not free. Cross AZ traffic should be controlled for cost optimization and performance efficiency.</description>
     </item>
     
   </channel>
