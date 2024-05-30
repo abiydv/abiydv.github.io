@@ -13,7 +13,7 @@
       <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/posts/s3-presigned-urls/</guid>
-      <description>How to create and use presigned urls for secure uploads to or downloads from S3</description>
+      <description>Secure data transfer to/from S3</description>
     </item>
     
     <item>
@@ -22,7 +22,7 @@
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/posts/certified-security-speciality/</guid>
-      <description>AWS Certified Security Specialty (SCS-C01) - My Experience</description>
+      <description>Introduction Amazon Web Services (AWS) offers certifications in 4 broad categories - Foundational, Associate, Professional and Speciality. I recently cleared the Solutions Architect Associate certification. This time, wanted to attempt a &amp;ldquo;Speciality&amp;rdquo; certification. And what better topic to delve into than Cloud security. As much of a boon cloud is, it&amp;rsquo;s Achilies&amp;rsquo; heel remains unsecure workloads. Although AWS provides a ton of tools to mitigate and potentially limit security incidents, but they still do happen and often cost not just in monetary terms but also reduced customer confidence.</description>
     </item>
     
     <item>

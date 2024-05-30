@@ -255,10 +255,10 @@
     <lastmod>2024-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abiydv.github.io/topics/security/</loc>
-    <lastmod>2024-02-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abiydv.github.io/notes/security-services/</loc>
-    <lastmod>2024-02-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abiydv.github.io/topics/serverless/</loc>
     <lastmod>2024-02-15T00:00:00+00:00</lastmod>
@@ -356,7 +356,7 @@
     <loc>https://abiydv.github.io/tags/idp/</loc>
     <lastmod>2023-06-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://abiydv.github.io/tags/k8s/</loc>
+    <loc>https://abiydv.github.io/tags/kubernetes/</loc>
     <lastmod>2023-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abiydv.github.io/tags/okta/</loc>
@@ -390,6 +390,9 @@
     <lastmod>2021-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abiydv.github.io/tags/cncf/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abiydv.github.io/tags/monitoring/</loc>
     <lastmod>2021-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abiydv.github.io/tags/prometheus/</loc>
@@ -464,12 +467,6 @@
     <loc>https://abiydv.github.io/tags/grafana/</loc>
     <lastmod>2020-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://abiydv.github.io/tags/kubernetes/</loc>
-    <lastmod>2020-12-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abiydv.github.io/tags/quickstart/</loc>
-    <lastmod>2020-12-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://abiydv.github.io/posts/certified-solutions-architect/</loc>
     <lastmod>2020-12-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -486,9 +483,6 @@
     <lastmod>2020-11-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abiydv.github.io/posts/day0-gcp/</loc>
-    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abiydv.github.io/tags/vm/</loc>
     <lastmod>2020-11-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abiydv.github.io/about/</loc>

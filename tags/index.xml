@@ -53,11 +53,11 @@
     </item>
     
     <item>
-      <title>k8s</title>
-      <link>https://abiydv.github.io/tags/k8s/</link>
+      <title>kubernetes</title>
+      <link>https://abiydv.github.io/tags/kubernetes/</link>
       <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://abiydv.github.io/tags/k8s/</guid>
+      <guid>https://abiydv.github.io/tags/kubernetes/</guid>
       <description></description>
     </item>
     
@@ -139,6 +139,15 @@
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/tags/cncf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>monitoring</title>
+      <link>https://abiydv.github.io/tags/monitoring/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/tags/monitoring/</guid>
       <description></description>
     </item>
     
@@ -287,24 +296,6 @@
     </item>
     
     <item>
-      <title>kubernetes</title>
-      <link>https://abiydv.github.io/tags/kubernetes/</link>
-      <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://abiydv.github.io/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>quickstart</title>
-      <link>https://abiydv.github.io/tags/quickstart/</link>
-      <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://abiydv.github.io/tags/quickstart/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>hashicorp</title>
       <link>https://abiydv.github.io/tags/hashicorp/</link>
       <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
@@ -319,15 +310,6 @@
       <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/tags/cloud-functions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vm</title>
-      <link>https://abiydv.github.io/tags/vm/</link>
-      <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://abiydv.github.io/tags/vm/</guid>
       <description></description>
     </item>
     

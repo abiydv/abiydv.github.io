@@ -13,7 +13,7 @@
       <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/posts/s3-presigned-urls/</guid>
-      <description>How to create and use presigned urls for secure uploads to or downloads from S3</description>
+      <description>Secure data transfer to/from S3</description>
     </item>
     
   </channel>
