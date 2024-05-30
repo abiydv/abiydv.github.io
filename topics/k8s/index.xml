@@ -13,11 +13,7 @@
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/eks/</guid>
-      <description>Workshop - https://www.eksworkshop.com/docs/introduction/
-Networking https://aws.github.io/aws-eks-best-practices/networking/
-https://github.com/aws/amazon-vpc-cni-k8s
-Advanced Networking https://aws.amazon.com/blogs/containers/eks-vpc-routable-ip-address-conservation/
-can use both Fargate and EC2 clusters to launch nodes. STS endpoint for the deployment region must be enabled. worker nodes must have a private DNS entry or a node not found error will occur. node IAM role must be present in the aws-auth-cm.yaml file when using self-managed Amazon Linux nodes. Ref: https://docs.aws.amazon.com/eks/latest/userguide/troubleshooting.html, https://docs.aws.amazon.com/eks/latest/userguide/eks-connector.html</description>
+      <description>Workshop - https://www.eksworkshop.com/docs/introduction/&amp;nbsp; Networking https://aws.github.io/aws-eks-best-practices/networking/&amp;nbsp; https://github.com/aws/amazon-vpc-cni-k8s&amp;nbsp; Advanced Networking https://aws.amazon.com/blogs/containers/eks-vpc-routable-ip-address-conservation/&amp;nbsp; can use both Fargate and EC2 clusters to launch nodes. STS endpoint for the deployment region must be enabled. worker nodes must have a private DNS entry or a node not found error will occur. node IAM role must be present in the aws-auth-cm.yaml file when using self-managed Amazon Linux nodes. Ref: https://docs.aws.amazon.com/eks/latest/userguide/troubleshooting.html&amp;nbsp; , https://docs.aws.amazon.com/eks/latest/userguide/eks-connector.html&amp;nbsp; </description>
     </item>
     
   </channel>

@@ -13,8 +13,7 @@
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/migration/</guid>
-      <description>Strategies 6 R https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-migration/welcome.html
-Rehosting Lift and shift
+      <description>Strategies 6 R https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-migration/welcome.html&amp;nbsp; Rehosting Lift and shift
 Homogeneous (made of same things before/after) No changes to the applications, simply move the location from on-prem to cloud.
 Tools = VM Import/Export, [[#Application Migration Service (MGN)]]
 Replatforming Lift, tinker and shift
@@ -28,7 +27,7 @@ Homogeneous (made of same things before/after) No big changes to the application
       
       <guid>https://abiydv.github.io/notes/direct-connect/</guid>
       <description>While VPN connections are OK, for some critical workloads, VPN over internet may not be stable or available enough.
-If a customer doesn&amp;rsquo;t want to connect to AWS over the internet, they can alternatively use Direct Connect. This ensures the traffic to/from AWS flows through the customer&amp;rsquo;s network directely on to AWS backbone network without going over the internet.
+If a customer doesn&amp;rsquo;t want to connect to AWS over the internet, they can alternatively use Direct Connect&amp;nbsp; . This ensures the traffic to/from AWS flows through the customer&amp;rsquo;s network directely on to AWS backbone network without going over the internet.
 Cost effective, secure, performant private network connectivity between on-prem private network and AWS.</description>
     </item>
     

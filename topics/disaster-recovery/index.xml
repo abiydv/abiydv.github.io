@@ -26,7 +26,7 @@ cloud S3 EFS FSx EBS EC2 Windows VSS services on EC2 SAP HANA on EC2 DynamoDB RD
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/drs/</guid>
-      <description>Questions How does it compare with other AWS tools like VM import/export, Server Migration Service, AWS Migration Service (MGN) Unique property others don&amp;rsquo;t have - failover orchestration.
+      <description>Questions How does it compare with other AWS tools like VM import/export, Server Migration Service , AWS Migration Service (MGN) Unique property others don&amp;rsquo;t have - failover orchestration.
 Elastic Disaster Recovery (DRS) The full name is Elastic Disaster Recovery. However, the short form is DRS (Disaster Recovery Service).
 What does it do? Failover from on-prem to AWS Failover from any cloud to AWS Failover from 1 AWS region to another AWS region No need to maintain a duplicate recovery site Agent based - need to install an agent on source server to replicate data to AWS.</description>
     </item>

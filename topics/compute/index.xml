@@ -23,8 +23,7 @@
       
       <guid>https://abiydv.github.io/notes/ec2/</guid>
       <description>Scope az scope - specify 1 az
-Multi region replication? AMI = replicate via lambda, or life cycle rules or AWS Backup
-AutoScaling AutoScaling groups - can use launch templates or launch configs.
+Multi region replication? AMI = replicate via lambda , or life cycle rules or AWS Backup AutoScaling AutoScaling groups - can use launch templates or launch configs.
 Launch templates allow using latest EC2 features including selecting instances based on defined attributes rather than adding a fixed instance type.
 Lifecycle hooks Lifecycle hooks provide a way to trigger custom workflows based on the scale-in or scale-out activity in an auto scaling group.</description>
     </item>
@@ -69,7 +68,7 @@ Alias - allows to test a new version without impacting live traffic which is ser
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/outposts/</guid>
-      <description>AWS Outposts are fully managed and configurable compute and storage racks built with AWS-designed hardware that allow customers to run compute and storage on-premises, while seamlessly connecting to AWS’s broad array of services in the cloud. Features Run AWS services on-prem
+      <description>AWS Outposts&amp;nbsp; are fully managed and configurable compute and storage racks built with AWS-designed hardware that allow customers to run compute and storage on-premises, while seamlessly connecting to AWS’s broad array of services in the cloud. Features Run AWS services on-prem
 Low latency local compute
 Data residency requirements for compliance
 Local data processing for M/L workloads
@@ -82,7 +81,7 @@ Types Racks Servers </description>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/wavelength/</guid>
-      <description>Wavelength is designed to deliver ultra-low latency applications to 5G devices by extending AWS infrastructure, services, APIs, and tools to 5G networks.
+      <description>Wavelength&amp;nbsp; is designed to deliver ultra-low latency applications to 5G devices by extending AWS infrastructure, services, APIs, and tools to 5G networks.
 embeds storage and compute inside telco providers 5G networks to help developers build new applications for 5G end users that require single-digit millisecond latency, like IoT devices, game streaming, autonomous vehicles, and live media production.</description>
     </item>
     

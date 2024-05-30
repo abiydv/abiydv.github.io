@@ -13,8 +13,7 @@
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/mq/</guid>
-      <description>Amazon MQ is a managed message broker service for Apache ActiveMQ and RabbitMQ
-Amazon MQ supports industry standard APIs such as JMS and NMS, and protocols for messaging, including AMQP, STOMP, MQTT, and WebSocket.
+      <description>Amazon MQ is a managed message broker service for Apache ActiveMQ&amp;nbsp; and RabbitMQ&amp;nbsp; Amazon MQ supports industry standard APIs such as JMS and NMS, and protocols for messaging, including AMQP, STOMP, MQTT, and WebSocket.
 two types of broker storage – durability optimized (EFS), and throughput optimized (EBS).
 For high volume applications, throughput optimized storage is better, can provide the required throughput and optimize costs by reducing the number of brokers required.</description>
     </item>

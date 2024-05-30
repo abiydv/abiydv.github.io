@@ -13,7 +13,7 @@
       <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/posts/certified-terraform-associate/</guid>
-      <description>Introduction Terraform has evolved and established itself as the defacto tool for implementing IAC (Infrastructure As Code) across cloud and other service providers. The Google trends graph is a testament to it&amp;rsquo;s growing popularity.
+      <description>Introduction Terraform&amp;nbsp; has evolved and established itself as the defacto tool for implementing IAC (Infrastructure As Code) across cloud and other service providers. The Google trends graph is a testament to it&amp;rsquo;s growing popularity.
 I have been using it for the last few years for my projects and it&amp;rsquo;s a great fit in most situations.
 I had always read about their certification, but never got around to dig deeper. Until last week.</description>
     </item>

@@ -13,7 +13,7 @@
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/aurora/</guid>
-      <description>Relational Database, MySQL, PostgreSQL
+      <description>Relational Database , MySQL, PostgreSQL
 Scope = AZ based, needs 3 subnets during creation.
 Global Database = Global, available across regions
 Auto-scaling upto 128 TB/db instance. Fault tolerant, Cross-AZ replication Self healing = divides data into 10GB chunk and each chuck is replicated 6 times, including across 3 AZ, can handle loss of 2 copies of data w/o affecting write ability, and 3 copies without affecting read ability. Continuous backups to S3 upto 15 low-latency read replicas</description>
@@ -35,7 +35,7 @@ Questions What is on-demand mode for DocumentDB </description>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/dynamodb/</guid>
-      <description>Scope standard tables - regional global tables - global (cross-region replication) Table classes Standard Standard-IA infrequently accessed data. Similar to S3 storage classes? consider standard-IA if the storage cost &amp;gt; 50% throughput cost (read/write units) Capacity Modes on-demand provisioned throughput Cache DAX, DAX cluster - Dynamodb accelerator provisioned in a VPC.
+      <description>Scope standard tables - regional global tables - global (cross-region replication) Table classes Standard Standard-IA infrequently accessed data. Similar to S3 storage classes ? consider standard-IA if the storage cost &amp;gt; 50% throughput cost (read/write units) Capacity Modes on-demand provisioned throughput Cache DAX, DAX cluster - Dynamodb accelerator provisioned in a VPC.
 providing in-memory cache, and increases performance by 10x
 Autoscaling Use auto scaling policy for [[AWS AutoScaling]] to adjust the provisioned read/write throughput to meet demand.</description>
     </item>
@@ -46,8 +46,7 @@ Autoscaling Use auto scaling policy for [[AWS AutoScaling]] to adjust the provis
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/rds-proxy/</guid>
-      <description>Supports Aurora, RDS
-When to use RDS Proxy? Too many connections to database Offload the logic to prepare a database connection from your lambda. Make use of the IAM permissions instead to provide access to the database. SaaS or eCommerce applications which prioritize low latency, often need a ready pool of data connections to work with. It makes failover transparent for applications. Since it bypasses DNS (how?, why?), it routes the preserved connections to the new database endpoint thereby reducing failover times for aurora by 66%!</description>
+      <description>Supports Aurora , RDS When to use RDS Proxy? Too many connections to database Offload the logic to prepare a database connection from your lambda . Make use of the IAM permissions instead to provide access to the database. SaaS or eCommerce applications which prioritize low latency, often need a ready pool of data connections to work with. It makes failover transparent for applications. Since it bypasses DNS (how?, why?), it routes the preserved connections to the new database endpoint thereby reducing failover times for aurora by 66%!</description>
     </item>
     
     <item>
@@ -79,8 +78,7 @@ manual scaling options</description>
 multi-az
 cross-region read replicas
 cross-region backup snapshots to help disaster recovery
-Engines Questions RDS MySql vs Aurora MySql? Options group? Deployment Options Which deployment option to choose? https://aws.amazon.com/blogs/database/choose-the-right-amazon-rds-deployment-option-single-az-instance-multi-az-instance-or-multi-az-database-cluster/
-Single AZ Single instance running in a single AZ. Best suited for development workloads.
+Engines Questions RDS MySql vs Aurora MySql? Options group? Deployment Options Which deployment option to choose? https://aws.amazon.com/blogs/database/choose-the-right-amazon-rds-deployment-option-single-az-instance-multi-az-instance-or-multi-az-database-cluster/&amp;nbsp; Single AZ Single instance running in a single AZ. Best suited for development workloads.
 A read replica can be configured in the same or a different region. This read replica can be manually promoted if the primary instance fails.</description>
     </item>
     
