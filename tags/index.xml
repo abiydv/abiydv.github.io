@@ -5,7 +5,17 @@
     <link>https://abiydv.github.io/tags/</link>
     <description>Recent content in Tags on @abiydv</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://abiydv.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Thu, 30 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>https://abiydv.github.io/tags/blog/</link>
+      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>git</title>
       <link>https://abiydv.github.io/tags/git/</link>

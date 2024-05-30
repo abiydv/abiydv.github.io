@@ -88,7 +88,7 @@ Amazon Connect Cloud contact center - probably powers Amazon&amp;rsquo;s support
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/cloudformation/</guid>
-      <description>Questions What is stack sets? How do you deploy cross-region cross-account? How do you customize parameter values for different regions and/or accounts? What is termination protection? What is deletion policy attribute? What resources support it? What are the valid vales? Snapshot/retain What is a stack policy? What is the use-case? What is a change-set? can use ssm appconfig? can use ssm parameter store? cloudformation does not support creating secrets parameter, supply parameter values in a separate file, like terraform tfvars files parameter types update behaviour How does it work with aws cdk?</description>
+      <description>Parameters AWS Things like AMI Id, Instance Id, Vpc Id etc. SSM AWS Doc Refer to a parameter (not secure string) saved in SSM parameter store Use parameter by name, don&amp;rsquo;t need to specify version Use cross account parameter by providing full arn. Dynamic AWS doc Refer to parameters dynamically in templates. Useful to obscure secrets. No drift detection SSM parameter store {{resolve:ssm-secure:parameter-name:version}} or {{resolve:ssm:parameter-name:version}} Can&amp;rsquo;t use secure string parameter for all resources.</description>
     </item>
     
     <item>
