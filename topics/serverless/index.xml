@@ -74,6 +74,17 @@ Alias - allows to test a new version without impacting live traffic which is ser
     </item>
     
     <item>
+      <title>AWS Transit Gateway</title>
+      <link>https://abiydv.github.io/notes/transit-gateway/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/transit-gateway/</guid>
+      <description>Managed service which offers a hub and spoke model for connecting AWS VPCs and on prem networks. Low operational overhead but not the cheapest.
+Features Multiple VPCs can connect to a single transit gateway, which can allow on-prem connectivity via direct connect or cross region connectivity via transit gateway peering.
+When using a VPN, or direct-connect, each VPC must only be connected to the TGW, which in turn is coonected to the DC or VPN.</description>
+    </item>
+    
+    <item>
       <title>AWS API Gateway</title>
       <link>https://abiydv.github.io/notes/api-gateway/</link>
       <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>

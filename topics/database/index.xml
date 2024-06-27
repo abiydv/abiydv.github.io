@@ -41,16 +41,6 @@ Autoscaling Use auto scaling policy for [[AWS AutoScaling]] to adjust the provis
     </item>
     
     <item>
-      <title>AWS RDS Proxy</title>
-      <link>https://abiydv.github.io/notes/rds-proxy/</link>
-      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://abiydv.github.io/notes/rds-proxy/</guid>
-      <description>Supports Aurora, RDS
-When to use RDS Proxy? Too many connections to database Offload the logic to prepare a database connection from your lambda. Make use of the IAM permissions instead to provide access to the database. SaaS or eCommerce applications which prioritize low latency, often need a ready pool of data connections to work with. It makes failover transparent for applications. Since it bypasses DNS (how?, why?), it routes the preserved connections to the new database endpoint thereby reducing failover times for aurora by 66%!</description>
-    </item>
-    
-    <item>
       <title>AWS Redshift</title>
       <link>https://abiydv.github.io/notes/redshift/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
