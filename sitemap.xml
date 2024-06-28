@@ -3,7 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://abiydv.github.io/</loc>
-    <lastmod>2024-06-04T12:15:01+00:00</lastmod>
+    <lastmod>2024-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abiydv.github.io/tags/aws/</loc>
+    <lastmod>2024-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abiydv.github.io/tags/bdd/</loc>
+    <lastmod>2024-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abiydv.github.io/tags/go/</loc>
+    <lastmod>2024-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abiydv.github.io/posts/</loc>
+    <lastmod>2024-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abiydv.github.io/posts/aws-scp-test-bdd/</loc>
+    <lastmod>2024-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abiydv.github.io/tags/</loc>
+    <lastmod>2024-06-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abiydv.github.io/topics/aws/</loc>
     <lastmod>2024-06-04T12:15:01+00:00</lastmod>
@@ -27,12 +45,6 @@
     <lastmod>2024-05-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abiydv.github.io/posts/fresh-paint-notes/</loc>
-    <lastmod>2024-05-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abiydv.github.io/posts/</loc>
-    <lastmod>2024-05-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abiydv.github.io/tags/</loc>
     <lastmod>2024-05-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abiydv.github.io/tags/git/</loc>
@@ -347,9 +359,6 @@
     <loc>https://abiydv.github.io/topics/streaming/</loc>
     <lastmod>2024-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://abiydv.github.io/tags/aws/</loc>
-    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://abiydv.github.io/posts/aws-eks-okta-auth/</loc>
     <lastmod>2023-06-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -514,9 +523,6 @@
   </url><url>
     <loc>https://abiydv.github.io/tags/webhook/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abiydv.github.io/tags/bdd/</loc>
-    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abiydv.github.io/tags/behave/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>

@@ -19,5 +19,16 @@ two types of broker storage – durability optimized (EFS), and throughput optim
 For high volume applications, throughput optimized storage is better, can provide the required throughput and optimize costs by reducing the number of brokers required.</description>
     </item>
     
+    <item>
+      <title>AWS Simple Queue Service (SQS)</title>
+      <link>https://abiydv.github.io/notes/sqs/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/sqs/</guid>
+      <description>Scope Region
+Features Apps PULL messages from a queue, process it and DELETE it. If the message is not deleted by a consumer, it is returned back to the queue after visibility timeout expires.
+FIFO preserves order and ensure once only delivery. Also deduplication. Visibility timeout Retention period - max 14 days, by default 4 days. Delivery delay Redrive allow policy Redrive Move messages from DLQ to the main queue for re-preocessing.</description>
+    </item>
+    
   </channel>
 </rss>
