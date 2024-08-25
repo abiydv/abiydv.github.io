@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>people on @abiydv</title>
+    <link>https://abiydv.github.io/topics/people/</link>
+    <description>Recent content in people on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/people/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>People</title>
+      <link>https://abiydv.github.io/notes/people/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/people/</guid>
+      <description>John Postel (1943-1998) Documenter and co-developer many of the key Internet standards, including TCP/IP (basic Internet protocols), SMTP (email transfer), and DNS (name servers). Editor of the RFC series from April 7, 1969 (its inception) until his untimely departure in Oct. 1998, covering over 2400 RFCs, and advocate of clean, conservative protocol design and specification. https://www.postel.org/jon-postel/ Linus Torvalds (1969-) Linux Git </description>
+    </item>
+    
+  </channel>
+</rss>

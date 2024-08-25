@@ -6,7 +6,43 @@
     <description>Recent content in stage/incubating on @abiydv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/stage-incubating/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/stage-incubating/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>People</title>
+      <link>https://abiydv.github.io/notes/people/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/people/</guid>
+      <description>John Postel (1943-1998) Documenter and co-developer many of the key Internet standards, including TCP/IP (basic Internet protocols), SMTP (email transfer), and DNS (name servers). Editor of the RFC series from April 7, 1969 (its inception) until his untimely departure in Oct. 1998, covering over 2400 RFCs, and advocate of clean, conservative protocol design and specification. https://www.postel.org/jon-postel/ Linus Torvalds (1969-) Linux Git </description>
+    </item>
+    
+    <item>
+      <title>K8s Scheduling</title>
+      <link>https://abiydv.github.io/notes/k8s-scheduling/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/k8s-scheduling/</guid>
+      <description>Which pod goes where?
+How does it help? Opportunities for cost saving by utilizing better scheduling. snorkel ai case-study Restrict workloads to specific nodes. Ex - run gpu workloads on gpu nodes, or don&amp;rsquo;t run cpu-only workloads on gpu nodes. Some users want to put multiple pods that communicate with one another in the same zone to avoid inter-zone traffic charges [[aws-well-architected#AZ Affinity]]
+Anti-affinity is useful to spread pods across failure domains/topology (AZ or Region)</description>
+    </item>
+    
+    <item>
+      <title>K8s Kubernetes</title>
+      <link>https://abiydv.github.io/notes/k8s-main/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/k8s-main/</guid>
+      <description>Architecture graph LR; c1(Cluster) --&gt; n1(node1) --&gt; p11[pod 1] n1 --&gt; p12[pod 2] c1 --&gt; n2(node2) --&gt; p21[pod 1] API docs - https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.24/
+Insert diagram about control nodes + worker nodes + api servers etc.
+#refine https://kubernetes.io/docs/concepts/architecture/
+Components Metric Server Use HostNetwork
+Helps monitor pods Can run kubectl top pod to check resource usage for pods kubectl top nodes
+CNCF Project status graph LR; a(Sandbox
+New) --&gt; b(Incubating
+More wide-spread adoption, active development) --&gt; c[Graduated</description>
+    </item>
+    
     <item>
       <title>AWS CloudFront</title>
       <link>https://abiydv.github.io/notes/cloudfront/</link>

@@ -6,7 +6,46 @@
     <description>Recent content in k8s on @abiydv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/k8s/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/k8s/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>K8s Scheduling</title>
+      <link>https://abiydv.github.io/notes/k8s-scheduling/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/k8s-scheduling/</guid>
+      <description>Which pod goes where?
+How does it help? Opportunities for cost saving by utilizing better scheduling. snorkel ai case-study Restrict workloads to specific nodes. Ex - run gpu workloads on gpu nodes, or don&amp;rsquo;t run cpu-only workloads on gpu nodes. Some users want to put multiple pods that communicate with one another in the same zone to avoid inter-zone traffic charges [[aws-well-architected#AZ Affinity]]
+Anti-affinity is useful to spread pods across failure domains/topology (AZ or Region)</description>
+    </item>
+    
+    <item>
+      <title>K8s Helm Charts</title>
+      <link>https://abiydv.github.io/notes/k8s-helm/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/k8s-helm/</guid>
+      <description>Package manager for all the manifests that need to be deployed to a cluster
+Components
+chart.yaml - metadata about the chart values.yaml - values for variables exposed by the chart author templates dir - yaml manifest that define the rsources/objects to be deployed, variables are replaces with values as specified in values.yaml Search charts called database in default repository helm seach hub database
+Add a custom repository helm add repo myrep https://myrepo.</description>
+    </item>
+    
+    <item>
+      <title>K8s Kubernetes</title>
+      <link>https://abiydv.github.io/notes/k8s-main/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/k8s-main/</guid>
+      <description>Architecture graph LR; c1(Cluster) --&gt; n1(node1) --&gt; p11[pod 1] n1 --&gt; p12[pod 2] c1 --&gt; n2(node2) --&gt; p21[pod 1] API docs - https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.24/
+Insert diagram about control nodes + worker nodes + api servers etc.
+#refine https://kubernetes.io/docs/concepts/architecture/
+Components Metric Server Use HostNetwork
+Helps monitor pods Can run kubectl top pod to check resource usage for pods kubectl top nodes
+CNCF Project status graph LR; a(Sandbox
+New) --&gt; b(Incubating
+More wide-spread adoption, active development) --&gt; c[Graduated</description>
+    </item>
+    
     <item>
       <title>AWS Elastic Kubernetes Service (EKS)</title>
       <link>https://abiydv.github.io/notes/eks/</link>
@@ -14,10 +53,10 @@
       
       <guid>https://abiydv.github.io/notes/eks/</guid>
       <description>Workshop - https://www.eksworkshop.com/docs/introduction/
-Networking https://aws.github.io/aws-eks-best-practices/networking/
-https://github.com/aws/amazon-vpc-cni-k8s
-Advanced Networking https://aws.amazon.com/blogs/containers/eks-vpc-routable-ip-address-conservation/
-can use both Fargate and EC2 clusters to launch nodes. STS endpoint for the deployment region must be enabled. worker nodes must have a private DNS entry or a node not found error will occur. node IAM role must be present in the aws-auth-cm.yaml file when using self-managed Amazon Linux nodes. Ref: https://docs.aws.amazon.com/eks/latest/userguide/troubleshooting.html, https://docs.aws.amazon.com/eks/latest/userguide/eks-connector.html</description>
+Update kubeconfig to access EKS aws eks update-kubeconfig --name my-cluster --region us-east-1 If cluster admin role is different from current role used to aut
+aws eks update-kubeconfig --name my-cluster --role-arn arn:aws:iam::123456789000:role/eksrole --region us-east-1 More here - https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html
+Workload AWS access Provide access to AWS workloads like S3 buckets, SNS topics etc via short lived temporary credentials.
+IRSA (IAM roles for service accounts) Pods can use service accounts which was backed by IAM roles and their permissions.</description>
     </item>
     
   </channel>

@@ -6,7 +6,35 @@
     <description>Recent content in stage/sandbox on @abiydv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Jun 2024 12:15:01 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/stage-sandbox/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/stage-sandbox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git</title>
+      <link>https://abiydv.github.io/notes/git/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/git/</guid>
+      <description>Distributed version control system</description>
+    </item>
+    
+    <item>
+      <title>Storage</title>
+      <link>https://abiydv.github.io/notes/storage/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/storage/</guid>
+      <description>A new blog post</description>
+    </item>
+    
+    <item>
+      <title>Tools Radar</title>
+      <link>https://abiydv.github.io/notes/radar/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/radar/</guid>
+      <description>Inspired by Thoughworks Tech Radar, but not as shiny 😉
+Tool Users Status Comments duplicati 🔍 backups syncthing 🔍 backups anki 🤔 flash cards excalidraw 🤔 diagrams draw.io ✅ diagrams, achitectures mermaid ✅ diagrams as code vscode ✅ ide obsidian 🛑1 notes app, not for me References Status What does it mean? 🔍 watch, may prove useful in future 🤔 try, solves a problem or does it better ✅ adopt, fit for purpose, use regularly 🛑 drop, not for me </description>
+    </item>
+    
     <item>
       <title>Trusted Advisor</title>
       <link>https://abiydv.github.io/notes/trusted-advisor/</link>
@@ -16,6 +44,133 @@
       <description>Pre-requisites Full access with Business/Enterprise support plan, otherwise full access to service limit checks, and 6 security checks.
 This applies to accounts in an org as well. If the management account has Enterprise access, but the member account only has a Basic support plan, full checks for the member account will not be available.
 Features Checks are refreshed automatically every week, you can force a manual refresh as well for all or a specific check (api/console) Configure upto 50 reports with region/OU filters etc.</description>
+    </item>
+    
+    <item>
+      <title>Containers</title>
+      <link>https://abiydv.github.io/notes/containers/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/containers/</guid>
+      <description>Introduction traditional runtime env is physical/virutal host
+self contained, no dependency problems
+portable, platform independent
+OCI Open containers initiative ensures compatibility between containers created in different container engine env
+Architecture build on top of linux kernel features
+namespaces provide strict isolation at kernel level
+cgroups provide resource allocation to ensure dedicated resources to containers
+selinux helps enforce security, can also secure access to containers from the kernel
+Container Images Built in multiple layers of filesystem</description>
+    </item>
+    
+    <item>
+      <title>Cryptograpghy</title>
+      <link>https://abiydv.github.io/notes/cryptography/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/cryptography/</guid>
+      <description>Introduction Ciphers Algorithms, workflows Symmetric Asymmetric References As an outside-the-box approach, some organizations choose to encrypt sensitive data via code, processing the data while it is in the web servers and before transmitting it to the next tier. Access to the decryption keys is granted to specific application servers that handle decryption requests. This scheme can be extended further, to the user side, by encrypting the sensitive data field using a public key in the client-side code before transmitting it to the web server.</description>
+    </item>
+    
+    <item>
+      <title>Curl</title>
+      <link>https://abiydv.github.io/notes/curl/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/curl/</guid>
+      <description>Curl is an invaluable tool for anyone who needs to debug webapps fequently. Given it&amp;rsquo;s vast amount of options, it is easy to miss some of it&amp;rsquo;s simplest yet powerful uses.
+curl cheatsheet</description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://abiydv.github.io/notes/docker/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/docker/</guid>
+      <description>Introduction Dockerfile FROM =&amp;gt; a base image to use while building image ADD =&amp;gt; copy from local to container RUN =&amp;gt; execute commands to generate the image, this does not run when container starts CMD [&amp;#34;/usr/bin/nmap&amp;#34;, &amp;#34;-s&amp;#34;, &amp;#34;172.17.0.0/24&amp;#34;] =&amp;gt; default command to run at container startup, if not specified, container starts and stops immediately Docker cli docker build . -t myawesomeimage:v1 docker run myawesomeimage:v1 pull image myawesomeimage:v1, and run container docker run -d nginx run a container in background docker run -it ubuntu:latest /bin/bash open an interactive shell within the container ctrl-p, ctrl-q does not kill the container started with it flag docker inspect container_name json output of all properties of the container docker inspect &amp;lt;container id&amp;gt; --format=&#39;{{.</description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>https://abiydv.github.io/notes/golang/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/golang/</guid>
+      <description>Intro Introduced at Google, statically typed compiled language. Fast, and platform independent
+Debugging A good example is available in the documentation of terraform aws provider here
+Delve A third party golang debugger
+Delve on GitHub Golang Debugging With Delve (Step-by-Step) Using the Go Delve Debugger from the command line Stop debugging Go with Println and use Delve instead </description>
+    </item>
+    
+    <item>
+      <title>Mermaid Diagrams</title>
+      <link>https://abiydv.github.io/notes/mermaid-diagrams/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/mermaid-diagrams/</guid>
+      <description>Diagrams as code!
+Live test - https://mermaid.live
+Documentation - https://mermaid.js.org/intro/getting-started.html
+Examples Flowchart (Top to Bottom) --- config: --- flowchart TD A[Christmas] --Get money--&gt; B(Go shopping) B --&gt; C{Let me think} C --&gt;|One| D[Laptop] C --&gt;|Two| E[iPhone] C --&gt;|Three| F[fa:fa-car Car] Code
+--- config: --- flowchart TD A[Christmas] --Get money--&amp;gt; B(Go shopping) B --&amp;gt; C{Let me think} C --&amp;gt;|One| D[Laptop] C --&amp;gt;|Two| E[iPhone] C --&amp;gt;|Three| F[fa:fa-car Car] Flowchart (Left to Right) --- config: --- flowchart LR A[Christmas] --Get money--&gt; B(Go shopping) B --&gt; C{Let me think} C --&gt;|One| D[Laptop] C --&gt;|Two| E[iPhone] C --&gt;|Three| F[fa:fa-car Car] Code</description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>https://abiydv.github.io/notes/network/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/network/</guid>
+      <description>Layers Layer Name Function Devices OSI Layer 4 Application HTTP, FTP, SMB, SMTP, DHCP etc. AWS ALB L5-7 3 Transport packets, TCP, UDP Routers, nlb L4 2 Internet IPv4, IPv6, ICMP, IPSEC Switches L3 1 Link Physical medium Cables L2 OSI Open Systems Interconnection Model Why? Useful for defining standards so computers from different manufacturers could &amp;ldquo;talk&amp;rdquo; to each other.
+Layer Name Function Devices 7 Application HTTP, FTP, SMB, SMTP, DHCP etc.</description>
+    </item>
+    
+    <item>
+      <title>Operating Systems</title>
+      <link>https://abiydv.github.io/notes/operating-systems/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/operating-systems/</guid>
+      <description>Linux What is Proc? File system which shows
+$ cd /prod $ ls 1 acpi cmdline diskstats fb ioports keys loadavg modules partitions slabinfo sysrq-trigger uptime zoneinfo 29 bootconfig consoles dma filesystems irq kmsg locks mounts pressure softirqs sysvipc version 30 buddyinfo cpuinfo driver fs kallsyms kpagecgroup mdstat mtrr schedstat stat thread-self version_signature 31 bus crypto dynamic_debug interrupts kcore kpagecount meminfo net scsi swaps timer_list vmallocinfo 47 cgroups devices execdomains iomem key-users kpageflags misc pagetypeinfo self sys tty vmstat $ $ cat 30/cmdline # 30 is a pid of a process nginx: worker process $ Windows </description>
+    </item>
+    
+    <item>
+      <title>RFC</title>
+      <link>https://abiydv.github.io/notes/rfc/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/rfc/</guid>
+      <description>What is RFC? Request For Comments 🙂
+The RFC Series (ISSN 2070-1721) contains technical and organizational documents about the Internet, including the specifications and policy documents produced by five streams: the Internet Engineering Task Force (IETF), the Internet Research Task Force (IRTF), the Internet Architecture Board (IAB), Independent Submissions, and Editorial.
+More details - https://www.ietf.org/rfc/rfc2555.txt
+First ever RFC document - https://www.ietf.org/rfc/rfc1.txt
+1918 Defines private IP address ranges. 10/8 172.16/12 192.168/16 https://www.</description>
+    </item>
+    
+    <item>
+      <title>Terraform</title>
+      <link>https://abiydv.github.io/notes/terraform/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/terraform/</guid>
+      <description>Command line options -target Use this to deploy the configs conditionally if terraform is unable to generate a plan due to dynamic values.
+When using the docker alias, wrap additional options in &#39;&#39; quotes
+terraform plan &amp;#39;-target=module.management_account_permissions.aws_ssoadmin_permission_set.this[&amp;#34;MgmtSsoOperator&amp;#34;]&amp;#39; Errors Message Fix/Workaround error deleting SSO Permission Set (arn:aws:sso:::permissionSet/ssoins-xxxxxxxxxxxxxxxx/ps-xxxxxxxxxxxxxxxx): ConflictException: Could not delete because PermissionSet has ApplicationProfile associated with it. Delete permission set from account assignment via console https://github.com/hashicorp/terraform-provider-aws/issues/26757
+docker run --rm -it -v $(pwd):/opt/app -w /opt/app --entrypoint /bin/sh public.</description>
+    </item>
+    
+    <item>
+      <title>K8s Helm Charts</title>
+      <link>https://abiydv.github.io/notes/k8s-helm/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/k8s-helm/</guid>
+      <description>Package manager for all the manifests that need to be deployed to a cluster
+Components
+chart.yaml - metadata about the chart values.yaml - values for variables exposed by the chart author templates dir - yaml manifest that define the rsources/objects to be deployed, variables are replaces with values as specified in values.yaml Search charts called database in default repository helm seach hub database
+Add a custom repository helm add repo myrep https://myrepo.</description>
     </item>
     
     <item>
@@ -46,7 +201,8 @@ Showcase allows AWS Activate members to list and amplify their business to poten
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/athena/</guid>
-      <description>Athena Region scope 3x Replication Performance? DocumentDB</description>
+      <description>Athena Region scope 3x Replication Performance? DocumentDB
+Queries Parameterized Queries Add a prepared statement aws athena create-prepared-statement --statement-name SplitCostItem --query-statement &amp;#34;SELECT line_item_usage_start_date, line_item_usage_end_date, line_item_resource_id, line_item_blended_cost, split_line_item_net_split_cost, split_line_item_split_usage, split_line_item_net_unused_cost, line_item_line_item_type, line_item_usage_type, split_line_item_parent_resource_id FROM &amp;#34;athenacurcfn&amp;#34;.&amp;#34;amazon_athena&amp;#34; where line_item_line_item_type=&amp;#39;Usage&amp;#39; and line_item_resource_id=&amp;#39;?&amp;#39; and year=&amp;#39;?&amp;#39; and month=&amp;#39;?&amp;#39;&amp;#34; --work-group athena-engine-v2 Start query execution aws athena start-query-execution --query-string &amp;#34;Execute SplitCostItem&amp;#34; --query-execution-context &amp;#34;Database&amp;#34;=&amp;#34;default&amp;#34; --result-configuration &amp;#34;OutputLocation&amp;#34;=&amp;#34;s3://query-result-bucket/&amp;#34; --execution-parameters &amp;#34;resource-id&amp;#34; &amp;#34;2024&amp;#34; &amp;#34;1&amp;#34; </description>
     </item>
     
     <item>
@@ -126,6 +282,16 @@ Resource Schema https://github.</description>
     </item>
     
     <item>
+      <title>AWS Cost and Billing</title>
+      <link>https://abiydv.github.io/notes/billing-and-cost/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/billing-and-cost/</guid>
+      <description>Consolidated Billing Cost Allocation Tags Cost Categories Cost and Usage Report v1 v2 Compute Optimizer Trusted Advisor Cost Explorer CUR-Athena-QuickSight Alerts Example here https://github.com/abiydv/aws-cost-alerts
+Budgets Anomaly Detector </description>
+    </item>
+    
+    <item>
       <title>AWS DocumentDB</title>
       <link>https://abiydv.github.io/notes/document-db/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
@@ -201,10 +367,10 @@ Access Control POSIX IAM Network controls like security groups, access control l
       
       <guid>https://abiydv.github.io/notes/eks/</guid>
       <description>Workshop - https://www.eksworkshop.com/docs/introduction/
-Networking https://aws.github.io/aws-eks-best-practices/networking/
-https://github.com/aws/amazon-vpc-cni-k8s
-Advanced Networking https://aws.amazon.com/blogs/containers/eks-vpc-routable-ip-address-conservation/
-can use both Fargate and EC2 clusters to launch nodes. STS endpoint for the deployment region must be enabled. worker nodes must have a private DNS entry or a node not found error will occur. node IAM role must be present in the aws-auth-cm.yaml file when using self-managed Amazon Linux nodes. Ref: https://docs.aws.amazon.com/eks/latest/userguide/troubleshooting.html, https://docs.aws.amazon.com/eks/latest/userguide/eks-connector.html</description>
+Update kubeconfig to access EKS aws eks update-kubeconfig --name my-cluster --region us-east-1 If cluster admin role is different from current role used to aut
+aws eks update-kubeconfig --name my-cluster --role-arn arn:aws:iam::123456789000:role/eksrole --region us-east-1 More here - https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html
+Workload AWS access Provide access to AWS workloads like S3 buckets, SNS topics etc via short lived temporary credentials.
+IRSA (IAM roles for service accounts) Pods can use service accounts which was backed by IAM roles and their permissions.</description>
     </item>
     
     <item>
@@ -476,6 +642,19 @@ Limit - 10,000 queries per second per IP Address for an EP.</description>
     </item>
     
     <item>
+      <title>AWS Security Services</title>
+      <link>https://abiydv.github.io/notes/security-services/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/security-services/</guid>
+      <description>Security Hub Add details
+AWS Inspector automated vulnerability management service that continually scans Amazon Elastic Compute Cloud (EC2)
+AWS Lambda functions, and container images in Amazon ECR and within continuous integration and continuous delivery (CI/CD) tools, in near-real time for software vulnerabilities and unintended network exposure.
+Common Vulnerability Scoring System (CVSS) v2 and v3 scores from both National Vulnerability Database (NVD) and vendors
+manage software bill of materials (SBOM) exports for all monitored resources.</description>
+    </item>
+    
+    <item>
       <title>AWS Simple Email Service (SES)</title>
       <link>https://abiydv.github.io/notes/ses/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
@@ -510,15 +689,6 @@ Over-provisioning is not necessarily a bad thing. It can provide some static sta
     </item>
     
     <item>
-      <title>Billing and Cost on AWS</title>
-      <link>https://abiydv.github.io/notes/billing-and-cost/</link>
-      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://abiydv.github.io/notes/billing-and-cost/</guid>
-      <description>Consolidated Billing Cost Allocation Tags Cost Categories Cost and Usage Report v1 v2 Compute Optimizer Trusted Advisor Cost Explorer CUR-Athena-QuickSight </description>
-    </item>
-    
-    <item>
       <title>DevOps</title>
       <link>https://abiydv.github.io/notes/devops/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
@@ -550,19 +720,6 @@ Homogeneous (made of same things before/after) No big changes to the application
       <description>Questions What is the scope? AZ, Regional, Global
 When or why will you choose both CloudFront AND Load balancer?
 What is an AZ? AZ or availability zone is an independent data center within a specific geographic region. An AWS Region is a collection of multiple availability zones. Regarded as a fault boundary. Data transfer across AZ is not free. Cross AZ traffic should be controlled for cost optimization and performance efficiency.</description>
-    </item>
-    
-    <item>
-      <title>Security Services on AWS</title>
-      <link>https://abiydv.github.io/notes/security-services/</link>
-      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://abiydv.github.io/notes/security-services/</guid>
-      <description>Security Hub Add details
-AWS Inspector automated vulnerability management service that continually scans Amazon Elastic Compute Cloud (EC2)
-AWS Lambda functions, and container images in Amazon ECR and within continuous integration and continuous delivery (CI/CD) tools, in near-real time for software vulnerabilities and unintended network exposure.
-Common Vulnerability Scoring System (CVSS) v2 and v3 scores from both National Vulnerability Database (NVD) and vendors
-manage software bill of materials (SBOM) exports for all monitored resources.</description>
     </item>
     
     <item>

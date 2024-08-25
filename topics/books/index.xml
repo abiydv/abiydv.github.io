@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>books on @abiydv</title>
+    <link>https://abiydv.github.io/topics/books/</link>
+    <description>Recent content in books on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 11 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reading List</title>
+      <link>https://abiydv.github.io/notes/reading-list/</link>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/reading-list/</guid>
+      <description>Reading List Make Time Just for Fun: The Story of an Accidental Revolutionary </description>
+    </item>
+    
+  </channel>
+</rss>

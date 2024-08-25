@@ -46,7 +46,8 @@ Showcase allows AWS Activate members to list and amplify their business to poten
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://abiydv.github.io/notes/athena/</guid>
-      <description>Athena Region scope 3x Replication Performance? DocumentDB</description>
+      <description>Athena Region scope 3x Replication Performance? DocumentDB
+Queries Parameterized Queries Add a prepared statement aws athena create-prepared-statement --statement-name SplitCostItem --query-statement &amp;#34;SELECT line_item_usage_start_date, line_item_usage_end_date, line_item_resource_id, line_item_blended_cost, split_line_item_net_split_cost, split_line_item_split_usage, split_line_item_net_unused_cost, line_item_line_item_type, line_item_usage_type, split_line_item_parent_resource_id FROM &amp;#34;athenacurcfn&amp;#34;.&amp;#34;amazon_athena&amp;#34; where line_item_line_item_type=&amp;#39;Usage&amp;#39; and line_item_resource_id=&amp;#39;?&amp;#39; and year=&amp;#39;?&amp;#39; and month=&amp;#39;?&amp;#39;&amp;#34; --work-group athena-engine-v2 Start query execution aws athena start-query-execution --query-string &amp;#34;Execute SplitCostItem&amp;#34; --query-execution-context &amp;#34;Database&amp;#34;=&amp;#34;default&amp;#34; --result-configuration &amp;#34;OutputLocation&amp;#34;=&amp;#34;s3://query-result-bucket/&amp;#34; --execution-parameters &amp;#34;resource-id&amp;#34; &amp;#34;2024&amp;#34; &amp;#34;1&amp;#34; </description>
     </item>
     
     <item>
@@ -134,6 +135,16 @@ Pricing is based on data ingestion, analysis and retention. It can retain data u
       <description>What is it? AWS Config records and saves configuration of supported resources.
 You can use these records to audit whether the resources align to best practices, or org specific patterns/rules. It can also highlight 2-way relationships between different resources. For ex - an instance is related to a vpc, a subnet, and a security group. This relation will show up in both the instance, and vpc records under relationships.
 Resource Schema https://github.</description>
+    </item>
+    
+    <item>
+      <title>AWS Cost and Billing</title>
+      <link>https://abiydv.github.io/notes/billing-and-cost/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/billing-and-cost/</guid>
+      <description>Consolidated Billing Cost Allocation Tags Cost Categories Cost and Usage Report v1 v2 Compute Optimizer Trusted Advisor Cost Explorer CUR-Athena-QuickSight Alerts Example here https://github.com/abiydv/aws-cost-alerts
+Budgets Anomaly Detector </description>
     </item>
     
     <item>
@@ -225,10 +236,10 @@ Access Control POSIX IAM Network controls like security groups, access control l
       
       <guid>https://abiydv.github.io/notes/eks/</guid>
       <description>Workshop - https://www.eksworkshop.com/docs/introduction/
-Networking https://aws.github.io/aws-eks-best-practices/networking/
-https://github.com/aws/amazon-vpc-cni-k8s
-Advanced Networking https://aws.amazon.com/blogs/containers/eks-vpc-routable-ip-address-conservation/
-can use both Fargate and EC2 clusters to launch nodes. STS endpoint for the deployment region must be enabled. worker nodes must have a private DNS entry or a node not found error will occur. node IAM role must be present in the aws-auth-cm.yaml file when using self-managed Amazon Linux nodes. Ref: https://docs.aws.amazon.com/eks/latest/userguide/troubleshooting.html, https://docs.aws.amazon.com/eks/latest/userguide/eks-connector.html</description>
+Update kubeconfig to access EKS aws eks update-kubeconfig --name my-cluster --region us-east-1 If cluster admin role is different from current role used to aut
+aws eks update-kubeconfig --name my-cluster --role-arn arn:aws:iam::123456789000:role/eksrole --region us-east-1 More here - https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html
+Workload AWS access Provide access to AWS workloads like S3 buckets, SNS topics etc via short lived temporary credentials.
+IRSA (IAM roles for service accounts) Pods can use service accounts which was backed by IAM roles and their permissions.</description>
     </item>
     
     <item>
@@ -500,6 +511,19 @@ Limit - 10,000 queries per second per IP Address for an EP.</description>
     </item>
     
     <item>
+      <title>AWS Security Services</title>
+      <link>https://abiydv.github.io/notes/security-services/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/security-services/</guid>
+      <description>Security Hub Add details
+AWS Inspector automated vulnerability management service that continually scans Amazon Elastic Compute Cloud (EC2)
+AWS Lambda functions, and container images in Amazon ECR and within continuous integration and continuous delivery (CI/CD) tools, in near-real time for software vulnerabilities and unintended network exposure.
+Common Vulnerability Scoring System (CVSS) v2 and v3 scores from both National Vulnerability Database (NVD) and vendors
+manage software bill of materials (SBOM) exports for all monitored resources.</description>
+    </item>
+    
+    <item>
       <title>AWS Simple Email Service (SES)</title>
       <link>https://abiydv.github.io/notes/ses/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
@@ -534,15 +558,6 @@ Over-provisioning is not necessarily a bad thing. It can provide some static sta
     </item>
     
     <item>
-      <title>Billing and Cost on AWS</title>
-      <link>https://abiydv.github.io/notes/billing-and-cost/</link>
-      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://abiydv.github.io/notes/billing-and-cost/</guid>
-      <description>Consolidated Billing Cost Allocation Tags Cost Categories Cost and Usage Report v1 v2 Compute Optimizer Trusted Advisor Cost Explorer CUR-Athena-QuickSight </description>
-    </item>
-    
-    <item>
       <title>Migration to AWS</title>
       <link>https://abiydv.github.io/notes/migration/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
@@ -565,19 +580,6 @@ Homogeneous (made of same things before/after) No big changes to the application
       <description>Questions What is the scope? AZ, Regional, Global
 When or why will you choose both CloudFront AND Load balancer?
 What is an AZ? AZ or availability zone is an independent data center within a specific geographic region. An AWS Region is a collection of multiple availability zones. Regarded as a fault boundary. Data transfer across AZ is not free. Cross AZ traffic should be controlled for cost optimization and performance efficiency.</description>
-    </item>
-    
-    <item>
-      <title>Security Services on AWS</title>
-      <link>https://abiydv.github.io/notes/security-services/</link>
-      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://abiydv.github.io/notes/security-services/</guid>
-      <description>Security Hub Add details
-AWS Inspector automated vulnerability management service that continually scans Amazon Elastic Compute Cloud (EC2)
-AWS Lambda functions, and container images in Amazon ECR and within continuous integration and continuous delivery (CI/CD) tools, in near-real time for software vulnerabilities and unintended network exposure.
-Common Vulnerability Scoring System (CVSS) v2 and v3 scores from both National Vulnerability Database (NVD) and vendors
-manage software bill of materials (SBOM) exports for all monitored resources.</description>
     </item>
     
     <item>

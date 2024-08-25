@@ -6,7 +6,17 @@
     <description>Recent content in network on @abiydv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/network/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/network/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Network</title>
+      <link>https://abiydv.github.io/notes/network/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/network/</guid>
+      <description>Layers Layer Name Function Devices OSI Layer 4 Application HTTP, FTP, SMB, SMTP, DHCP etc. AWS ALB L5-7 3 Transport packets, TCP, UDP Routers, nlb L4 2 Internet IPv4, IPv6, ICMP, IPSEC Switches L3 1 Link Physical medium Cables L2 OSI Open Systems Interconnection Model Why? Useful for defining standards so computers from different manufacturers could &amp;ldquo;talk&amp;rdquo; to each other.
+Layer Name Function Devices 7 Application HTTP, FTP, SMB, SMTP, DHCP etc.</description>
+    </item>
+    
     <item>
       <title>AWS CloudFront</title>
       <link>https://abiydv.github.io/notes/cloudfront/</link>
