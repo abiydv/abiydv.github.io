@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>os on @abiydv</title>
+    <link>https://abiydv.github.io/topics/os/</link>
+    <description>Recent content in os on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/os/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Operating Systems</title>
+      <link>https://abiydv.github.io/notes/operating-systems/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/operating-systems/</guid>
+      <description>Linux What is Proc? File system which shows
+$ cd /prod $ ls 1 acpi cmdline diskstats fb ioports keys loadavg modules partitions slabinfo sysrq-trigger uptime zoneinfo 29 bootconfig consoles dma filesystems irq kmsg locks mounts pressure softirqs sysvipc version 30 buddyinfo cpuinfo driver fs kallsyms kpagecgroup mdstat mtrr schedstat stat thread-self version_signature 31 bus crypto dynamic_debug interrupts kcore kpagecount meminfo net scsi swaps timer_list vmallocinfo 47 cgroups devices execdomains iomem key-users kpageflags misc pagetypeinfo self sys tty vmstat $ $ cat 30/cmdline # 30 is a pid of a process nginx: worker process $ Windows </description>
+    </item>
+    
+  </channel>
+</rss>

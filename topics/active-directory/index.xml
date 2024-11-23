@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>active-directory on @abiydv</title>
+    <link>https://abiydv.github.io/topics/active-directory/</link>
+    <description>Recent content in active-directory on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 24 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/active-directory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Active Directory</title>
+      <link>https://abiydv.github.io/notes/active-directory/</link>
+      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/active-directory/</guid>
+      <description>Questions What is an Active Directory? It is sort of a database, and holds information about entities and their properties.
+Why use an AD? Centralized identity management Who provides AD? Who can use AD? What is Posix? What is LDAP and DNS What is kerberos </description>
+    </item>
+    
+  </channel>
+</rss>
