@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>terraform on @abiydv</title>
+    <link>https://abiydv.github.io/tags/terraform/</link>
+    <description>Recent content in terraform on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/terraform/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terraform, multi-account and multi-region workloads</title>
+      <link>https://abiydv.github.io/posts/terraform-multiaccount-multiregion/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/terraform-multiaccount-multiregion/</guid>
+      <description>Managing multi-account, multi-region workloads using Terraform</description>
+    </item>
+    
+    <item>
+      <title>Terraform, Bitbucket pipelines and OIDC</title>
+      <link>https://abiydv.github.io/posts/terraform-bitbucket-pipeline-oidc/</link>
+      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/terraform-bitbucket-pipeline-oidc/</guid>
+      <description>How to setup a Terraform CI/CD in Bitbucket pipeline using OIDC role based access</description>
+    </item>
+    
+    <item>
+      <title>Fastly Geolocation Service</title>
+      <link>https://abiydv.github.io/posts/fastly-geo-service/</link>
+      <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/fastly-geo-service/</guid>
+      <description>Fastly service which returns information about a public IP</description>
+    </item>
+    
+    <item>
+      <title>Hashicorp Certified Terraform Associate - My Experience</title>
+      <link>https://abiydv.github.io/posts/certified-terraform-associate/</link>
+      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/certified-terraform-associate/</guid>
+      <description>Introduction Terraform has evolved and established itself as the defacto tool for implementing IAC (Infrastructure As Code) across cloud and other service providers. The Google trends graph is a testament to it&amp;rsquo;s growing popularity.
+I have been using it for the last few years for my projects and it&amp;rsquo;s a great fit in most situations.
+I had always read about their certification, but never got around to dig deeper. Until last week.</description>
+    </item>
+    
+    <item>
+      <title>Day 1 with GCP - Cloud Functions</title>
+      <link>https://abiydv.github.io/posts/day1-gcp-cloud-functions/</link>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/day1-gcp-cloud-functions/</guid>
+      <description>Deploying and using Google Cloud Functions</description>
+    </item>
+    
+    <item>
+      <title>Day 0 with GCP (Google Cloud)</title>
+      <link>https://abiydv.github.io/posts/day0-gcp/</link>
+      <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/day0-gcp/</guid>
+      <description>Get started quick with GCP/Google Cloud</description>
+    </item>
+    
+    <item>
+      <title>Fastly Meta Service</title>
+      <link>https://abiydv.github.io/posts/fastly-meta-service/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/fastly-meta-service/</guid>
+      <description>Fastly service which returns information about you</description>
+    </item>
+    
+  </channel>
+</rss>
