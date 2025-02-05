@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>cloud-functions on @abiydv</title>
+    <link>https://abiydv.github.io/tags/cloud-functions/</link>
+    <description>Recent content in cloud-functions on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 19 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/cloud-functions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 1 with GCP - Cloud Functions</title>
+      <link>https://abiydv.github.io/posts/day1-gcp-cloud-functions/</link>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/day1-gcp-cloud-functions/</guid>
+      <description>Deploying and using Google Cloud Functions</description>
+    </item>
+    
+  </channel>
+</rss>

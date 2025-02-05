@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>content-delivery on @abiydv</title>
+    <link>https://abiydv.github.io/topics/content-delivery/</link>
+    <description>Recent content in content-delivery on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/content-delivery/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS CloudFront</title>
+      <link>https://abiydv.github.io/notes/aws/cloudfront/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/cloudfront/</guid>
+      <description>Scope Global scope Supports multiple regions - multiple origins Health check for origin failovers - can be useful in disaster recovery supports active/active, active/standby architectures
+Questions How is CloudFront different from Global Accelerator? https://docs.aws.amazon.com/global-accelerator/latest/dg/about-accelerators.html
+What is Origin Group? ORIGIN Group - configure 2 origins, mark one as primary, and the other as secondary. Configure status codes to trigger fail over. If primary origin returns one these configured status codes, CloudFront then sends the request to the secondary origin.</description>
+    </item>
+    
+    <item>
+      <title>AWS Global Accelerator</title>
+      <link>https://abiydv.github.io/notes/aws/global-accelerator/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/global-accelerator/</guid>
+      <description>Scope Global service
+Features Provides anycast static IP addresses from AWS Edge Network 2 IPv4, 2 IPv6
+Supports BYOIP
+Static IP are released only when an accelerator is deleted
+TCP termination at edge
+Control traffic % directed to a region
+S3 Multi-Region Access Points
+Types Standard routes traffic based on client location, backend health, and custom policies Endpoints - NLB, ALB, EC2, Elastic IPs across multiple regions Custom routes traffic to private IPs in a subnet Endpoints - vpc subnet.</description>
+    </item>
+    
+    <item>
+      <title>AWS Load Balancers</title>
+      <link>https://abiydv.github.io/notes/aws/load-balancers/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/load-balancers/</guid>
+      <description>AWS Application Load Balancer AWS Network Load Balancer AWS Gateway Load Balancer GWLB’s ability to use 5-tuples or 3-tuples of an IP packet to select specific appliance behind it for life of that flow combined with Transit Gateway appliance mode, provides session stickiness irrespective of source and destination AZ. 1
+A Gateway Load Balancer operates at the third layer of the Open Systems Interconnection (OSI) model, the network layer.
+It maintains stickiness of flows to a specific target appliance using 5-tuple (for TCP/UDP flows) or 3-tuple (for non-TCP/UDP flows).</description>
+    </item>
+    
+    <item>
+      <title>AWS Network Load Balancer (NLB)</title>
+      <link>https://abiydv.github.io/notes/aws/nlb/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/nlb/</guid>
+      <description>Features cross-zone disabled by default
+NLB provides a network interface in each AZ backed by a static IP. This static IP can be used to configure AZ specific DNS records.
+NLB forwards the requests to the same AZ target in which it receives the request. This is useful to maintain AZ affinity and reduce costs due to cross AZ traffic.
+NLB is a layer-4 device, works on layer-4 protocols, and is inherently sticky.</description>
+    </item>
+    
+    <item>
+      <title>AWS API Gateway</title>
+      <link>https://abiydv.github.io/notes/aws/api-gateway/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/api-gateway/</guid>
+      <description>REST API CloudFormation resource AWS::ApiGateway::RestApi Regional service Edge-optimized Can be made private Integration types AWS Use this to create AWS API proxies for virtually any service AWS_PROXY lambda HTTP_PROXY HTTP MOCK Offers caching HTTP API CloudFormation resource AWS::ApiGatewayV2::Api Lightweight version of the REST API Regional service NOT Edge-optimized NOT Private Integration types AWS_PROXY Lambda, SQS, Kinesis Data Stream, AppConfig, Step Functions, EventBridge with proper integration sub-types. Ref HTTP_PROXY WebSocket API Integration types AWS AWS_PROXY Lambda HTTP_PROXY HTTP MOCK Usage plan Set throttling limits and send a 429 Too many requests HTTP response to clients</description>
+    </item>
+    
+  </channel>
+</rss>

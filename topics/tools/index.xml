@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>tools on @abiydv</title>
+    <link>https://abiydv.github.io/topics/tools/</link>
+    <description>Recent content in tools on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Radar</title>
+      <link>https://abiydv.github.io/notes/radar/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/radar/</guid>
+      <description>Technology radar</description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://abiydv.github.io/notes/docker/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/docker/</guid>
+      <description>Introduction Dockerfile FROM =&amp;gt; a base image to use while building image ADD =&amp;gt; copy from local to container RUN =&amp;gt; execute commands to generate the image, this does not run when container starts CMD [&amp;#34;/usr/bin/nmap&amp;#34;, &amp;#34;-s&amp;#34;, &amp;#34;172.17.0.0/24&amp;#34;] =&amp;gt; default command to run at container startup, if not specified, container starts and stops immediately Docker cli docker build . -t myawesomeimage:v1 docker run myawesomeimage:v1 pull image myawesomeimage:v1, and run container docker run -d nginx run a container in background docker run -it ubuntu:latest /bin/bash open an interactive shell within the container ctrl-p, ctrl-q does not kill the container started with it flag docker inspect container_name json output of all properties of the container docker inspect &amp;lt;container id&amp;gt; --format=&#39;{{.</description>
+    </item>
+    
+    <item>
+      <title>Mermaid Diagrams</title>
+      <link>https://abiydv.github.io/notes/mermaid-diagrams/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/mermaid-diagrams/</guid>
+      <description>Diagrams as code!
+Live test - https://mermaid.live
+Documentation - https://mermaid.js.org/intro/getting-started.html
+Examples Flowchart (Top to Bottom) --- config: --- flowchart TD A[Christmas] --Get money--&gt; B(Go shopping) B --&gt; C{Let me think} C --&gt;|One| D[Laptop] C --&gt;|Two| E[iPhone] C --&gt;|Three| F[fa:fa-car Car] Code
+--- config: --- flowchart TD A[Christmas] --Get money--&amp;gt; B(Go shopping) B --&amp;gt; C{Let me think} C --&amp;gt;|One| D[Laptop] C --&amp;gt;|Two| E[iPhone] C --&amp;gt;|Three| F[fa:fa-car Car] Flowchart (Left to Right) --- config: --- flowchart LR A[Christmas] --Get money--&gt; B(Go shopping) B --&gt; C{Let me think} C --&gt;|One| D[Laptop] C --&gt;|Two| E[iPhone] C --&gt;|Three| F[fa:fa-car Car] Code</description>
+    </item>
+    
+    <item>
+      <title>Terraform</title>
+      <link>https://abiydv.github.io/notes/terraform/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/terraform/</guid>
+      <description>Command line options -target Use this to deploy the configs conditionally if terraform is unable to generate a plan due to dynamic values.
+When using the docker alias, wrap additional options in &#39;&#39; quotes
+terraform plan &amp;#39;-target=module.management_account_permissions.aws_ssoadmin_permission_set.this[&amp;#34;MgmtSsoOperator&amp;#34;]&amp;#39; Errors Message Fix/Workaround error deleting SSO Permission Set (arn:aws:sso:::permissionSet/ssoins-xxxxxxxxxxxxxxxx/ps-xxxxxxxxxxxxxxxx): ConflictException: Could not delete because PermissionSet has ApplicationProfile associated with it. Delete permission set from account assignment via console https://github.com/hashicorp/terraform-provider-aws/issues/26757
+docker run --rm -it -v $(pwd):/opt/app -w /opt/app --entrypoint /bin/sh public.</description>
+    </item>
+    
+  </channel>
+</rss>
