@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>on-prem on @abiydv</title>
+    <link>https://abiydv.github.io/topics/on-prem/</link>
+    <description>Recent content in on-prem on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 13 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/on-prem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Storage Gateway</title>
+      <link>https://abiydv.github.io/notes/aws/storage-gateway/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/storage-gateway/</guid>
+      <description>Features Think of it as a device which exposes the S3 storage as iSCSI, SMB or NFS mounts to on-prem workloads.
+Launch it as a VM in your on-prem data center, or install the [[#Hardware Appliance]]. Reduces the need to re-engineer these workloads to work with S3. Helps with replicating on-prem data to S3 for backups or archival needs. On-prem workloads get access to low latency access to S3 data Data lake access for pre and post processing tasks.</description>
+    </item>
+    
+  </channel>
+</rss>

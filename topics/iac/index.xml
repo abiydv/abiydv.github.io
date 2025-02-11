@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>iac on @abiydv</title>
+    <link>https://abiydv.github.io/topics/iac/</link>
+    <description>Recent content in iac on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/iac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terraform</title>
+      <link>https://abiydv.github.io/notes/terraform/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/terraform/</guid>
+      <description>Command line options -target Use this to deploy the configs conditionally if terraform is unable to generate a plan due to dynamic values.
+When using the docker alias, wrap additional options in &#39;&#39; quotes
+terraform plan &amp;#39;-target=module.management_account_permissions.aws_ssoadmin_permission_set.this[&amp;#34;MgmtSsoOperator&amp;#34;]&amp;#39; Errors Message Fix/Workaround error deleting SSO Permission Set (arn:aws:sso:::permissionSet/ssoins-xxxxxxxxxxxxxxxx/ps-xxxxxxxxxxxxxxxx): ConflictException: Could not delete because PermissionSet has ApplicationProfile associated with it. Delete permission set from account assignment via console https://github.com/hashicorp/terraform-provider-aws/issues/26757
+docker run --rm -it -v $(pwd):/opt/app -w /opt/app --entrypoint /bin/sh public.</description>
+    </item>
+    
+    <item>
+      <title>AWS CloudFormation</title>
+      <link>https://abiydv.github.io/notes/aws/cloudformation/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/cloudformation/</guid>
+      <description>Parameters AWS Things like AMI Id, Instance Id, Vpc Id etc. SSM AWS Doc Refer to a parameter (not secure string) saved in SSM parameter store Use parameter by name, don&amp;rsquo;t need to specify version Use cross account parameter by providing full arn. Dynamic AWS doc Refer to parameters dynamically in templates. Useful to obscure secrets. No drift detection SSM parameter store {{resolve:ssm-secure:parameter-name:version}} or {{resolve:ssm:parameter-name:version}} Can&amp;rsquo;t use secure string parameter for all resources.</description>
+    </item>
+    
+  </channel>
+</rss>

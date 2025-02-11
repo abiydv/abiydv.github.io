@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>monitoring on @abiydv</title>
+    <link>https://abiydv.github.io/topics/monitoring/</link>
+    <description>Recent content in monitoring on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/monitoring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS CloudWatch</title>
+      <link>https://abiydv.github.io/notes/aws/cloudwatch/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/cloudwatch/</guid>
+      <description>info FYI AWS use “CloudWatch” in docs, “cloudwatch“ in cli/sdk, “monitoring” as the API endpoint, and “cloud-watch” in other service API calls like when setting flow logs for VPC, log_destination_type = &amp;ldquo;cloud-watch-logs&amp;rdquo;
+Custom log groups Now it&amp;rsquo;s possible to use a custom log group for a lambda function. Use this to send logs from multiple lambda functions to the same log group - each function gets it&amp;rsquo;s own log stream!</description>
+    </item>
+    
+  </channel>
+</rss>

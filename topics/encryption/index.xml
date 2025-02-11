@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>encryption on @abiydv</title>
+    <link>https://abiydv.github.io/topics/encryption/</link>
+    <description>Recent content in encryption on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/encryption/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cryptograpghy</title>
+      <link>https://abiydv.github.io/notes/cryptography/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/cryptography/</guid>
+      <description>Introduction Ciphers Algorithms, workflows Symmetric Asymmetric References As an outside-the-box approach, some organizations choose to encrypt sensitive data via code, processing the data while it is in the web servers and before transmitting it to the next tier. Access to the decryption keys is granted to specific application servers that handle decryption requests. This scheme can be extended further, to the user side, by encrypting the sensitive data field using a public key in the client-side code before transmitting it to the web server.</description>
+    </item>
+    
+  </channel>
+</rss>

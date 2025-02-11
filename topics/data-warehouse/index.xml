@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>data-warehouse on @abiydv</title>
+    <link>https://abiydv.github.io/topics/data-warehouse/</link>
+    <description>Recent content in data-warehouse on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/data-warehouse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Warehouse</title>
+      <link>https://abiydv.github.io/notes/data-warehouse/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/data-warehouse/</guid>
+      <description>Introduction Typically, read only data for business intelligence queries. Companies have multiple different OLTP databases. Data is Extracted from these, Transformed, and Loaded into a data warehouse (OLAP). Why not use OLTP directly for analytics queries? Access controls on business critical data Analytics queries often need aggregation, leads to performance issues when reading large amounts of data. Suitable for column oriented storage. Each record has hundreds of columns, but most queries only read 3 or 4 columns at most.</description>
+    </item>
+    
+    <item>
+      <title>AWS Redshift</title>
+      <link>https://abiydv.github.io/notes/aws/redshift/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/redshift/</guid>
+      <description>Scope AZ scope
+Features Data warehouse for VERY LARGE amounts of data MPP (Massively parallel processing) sql analytics on exabytes of data for business insights - complex BI workloads provisioned and serverless managed storage - scale storage and compute needs independently Replication to S3 3 9s SLA redshift spectrum to query data lake in S3 data exchange to share/use data in standard formats easily with 3rd parties manual scaling options increase query concurrency = Concurrency Scaling - no downtime increase query throughput, add nodes = Elastic resize - 4 to 8 mins Cloud offering based on ParAccel&amp;rsquo;s solution Redshift Spectrum Query data in S3</description>
+    </item>
+    
+  </channel>
+</rss>
