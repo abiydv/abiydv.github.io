@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>storage on @abiydv</title>
+    <link>https://abiydv.github.io/topics/storage/</link>
+    <description>Recent content in storage on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/storage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Elastic Block Storage (EBS)</title>
+      <link>https://abiydv.github.io/notes/aws/ebs/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/ebs/</guid>
+      <description>Scope AZ scope - create in 1 AZ
+5 9s SLA
+Manage snapshots using Amazon Data Lifecycle Manager, which uses AWS Systems Manager internally. Supports custom or default policies.
+Default encryption can be enable under Account Attributes &amp;gt; EC2 settings &amp;gt; EBS encryption.</description>
+    </item>
+    
+    <item>
+      <title>AWS Elastic File Storage (EFS)</title>
+      <link>https://abiydv.github.io/notes/aws/efs/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/efs/</guid>
+      <description>Scope AZ scope - multi-AZ (provide a list of subnets (AZs) to create)
+Replication across AZ
+Types Regional One zone Features 4 9s SLA
+Only for Linux
+Supports NFS v4.1 - higher performance Supports Portable Operating System Interface (POSIX) permissions
+Access Control POSIX IAM Network controls like security groups, access control lists etc. Throughput Modes General Purpose Elastic </description>
+    </item>
+    
+    <item>
+      <title>AWS File Storage (FSx)</title>
+      <link>https://abiydv.github.io/notes/aws/fsx/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/fsx/</guid>
+      <description>Scope AZ scope
+Features 4 9s SLA
+Connect to S3 using &amp;ldquo;Data Repository&amp;rdquo;
+Auto import, auto export to keep data in FSx in sync with data in S3
+Lazy loads the files as they are accessed so there could be latency when the file is first accessed
+FSx, and S3 bucket should be in same region to setup auto-import
+POSIX permissions are maintained when moving data between S3 and FSx</description>
+    </item>
+    
+    <item>
+      <title>AWS Simple Storage Service (S3)</title>
+      <link>https://abiydv.github.io/notes/aws/s3/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/s3/</guid>
+      <description>Object storage offering 99.999999999% (11 nines) data durability.
+Internals Based on Amazon Dynamo (not the same as DynamoDB) - technology developed internally at amazon for a incrementally scalable, highly available key-value storage system.
+This article by DR. Werner Vogels, is an interesting read on how S3 came to be!
+Scope Regional, although AWS does call it global at places.
+Can you create a bucket without specifying a region?
+Consistency read-after-write consistency for PUT, and DELETE requests Strongly consistent for reads, always returns the most recent data.</description>
+    </item>
+    
+    <item>
+      <title>AWS Storage Gateway</title>
+      <link>https://abiydv.github.io/notes/aws/storage-gateway/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/storage-gateway/</guid>
+      <description>Features Think of it as a device which exposes the S3 storage as iSCSI, SMB or NFS mounts to on-prem workloads.
+Launch it as a VM in your on-prem data center, or install the [[#Hardware Appliance]]. Reduces the need to re-engineer these workloads to work with S3. Helps with replicating on-prem data to S3 for backups or archival needs. On-prem workloads get access to low latency access to S3 data Data lake access for pre and post processing tasks.</description>
+    </item>
+    
+  </channel>
+</rss>

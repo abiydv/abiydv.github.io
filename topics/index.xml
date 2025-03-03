@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Topics on @abiydv</title>
+    <link>https://abiydv.github.io/topics/</link>
+    <description>Recent content in Topics on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://abiydv.github.io/topics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>data-integration</title>
+      <link>https://abiydv.github.io/topics/data-integration/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/data-integration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data-warehouse</title>
+      <link>https://abiydv.github.io/topics/data-warehouse/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/data-warehouse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network</title>
+      <link>https://abiydv.github.io/topics/network/</link>
+      <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>active-directory</title>
+      <link>https://abiydv.github.io/topics/active-directory/</link>
+      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/active-directory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>identity</title>
+      <link>https://abiydv.github.io/topics/identity/</link>
+      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/identity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>microsoft</title>
+      <link>https://abiydv.github.io/topics/microsoft/</link>
+      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/microsoft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tools</title>
+      <link>https://abiydv.github.io/topics/tools/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aws</title>
+      <link>https://abiydv.github.io/topics/aws/</link>
+      <pubDate>Tue, 04 Jun 2024 12:15:01 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://abiydv.github.io/topics/security/</link>
+      <pubDate>Tue, 04 Jun 2024 12:15:01 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cli</title>
+      <link>https://abiydv.github.io/topics/cli/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/cli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>containers</title>
+      <link>https://abiydv.github.io/topics/containers/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/containers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>crypography</title>
+      <link>https://abiydv.github.io/topics/crypography/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/crypography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>curl</title>
+      <link>https://abiydv.github.io/topics/curl/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/curl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://abiydv.github.io/topics/docker/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>encryption</title>
+      <link>https://abiydv.github.io/topics/encryption/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/encryption/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>https://abiydv.github.io/topics/go/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google</title>
+      <link>https://abiydv.github.io/topics/google/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iac</title>
+      <link>https://abiydv.github.io/topics/iac/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/iac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>infra</title>
+      <link>https://abiydv.github.io/topics/infra/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/infra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jq</title>
+      <link>https://abiydv.github.io/topics/jq/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/jq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>js</title>
+      <link>https://abiydv.github.io/topics/js/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>language</title>
+      <link>https://abiydv.github.io/topics/language/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://abiydv.github.io/topics/linux/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>os</title>
+      <link>https://abiydv.github.io/topics/os/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/os/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>osi</title>
+      <link>https://abiydv.github.io/topics/osi/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/osi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>secrets</title>
+      <link>https://abiydv.github.io/topics/secrets/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/secrets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>https://abiydv.github.io/topics/windows/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>k8s</title>
+      <link>https://abiydv.github.io/topics/k8s/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/k8s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>helm</title>
+      <link>https://abiydv.github.io/topics/helm/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/helm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>analytics</title>
+      <link>https://abiydv.github.io/topics/analytics/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>architecture</title>
+      <link>https://abiydv.github.io/topics/architecture/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>audit</title>
+      <link>https://abiydv.github.io/topics/audit/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/audit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aws-oss</title>
+      <link>https://abiydv.github.io/topics/aws-oss/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/aws-oss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cache</title>
+      <link>https://abiydv.github.io/topics/cache/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/cache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cicd</title>
+      <link>https://abiydv.github.io/topics/cicd/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/cicd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>compute</title>
+      <link>https://abiydv.github.io/topics/compute/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/compute/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>content-delivery</title>
+      <link>https://abiydv.github.io/topics/content-delivery/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/content-delivery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>database</title>
+      <link>https://abiydv.github.io/topics/database/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devops</title>
+      <link>https://abiydv.github.io/topics/devops/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>disaster-recovery</title>
+      <link>https://abiydv.github.io/topics/disaster-recovery/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/disaster-recovery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dns</title>
+      <link>https://abiydv.github.io/topics/dns/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/dns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>events</title>
+      <link>https://abiydv.github.io/topics/events/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>finops</title>
+      <link>https://abiydv.github.io/topics/finops/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/finops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>governance</title>
+      <link>https://abiydv.github.io/topics/governance/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/governance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hybrid-cloud</title>
+      <link>https://abiydv.github.io/topics/hybrid-cloud/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/hybrid-cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>integrations</title>
+      <link>https://abiydv.github.io/topics/integrations/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/integrations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iot</title>
+      <link>https://abiydv.github.io/topics/iot/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>management</title>
+      <link>https://abiydv.github.io/topics/management/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>messaging</title>
+      <link>https://abiydv.github.io/topics/messaging/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/messaging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>migration</title>
+      <link>https://abiydv.github.io/topics/migration/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/migration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>serverless</title>
+      <link>https://abiydv.github.io/topics/serverless/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/serverless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>storage</title>
+      <link>https://abiydv.github.io/topics/storage/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>alerting</title>
+      <link>https://abiydv.github.io/topics/alerting/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/alerting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>monitoring</title>
+      <link>https://abiydv.github.io/topics/monitoring/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/monitoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ec2</title>
+      <link>https://abiydv.github.io/topics/ec2/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/ec2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>etl</title>
+      <link>https://abiydv.github.io/topics/etl/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/etl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>on-prem</title>
+      <link>https://abiydv.github.io/topics/on-prem/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/on-prem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>streaming</title>
+      <link>https://abiydv.github.io/topics/streaming/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/streaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stage/archived</title>
+      <link>https://abiydv.github.io/topics/stage-archived/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/stage-archived/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stage/graduated</title>
+      <link>https://abiydv.github.io/topics/stage-graduated/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/stage-graduated/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stage/incubating</title>
+      <link>https://abiydv.github.io/topics/stage-incubating/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/stage-incubating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stage/sandbox</title>
+      <link>https://abiydv.github.io/topics/stage-sandbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/topics/stage-sandbox/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

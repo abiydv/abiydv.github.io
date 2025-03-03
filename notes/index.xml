@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Notes on @abiydv</title>
+    <link>https://abiydv.github.io/notes/</link>
+    <description>Recent content in Notes on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://abiydv.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Observability</title>
+      <link>https://abiydv.github.io/notes/observability/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/observability/</guid>
+      <description>Observability, what, why and how?</description>
+    </item>
+    
+    <item>
+      <title>Data Warehouse</title>
+      <link>https://abiydv.github.io/notes/data-warehouse/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/data-warehouse/</guid>
+      <description>Introduction Typically, read only data for business intelligence queries. Companies have multiple different OLTP databases. Data is Extracted from these, Transformed, and Loaded into a data warehouse (OLAP). Why not use OLTP directly for analytics queries? Access controls on business critical data Analytics queries often need aggregation, leads to performance issues when reading large amounts of data. Suitable for column oriented storage. Each record has hundreds of columns, but most queries only read 3 or 4 columns at most.</description>
+    </item>
+    
+    <item>
+      <title>Service Mesh</title>
+      <link>https://abiydv.github.io/notes/service-mesh/</link>
+      <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/service-mesh/</guid>
+      <description>What is a service mesh, and where to use one?</description>
+    </item>
+    
+    <item>
+      <title>Active Directory</title>
+      <link>https://abiydv.github.io/notes/active-directory/</link>
+      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/active-directory/</guid>
+      <description>Questions What is an Active Directory? It is sort of a database, and holds information about entities and their properties.
+Why use an AD? Centralized identity management Who provides AD? Who can use AD? What is Posix? What is LDAP and DNS What is kerberos </description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://abiydv.github.io/notes/git/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/git/</guid>
+      <description>Distributed version control system</description>
+    </item>
+    
+    <item>
+      <title>Radar</title>
+      <link>https://abiydv.github.io/notes/radar/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/radar/</guid>
+      <description>Technology radar</description>
+    </item>
+    
+    <item>
+      <title>Storage</title>
+      <link>https://abiydv.github.io/notes/storage/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/storage/</guid>
+      <description>A new blog post</description>
+    </item>
+    
+    <item>
+      <title>Containers</title>
+      <link>https://abiydv.github.io/notes/containers/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/containers/</guid>
+      <description>Introduction traditional runtime env is physical/virutal host
+self contained, no dependency problems
+portable, platform independent
+OCI Open containers initiative ensures compatibility between containers created in different container engine env
+Architecture build on top of linux kernel features
+namespaces provide strict isolation at kernel level
+cgroups provide resource allocation to ensure dedicated resources to containers
+selinux helps enforce security, can also secure access to containers from the kernel
+Container Images Built in multiple layers of filesystem</description>
+    </item>
+    
+    <item>
+      <title>Cryptograpghy</title>
+      <link>https://abiydv.github.io/notes/cryptography/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/cryptography/</guid>
+      <description>Introduction Ciphers Algorithms, workflows Symmetric Asymmetric References As an outside-the-box approach, some organizations choose to encrypt sensitive data via code, processing the data while it is in the web servers and before transmitting it to the next tier. Access to the decryption keys is granted to specific application servers that handle decryption requests. This scheme can be extended further, to the user side, by encrypting the sensitive data field using a public key in the client-side code before transmitting it to the web server.</description>
+    </item>
+    
+    <item>
+      <title>Curl</title>
+      <link>https://abiydv.github.io/notes/curl/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/curl/</guid>
+      <description>Curl is an invaluable tool for anyone who needs to debug webapps fequently. Given it&amp;rsquo;s vast amount of options, it is easy to miss some of it&amp;rsquo;s simplest yet powerful uses.
+curl cheatsheet</description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://abiydv.github.io/notes/docker/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/docker/</guid>
+      <description>Introduction Dockerfile FROM =&amp;gt; a base image to use while building image ADD =&amp;gt; copy from local to container RUN =&amp;gt; execute commands to generate the image, this does not run when container starts CMD [&amp;#34;/usr/bin/nmap&amp;#34;, &amp;#34;-s&amp;#34;, &amp;#34;172.17.0.0/24&amp;#34;] =&amp;gt; default command to run at container startup, if not specified, container starts and stops immediately Docker cli docker build . -t myawesomeimage:v1 docker run myawesomeimage:v1 pull image myawesomeimage:v1, and run container docker run -d nginx run a container in background docker run -it ubuntu:latest /bin/bash open an interactive shell within the container ctrl-p, ctrl-q does not kill the container started with it flag docker inspect container_name json output of all properties of the container docker inspect &amp;lt;container id&amp;gt; --format=&#39;{{.</description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>https://abiydv.github.io/notes/golang/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/golang/</guid>
+      <description>Intro Introduced at Google, statically typed compiled language. Fast, and platform independent
+Debugging A good example is available in the documentation of terraform aws provider here
+Delve A third party golang debugger
+Delve on GitHub Golang Debugging With Delve (Step-by-Step) Using the Go Delve Debugger from the command line Stop debugging Go with Println and use Delve instead </description>
+    </item>
+    
+    <item>
+      <title>Mermaid Diagrams</title>
+      <link>https://abiydv.github.io/notes/mermaid-diagrams/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/mermaid-diagrams/</guid>
+      <description>Diagrams as code!
+Live test - https://mermaid.live
+Documentation - https://mermaid.js.org/intro/getting-started.html
+Examples Flowchart (Top to Bottom) --- config: --- flowchart TD A[Christmas] --Get money--&gt; B(Go shopping) B --&gt; C{Let me think} C --&gt;|One| D[Laptop] C --&gt;|Two| E[iPhone] C --&gt;|Three| F[fa:fa-car Car] Code
+--- config: --- flowchart TD A[Christmas] --Get money--&amp;gt; B(Go shopping) B --&amp;gt; C{Let me think} C --&amp;gt;|One| D[Laptop] C --&amp;gt;|Two| E[iPhone] C --&amp;gt;|Three| F[fa:fa-car Car] Flowchart (Left to Right) --- config: --- flowchart LR A[Christmas] --Get money--&gt; B(Go shopping) B --&gt; C{Let me think} C --&gt;|One| D[Laptop] C --&gt;|Two| E[iPhone] C --&gt;|Three| F[fa:fa-car Car] Code</description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>https://abiydv.github.io/notes/network/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/network/</guid>
+      <description>Layers Layer Name Function Devices OSI Layer 4 Application HTTP, FTP, SMB, SMTP, DHCP etc. AWS ALB L5-7 3 Transport packets, TCP, UDP Routers, nlb L4 2 Internet IPv4, IPv6, ICMP, IPSEC Switches L3 1 Link Physical medium Cables L2 OSI Open Systems Interconnection Model Why? Useful for defining standards so computers from different manufacturers could &amp;ldquo;talk&amp;rdquo; to each other.
+Layer Name Function Devices 7 Application HTTP, FTP, SMB, SMTP, DHCP etc.</description>
+    </item>
+    
+    <item>
+      <title>Operating Systems</title>
+      <link>https://abiydv.github.io/notes/operating-systems/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/operating-systems/</guid>
+      <description>Linux What is Proc? File system which shows
+$ cd /prod $ ls 1 acpi cmdline diskstats fb ioports keys loadavg modules partitions slabinfo sysrq-trigger uptime zoneinfo 29 bootconfig consoles dma filesystems irq kmsg locks mounts pressure softirqs sysvipc version 30 buddyinfo cpuinfo driver fs kallsyms kpagecgroup mdstat mtrr schedstat stat thread-self version_signature 31 bus crypto dynamic_debug interrupts kcore kpagecount meminfo net scsi swaps timer_list vmallocinfo 47 cgroups devices execdomains iomem key-users kpageflags misc pagetypeinfo self sys tty vmstat $ $ cat 30/cmdline # 30 is a pid of a process nginx: worker process $ Windows </description>
+    </item>
+    
+    <item>
+      <title>RFC</title>
+      <link>https://abiydv.github.io/notes/rfc/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/rfc/</guid>
+      <description>What is RFC? Request For Comments 🙂
+The RFC Series (ISSN 2070-1721) contains technical and organizational documents about the Internet, including the specifications and policy documents produced by five streams: the Internet Engineering Task Force (IETF), the Internet Research Task Force (IRTF), the Internet Architecture Board (IAB), Independent Submissions, and Editorial.
+More details - https://www.ietf.org/rfc/rfc2555.txt
+First ever RFC document - https://www.ietf.org/rfc/rfc1.txt
+1918 Defines private IP address ranges. 10/8 172.16/12 192.168/16 https://www.</description>
+    </item>
+    
+    <item>
+      <title>Terraform</title>
+      <link>https://abiydv.github.io/notes/terraform/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/terraform/</guid>
+      <description>Command line options -target Use this to deploy the configs conditionally if terraform is unable to generate a plan due to dynamic values.
+When using the docker alias, wrap additional options in &#39;&#39; quotes
+terraform plan &amp;#39;-target=module.management_account_permissions.aws_ssoadmin_permission_set.this[&amp;#34;MgmtSsoOperator&amp;#34;]&amp;#39; Errors Message Fix/Workaround error deleting SSO Permission Set (arn:aws:sso:::permissionSet/ssoins-xxxxxxxxxxxxxxxx/ps-xxxxxxxxxxxxxxxx): ConflictException: Could not delete because PermissionSet has ApplicationProfile associated with it. Delete permission set from account assignment via console https://github.com/hashicorp/terraform-provider-aws/issues/26757
+docker run --rm -it -v $(pwd):/opt/app -w /opt/app --entrypoint /bin/sh public.</description>
+    </item>
+    
+    <item>
+      <title>K8s Scheduling</title>
+      <link>https://abiydv.github.io/notes/k8s-scheduling/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/k8s-scheduling/</guid>
+      <description>Which pod goes where?
+How does it help? Opportunities for cost saving by utilizing better scheduling. snorkel ai case-study Restrict workloads to specific nodes. Ex - run gpu workloads on gpu nodes, or don&amp;rsquo;t run cpu-only workloads on gpu nodes. Some users want to put multiple pods that communicate with one another in the same zone to avoid inter-zone traffic charges [[aws-well-architected#AZ Affinity]]
+Anti-affinity is useful to spread pods across failure domains/topology (AZ or Region)</description>
+    </item>
+    
+    <item>
+      <title>K8s Helm Charts</title>
+      <link>https://abiydv.github.io/notes/k8s-helm/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/k8s-helm/</guid>
+      <description>Package manager for all the manifests that need to be deployed to a cluster
+Components
+chart.yaml - metadata about the chart values.yaml - values for variables exposed by the chart author templates dir - yaml manifest that define the rsources/objects to be deployed, variables are replaces with values as specified in values.yaml Search charts called database in default repository helm seach hub database
+Add a custom repository helm add repo myrep https://myrepo.</description>
+    </item>
+    
+    <item>
+      <title>K8s Kubernetes</title>
+      <link>https://abiydv.github.io/notes/k8s-main/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/k8s-main/</guid>
+      <description>Architecture graph LR; c1(Cluster) --&gt; n1(node1) --&gt; p11[pod 1] n1 --&gt; p12[pod 2] c1 --&gt; n2(node2) --&gt; p21[pod 1] API docs - https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.24/
+Insert diagram about control nodes + worker nodes + api servers etc.
+#refine https://kubernetes.io/docs/concepts/architecture/
+Components Metric Server Use HostNetwork
+Helps monitor pods Can run kubectl top pod to check resource usage for pods kubectl top nodes
+CNCF Project status graph LR; a(Sandbox
+New) --&gt; b(Incubating
+More wide-spread adoption, active development) --&gt; c[Graduated</description>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>https://abiydv.github.io/notes/devops/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/devops/</guid>
+      <description>Deployments Methodologies Blue/Green Canary Like a canary in a coal mine, this is used to assess if there is a danger deploying the latest changes. Initial deployment to a limited set of resources, followed by tests to ensure there are no issues. If successful, deployment can continue to all other resources.</description>
+    </item>
+    
+  </channel>
+</rss>

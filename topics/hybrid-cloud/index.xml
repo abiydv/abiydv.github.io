@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>hybrid-cloud on @abiydv</title>
+    <link>https://abiydv.github.io/topics/hybrid-cloud/</link>
+    <description>Recent content in hybrid-cloud on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/hybrid-cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Local Zones</title>
+      <link>https://abiydv.github.io/notes/aws/local-zones/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/local-zones/</guid>
+      <description>What is local zones? AWS Local Zones are a new type of AWS infrastructure designed to run workloads that require single-digit millisecond latency, like video rendering and graphics intensive, virtual desktop applications. Local Zones allow customers to gain all the benefits of having compute and storage resources closer to end-users, without the need to own and operate their own data center infrastructure. Local Zones are available in 33 metros globally. enable the AWS Local Zones for your AWS account before you can deploy resources to them.</description>
+    </item>
+    
+    <item>
+      <title>AWS Outposts</title>
+      <link>https://abiydv.github.io/notes/aws/outposts/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/outposts/</guid>
+      <description>AWS Outposts are fully managed and configurable compute and storage racks built with AWS-designed hardware that allow customers to run compute and storage on-premises, while seamlessly connecting to AWS’s broad array of services in the cloud. Features Run AWS services on-prem
+Low latency local compute
+Data residency requirements for compliance
+Local data processing for M/L workloads
+Types Racks Servers </description>
+    </item>
+    
+    <item>
+      <title>AWS Private Link</title>
+      <link>https://abiydv.github.io/notes/aws/private-link/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/private-link/</guid>
+      <description>Keywords - SAAS, Private connectivity
+Connect to services outside your VPC using private addresses as if the external service is within your VPC.
+Uses Network load balancer to connect an interface VPC endpoint to a service.
+In service provider VPC (right) Create a VPC endpoint service (VPC &amp;gt; Endpoint services) which points to either a NLB or Gateway Load Balancer. The load balancer then forwards the traffic to the service compute.</description>
+    </item>
+    
+    <item>
+      <title>AWS Wavelength</title>
+      <link>https://abiydv.github.io/notes/aws/wavelength/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/wavelength/</guid>
+      <description>Wavelength is designed to deliver ultra-low latency applications to 5G devices by extending AWS infrastructure, services, APIs, and tools to 5G networks.
+embeds storage and compute inside telco providers 5G networks to help developers build new applications for 5G end users that require single-digit millisecond latency, like IoT devices, game streaming, autonomous vehicles, and live media production.</description>
+    </item>
+    
+    <item>
+      <title>Migration to AWS</title>
+      <link>https://abiydv.github.io/notes/aws/migration/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/migration/</guid>
+      <description>Strategies 6 R https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-migration/welcome.html
+Rehosting Lift and shift
+Homogeneous (made of same things before/after) No changes to the applications, simply move the location from on-prem to cloud.
+Tools = VM Import/Export, [[#Application Migration Service (MGN)]]
+Replatforming Lift, tinker and shift
+Homogeneous (made of same things before/after) No big changes to the applications, simply move the location from on-prem to cloud, while choosing some low hanging fruits. Like moving to a database-as-a-service offering.</description>
+    </item>
+    
+    <item>
+      <title>AWS Direct Connect</title>
+      <link>https://abiydv.github.io/notes/aws/direct-connect/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/direct-connect/</guid>
+      <description>While VPN connections are OK, for some critical workloads, VPN over internet may not be stable or available enough.
+If a customer doesn&amp;rsquo;t want to connect to AWS over the internet, they can alternatively use Direct Connect. This ensures the traffic to/from AWS flows through the customer&amp;rsquo;s network directely on to AWS backbone network without going over the internet.
+Cost effective, secure, performant private network connectivity between on-prem private network and AWS.</description>
+    </item>
+    
+  </channel>
+</rss>
