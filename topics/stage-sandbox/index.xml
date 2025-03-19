@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>stage/sandbox on @abiydv</title>
+    <link>https://abiydv.github.io/topics/stage-sandbox/</link>
+    <description>Recent content in stage/sandbox on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://abiydv.github.io/topics/stage-sandbox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Observability</title>
+      <link>https://abiydv.github.io/notes/observability/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/observability/</guid>
+      <description>Observability, what, why and how?</description>
+    </item>
+    
+    <item>
+      <title>Data Warehouse</title>
+      <link>https://abiydv.github.io/notes/data-warehouse/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/data-warehouse/</guid>
+      <description>Introduction Typically, read only data for business intelligence queries. Companies have multiple different OLTP databases. Data is Extracted from these, Transformed, and Loaded into a data warehouse (OLAP). Why not use OLTP directly for analytics queries? Access controls on business critical data Analytics queries often need aggregation, leads to performance issues when reading large amounts of data. Suitable for column oriented storage. Each record has hundreds of columns, but most queries only read 3 or 4 columns at most.</description>
+    </item>
+    
+    <item>
+      <title>Service Mesh</title>
+      <link>https://abiydv.github.io/notes/service-mesh/</link>
+      <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/service-mesh/</guid>
+      <description>What is a service mesh, and where to use one?</description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://abiydv.github.io/notes/git/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/git/</guid>
+      <description>Distributed version control system</description>
+    </item>
+    
+    <item>
+      <title>Radar</title>
+      <link>https://abiydv.github.io/notes/radar/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/radar/</guid>
+      <description>Technology radar</description>
+    </item>
+    
+    <item>
+      <title>Storage</title>
+      <link>https://abiydv.github.io/notes/storage/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/storage/</guid>
+      <description>A new blog post</description>
+    </item>
+    
+    <item>
+      <title>Trusted Advisor</title>
+      <link>https://abiydv.github.io/notes/aws/trusted-advisor/</link>
+      <pubDate>Tue, 04 Jun 2024 12:15:01 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/trusted-advisor/</guid>
+      <description>Pre-requisites Full access with Business/Enterprise support plan, otherwise full access to service limit checks, and 6 security checks.
+This applies to accounts in an org as well. If the management account has Enterprise access, but the member account only has a Basic support plan, full checks for the member account will not be available.
+Features Checks are refreshed automatically every week, you can force a manual refresh as well for all or a specific check (api/console) Configure upto 50 reports with region/OU filters etc.</description>
+    </item>
+    
+    <item>
+      <title>Containers</title>
+      <link>https://abiydv.github.io/notes/containers/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/containers/</guid>
+      <description>Introduction traditional runtime env is physical/virutal host
+self contained, no dependency problems
+portable, platform independent
+OCI Open containers initiative ensures compatibility between containers created in different container engine env
+Architecture build on top of linux kernel features
+namespaces provide strict isolation at kernel level
+cgroups provide resource allocation to ensure dedicated resources to containers
+selinux helps enforce security, can also secure access to containers from the kernel
+Container Images Built in multiple layers of filesystem</description>
+    </item>
+    
+    <item>
+      <title>Cryptograpghy</title>
+      <link>https://abiydv.github.io/notes/cryptography/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/cryptography/</guid>
+      <description>Introduction Ciphers Algorithms, workflows Symmetric Asymmetric References As an outside-the-box approach, some organizations choose to encrypt sensitive data via code, processing the data while it is in the web servers and before transmitting it to the next tier. Access to the decryption keys is granted to specific application servers that handle decryption requests. This scheme can be extended further, to the user side, by encrypting the sensitive data field using a public key in the client-side code before transmitting it to the web server.</description>
+    </item>
+    
+    <item>
+      <title>Curl</title>
+      <link>https://abiydv.github.io/notes/curl/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/curl/</guid>
+      <description>Curl is an invaluable tool for anyone who needs to debug webapps fequently. Given it&amp;rsquo;s vast amount of options, it is easy to miss some of it&amp;rsquo;s simplest yet powerful uses.
+curl cheatsheet</description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://abiydv.github.io/notes/docker/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/docker/</guid>
+      <description>Introduction Dockerfile FROM =&amp;gt; a base image to use while building image ADD =&amp;gt; copy from local to container RUN =&amp;gt; execute commands to generate the image, this does not run when container starts CMD [&amp;#34;/usr/bin/nmap&amp;#34;, &amp;#34;-s&amp;#34;, &amp;#34;172.17.0.0/24&amp;#34;] =&amp;gt; default command to run at container startup, if not specified, container starts and stops immediately Docker cli docker build . -t myawesomeimage:v1 docker run myawesomeimage:v1 pull image myawesomeimage:v1, and run container docker run -d nginx run a container in background docker run -it ubuntu:latest /bin/bash open an interactive shell within the container ctrl-p, ctrl-q does not kill the container started with it flag docker inspect container_name json output of all properties of the container docker inspect &amp;lt;container id&amp;gt; --format=&#39;{{.</description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>https://abiydv.github.io/notes/golang/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/golang/</guid>
+      <description>Intro Introduced at Google, statically typed compiled language. Fast, and platform independent
+Debugging A good example is available in the documentation of terraform aws provider here
+Delve A third party golang debugger
+Delve on GitHub Golang Debugging With Delve (Step-by-Step) Using the Go Delve Debugger from the command line Stop debugging Go with Println and use Delve instead </description>
+    </item>
+    
+    <item>
+      <title>Mermaid Diagrams</title>
+      <link>https://abiydv.github.io/notes/mermaid-diagrams/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/mermaid-diagrams/</guid>
+      <description>Diagrams as code!
+Live test - https://mermaid.live
+Documentation - https://mermaid.js.org/intro/getting-started.html
+Examples Flowchart (Top to Bottom) --- config: --- flowchart TD A[Christmas] --Get money--&gt; B(Go shopping) B --&gt; C{Let me think} C --&gt;|One| D[Laptop] C --&gt;|Two| E[iPhone] C --&gt;|Three| F[fa:fa-car Car] Code
+--- config: --- flowchart TD A[Christmas] --Get money--&amp;gt; B(Go shopping) B --&amp;gt; C{Let me think} C --&amp;gt;|One| D[Laptop] C --&amp;gt;|Two| E[iPhone] C --&amp;gt;|Three| F[fa:fa-car Car] Flowchart (Left to Right) --- config: --- flowchart LR A[Christmas] --Get money--&gt; B(Go shopping) B --&gt; C{Let me think} C --&gt;|One| D[Laptop] C --&gt;|Two| E[iPhone] C --&gt;|Three| F[fa:fa-car Car] Code</description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>https://abiydv.github.io/notes/network/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/network/</guid>
+      <description>Layers Layer Name Function Devices OSI Layer 4 Application HTTP, FTP, SMB, SMTP, DHCP etc. AWS ALB L5-7 3 Transport packets, TCP, UDP Routers, nlb L4 2 Internet IPv4, IPv6, ICMP, IPSEC Switches L3 1 Link Physical medium Cables L2 OSI Open Systems Interconnection Model Why? Useful for defining standards so computers from different manufacturers could &amp;ldquo;talk&amp;rdquo; to each other.
+Layer Name Function Devices 7 Application HTTP, FTP, SMB, SMTP, DHCP etc.</description>
+    </item>
+    
+    <item>
+      <title>Operating Systems</title>
+      <link>https://abiydv.github.io/notes/operating-systems/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/operating-systems/</guid>
+      <description>Linux What is Proc? File system which shows
+$ cd /prod $ ls 1 acpi cmdline diskstats fb ioports keys loadavg modules partitions slabinfo sysrq-trigger uptime zoneinfo 29 bootconfig consoles dma filesystems irq kmsg locks mounts pressure softirqs sysvipc version 30 buddyinfo cpuinfo driver fs kallsyms kpagecgroup mdstat mtrr schedstat stat thread-self version_signature 31 bus crypto dynamic_debug interrupts kcore kpagecount meminfo net scsi swaps timer_list vmallocinfo 47 cgroups devices execdomains iomem key-users kpageflags misc pagetypeinfo self sys tty vmstat $ $ cat 30/cmdline # 30 is a pid of a process nginx: worker process $ Windows </description>
+    </item>
+    
+    <item>
+      <title>RFC</title>
+      <link>https://abiydv.github.io/notes/rfc/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/rfc/</guid>
+      <description>What is RFC? Request For Comments 🙂
+The RFC Series (ISSN 2070-1721) contains technical and organizational documents about the Internet, including the specifications and policy documents produced by five streams: the Internet Engineering Task Force (IETF), the Internet Research Task Force (IRTF), the Internet Architecture Board (IAB), Independent Submissions, and Editorial.
+More details - https://www.ietf.org/rfc/rfc2555.txt
+First ever RFC document - https://www.ietf.org/rfc/rfc1.txt
+1918 Defines private IP address ranges. 10/8 172.16/12 192.168/16 https://www.</description>
+    </item>
+    
+    <item>
+      <title>Terraform</title>
+      <link>https://abiydv.github.io/notes/terraform/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/terraform/</guid>
+      <description>Command line options -target Use this to deploy the configs conditionally if terraform is unable to generate a plan due to dynamic values.
+When using the docker alias, wrap additional options in &#39;&#39; quotes
+terraform plan &amp;#39;-target=module.management_account_permissions.aws_ssoadmin_permission_set.this[&amp;#34;MgmtSsoOperator&amp;#34;]&amp;#39; Errors Message Fix/Workaround error deleting SSO Permission Set (arn:aws:sso:::permissionSet/ssoins-xxxxxxxxxxxxxxxx/ps-xxxxxxxxxxxxxxxx): ConflictException: Could not delete because PermissionSet has ApplicationProfile associated with it. Delete permission set from account assignment via console https://github.com/hashicorp/terraform-provider-aws/issues/26757
+docker run --rm -it -v $(pwd):/opt/app -w /opt/app --entrypoint /bin/sh public.</description>
+    </item>
+    
+    <item>
+      <title>K8s Helm Charts</title>
+      <link>https://abiydv.github.io/notes/k8s-helm/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/k8s-helm/</guid>
+      <description>Package manager for all the manifests that need to be deployed to a cluster
+Components
+chart.yaml - metadata about the chart values.yaml - values for variables exposed by the chart author templates dir - yaml manifest that define the rsources/objects to be deployed, variables are replaces with values as specified in values.yaml Search charts called database in default repository helm seach hub database
+Add a custom repository helm add repo myrep https://myrepo.</description>
+    </item>
+    
+    <item>
+      <title>Amazon MQ</title>
+      <link>https://abiydv.github.io/notes/aws/mq/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/mq/</guid>
+      <description>Amazon MQ is a managed message broker service for Apache ActiveMQ and RabbitMQ
+Amazon MQ supports industry standard APIs such as JMS and NMS, and protocols for messaging, including AMQP, STOMP, MQTT, and WebSocket.
+two types of broker storage – durability optimized (EFS), and throughput optimized (EBS).
+For high volume applications, throughput optimized storage is better, can provide the required throughput and optimize costs by reducing the number of brokers required.</description>
+    </item>
+    
+    <item>
+      <title>AWS Activate</title>
+      <link>https://abiydv.github.io/notes/aws/activate/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/activate/</guid>
+      <description>As an AWS Activate member, you can apply for AWS credits, accelerator programs offered by AWS, and browse the Showcase to explore the many startups that have built and launched a product on AWS as way to find inspiration, connect and collaborate with the AWS startup ecosystem. You can also explore the learning and training resources tailored to your startup.
+Showcase allows AWS Activate members to list and amplify their business to potential startup investors, customers, and partners.</description>
+    </item>
+    
+    <item>
+      <title>AWS Athena</title>
+      <link>https://abiydv.github.io/notes/aws/athena/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/athena/</guid>
+      <description>Athena Region scope 3x Replication Performance? DocumentDB
+Queries Parameterized Queries Add a prepared statement aws athena create-prepared-statement --statement-name SplitCostItem --query-statement &amp;#34;SELECT line_item_usage_start_date, line_item_usage_end_date, line_item_resource_id, line_item_blended_cost, split_line_item_net_split_cost, split_line_item_split_usage, split_line_item_net_unused_cost, line_item_line_item_type, line_item_usage_type, split_line_item_parent_resource_id FROM &amp;#34;athenacurcfn&amp;#34;.&amp;#34;amazon_athena&amp;#34; where line_item_line_item_type=&amp;#39;Usage&amp;#39; and line_item_resource_id=&amp;#39;?&amp;#39; and year=&amp;#39;?&amp;#39; and month=&amp;#39;?&amp;#39;&amp;#34; --work-group athena-engine-v2 Start query execution aws athena start-query-execution --query-string &amp;#34;Execute SplitCostItem&amp;#34; --query-execution-context &amp;#34;Database&amp;#34;=&amp;#34;default&amp;#34; --result-configuration &amp;#34;OutputLocation&amp;#34;=&amp;#34;s3://query-result-bucket/&amp;#34; --execution-parameters &amp;#34;resource-id&amp;#34; &amp;#34;2024&amp;#34; &amp;#34;1&amp;#34; </description>
+    </item>
+    
+    <item>
+      <title>AWS Aurora</title>
+      <link>https://abiydv.github.io/notes/aws/aurora/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/aurora/</guid>
+      <description>Relational Database, MySQL, PostgreSQL
+Scope = AZ based, needs 3 subnets during creation.
+Global Database = Global, available across regions
+Auto-scaling upto 128 TB/db instance. Fault tolerant, Cross-AZ replication Self healing = divides data into 10GB chunk and each chuck is replicated 6 times, including across 3 AZ, can handle loss of 2 copies of data w/o affecting write ability, and 3 copies without affecting read ability. Continuous backups to S3 upto 15 low-latency read replicas</description>
+    </item>
+    
+    <item>
+      <title>AWS Backup</title>
+      <link>https://abiydv.github.io/notes/aws/aws-backup/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/aws-backup/</guid>
+      <description>Questions What is lifecycle tiering? Transition backups from warm storage to cold storage. Only available for EFS, DynamoDB, Timestream database, VMWare VMs
+Backup plan defines when and how to backup resources
+Backup vault Encrypted storage location (per region) that stores the backups
+Audit and report compliance of data protection policies Deploy central backup policies via AWS Organizations
+cloud S3 EFS FSx EBS EC2 Windows VSS services on EC2 SAP HANA on EC2 DynamoDB RDS Aurora DB Cluster Neptune DB DocumentDB Redshift manual snapshot Timestream database Cloudformation stacks</description>
+    </item>
+    
+    <item>
+      <title>AWS Beanstalk</title>
+      <link>https://abiydv.github.io/notes/aws/beanstalk/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/beanstalk/</guid>
+      <description>Beanstalk az scope, auto-scaling in multi-az code source should be in same region</description>
+    </item>
+    
+    <item>
+      <title>AWS Business Apps</title>
+      <link>https://abiydv.github.io/notes/aws/amazon-business-apps/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/amazon-business-apps/</guid>
+      <description>Amazon Pinpoint Multi-channel communication with customers (SMS, voice, in-app etc) https://aws.amazon.com/pinpoint/
+Amazon Connect Cloud contact center - probably powers Amazon&amp;rsquo;s support function https://aws.amazon.com/connect/</description>
+    </item>
+    
+    <item>
+      <title>AWS CloudFormation</title>
+      <link>https://abiydv.github.io/notes/aws/cloudformation/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/cloudformation/</guid>
+      <description>Parameters AWS Things like AMI Id, Instance Id, Vpc Id etc. SSM AWS Doc Refer to a parameter (not secure string) saved in SSM parameter store Use parameter by name, don&amp;rsquo;t need to specify version Use cross account parameter by providing full arn. Dynamic AWS doc Refer to parameters dynamically in templates. Useful to obscure secrets. No drift detection SSM parameter store {{resolve:ssm-secure:parameter-name:version}} or {{resolve:ssm:parameter-name:version}} Can&amp;rsquo;t use secure string parameter for all resources.</description>
+    </item>
+    
+    <item>
+      <title>AWS CloudTrail</title>
+      <link>https://abiydv.github.io/notes/aws/cloudtrail/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/cloudtrail/</guid>
+      <description>Trails No IAM roles needed for cross-account delivery. #todo What principal does it show if you enable data events on the log delivery bucket?
+Lake Ingest events into an event data source, and run sql queries on this data source.
+Data can be collected from AWS (like CloudTrail events), custom application or 3rd parties (like okta system log)
+Pricing is based on data ingestion, analysis and retention. It can retain data up to a maximum of 10 years.</description>
+    </item>
+    
+    <item>
+      <title>AWS Config</title>
+      <link>https://abiydv.github.io/notes/aws/config/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/config/</guid>
+      <description>What is it? AWS Config records and saves configuration of supported resources.
+You can use these records to audit whether the resources align to best practices, or org specific patterns/rules. It can also highlight 2-way relationships between different resources. For ex - an instance is related to a vpc, a subnet, and a security group. This relation will show up in both the instance, and vpc records under relationships.
+Resource Schema https://github.</description>
+    </item>
+    
+    <item>
+      <title>AWS Cost and Billing</title>
+      <link>https://abiydv.github.io/notes/aws/billing-and-cost/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/billing-and-cost/</guid>
+      <description>Consolidated Billing Cost Allocation Tags Cost Categories Cost and Usage Report v1 v2 Compute Optimizer Trusted Advisor Cost Explorer CUR-Athena-QuickSight Alerts Example here https://github.com/abiydv/aws-cost-alerts
+Budgets Anomaly Detector </description>
+    </item>
+    
+    <item>
+      <title>AWS DocumentDB</title>
+      <link>https://abiydv.github.io/notes/aws/document-db/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/document-db/</guid>
+      <description>NoSql, MongoDB compatible
+Questions What is on-demand mode for DocumentDB </description>
+    </item>
+    
+    <item>
+      <title>AWS DynamoDB</title>
+      <link>https://abiydv.github.io/notes/aws/dynamodb/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/dynamodb/</guid>
+      <description>Internals Depends on single leader replication, do not confuse with Amazon Dynamo which uses leaderless replication and is primarily used in S3.
+Scope standard tables - regional global tables - global (cross-region replication) Table classes Standard Standard-IA infrequently accessed data. Similar to S3 storage classes? consider standard-IA if the storage cost &amp;gt; 50% throughput cost (read/write units) Capacity Modes on-demand provisioned throughput Cache DAX, DAX cluster - Dynamodb accelerator provisioned in a VPC.</description>
+    </item>
+    
+    <item>
+      <title>AWS Elastic Block Storage (EBS)</title>
+      <link>https://abiydv.github.io/notes/aws/ebs/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/ebs/</guid>
+      <description>Scope AZ scope - create in 1 AZ
+5 9s SLA
+Manage snapshots using Amazon Data Lifecycle Manager, which uses AWS Systems Manager internally. Supports custom or default policies.
+Default encryption can be enable under Account Attributes &amp;gt; EC2 settings &amp;gt; EBS encryption.</description>
+    </item>
+    
+    <item>
+      <title>AWS Elastic Container Service (ECS)</title>
+      <link>https://abiydv.github.io/notes/aws/ecs/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/ecs/</guid>
+      <description>Scope az-scope
+auto-scaling in multi-az
+images from anywhere, any region</description>
+    </item>
+    
+    <item>
+      <title>AWS Elastic Disaster Recovery Service (DRS)</title>
+      <link>https://abiydv.github.io/notes/aws/drs/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/drs/</guid>
+      <description>Questions How does it compare with other AWS tools like VM import/export, Server Migration Service, AWS Migration Service (MGN) Unique property others don&amp;rsquo;t have - failover orchestration.
+Elastic Disaster Recovery (DRS) The full name is Elastic Disaster Recovery. However, the short form is DRS (Disaster Recovery Service).
+What does it do? Failover from on-prem to AWS Failover from any cloud to AWS Failover from 1 AWS region to another AWS region No need to maintain a duplicate recovery site Agent based - need to install an agent on source server to replicate data to AWS.</description>
+    </item>
+    
+    <item>
+      <title>AWS Elastic File Storage (EFS)</title>
+      <link>https://abiydv.github.io/notes/aws/efs/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/efs/</guid>
+      <description>Scope AZ scope - multi-AZ (provide a list of subnets (AZs) to create)
+Replication across AZ
+Types Regional One zone Features 4 9s SLA
+Only for Linux
+Supports NFS v4.1 - higher performance Supports Portable Operating System Interface (POSIX) permissions
+Access Control POSIX IAM Network controls like security groups, access control lists etc. Throughput Modes General Purpose Elastic </description>
+    </item>
+    
+    <item>
+      <title>AWS Elastic Kubernetes Service (EKS)</title>
+      <link>https://abiydv.github.io/notes/aws/eks/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/eks/</guid>
+      <description>Workshop - https://www.eksworkshop.com/docs/introduction/
+Pricing Static cost of a cluster is $0.1 per hour, so ~$70 per month.
+In extended support (old k8s versions), each cluster costs $0.6 per hours (6x), so ~$420 per month.
+Update kubeconfig to access EKS aws eks update-kubeconfig --name my-cluster --region us-east-1 If cluster admin role is different from current role used to aut
+aws eks update-kubeconfig --name my-cluster --role-arn arn:aws:iam::123456789000:role/eksrole --region us-east-1 More here - https://docs.</description>
+    </item>
+    
+    <item>
+      <title>AWS Elastic Map Reduce (EMR)</title>
+      <link>https://abiydv.github.io/notes/aws/emr/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/emr/</guid>
+      <description>EMR Fleet mix of spot and on-demand instances Provide a list of up to 5 instance types with corresponding weighted capacities and spot bid prices (including spot blocks)! EMR will automatically provision On-Demand and Spot capacity across these instance types when creating your cluster. This can make it easier and more cost effective to quickly obtain and maintain your desired capacity for your clusters. EMR States EMR Alarms, Metrics https://docs.aws.amazon.com/emr/latest/ManagementGuide/UsingEMR_ViewingMetrics.html</description>
+    </item>
+    
+    <item>
+      <title>AWS ElastiCache</title>
+      <link>https://abiydv.github.io/notes/aws/elasticache/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/elasticache/</guid>
+      <description>open-source project, deployed on, and managed by AWS
+In-memory key-value NoSql database. An in-memory cache can help improve application performance and user experience.
+Scope AZ scope
+Supports Multi-AZ (read replicas)
+Supports Auto-scaling (shards)
+Features Async Replication
+Enable in-transit encryption TransitEncryptionEnabled:true
+Enable at-rest enryption AtRestEncryptionEnabled:true
+It can only be enabled at the time of creation, can have some performance impact due to encryption/decryption
+Redis Redis is the most popular option for caching relational database queries.</description>
+    </item>
+    
+    <item>
+      <title>AWS File Storage (FSx)</title>
+      <link>https://abiydv.github.io/notes/aws/fsx/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/fsx/</guid>
+      <description>Scope AZ scope
+Features 4 9s SLA
+Connect to S3 using &amp;ldquo;Data Repository&amp;rdquo;
+Auto import, auto export to keep data in FSx in sync with data in S3
+Lazy loads the files as they are accessed so there could be latency when the file is first accessed
+FSx, and S3 bucket should be in same region to setup auto-import
+POSIX permissions are maintained when moving data between S3 and FSx</description>
+    </item>
+    
+    <item>
+      <title>AWS Firewall Manager</title>
+      <link>https://abiydv.github.io/notes/aws/firewall-manager/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/firewall-manager/</guid>
+      <description>AWS Firewall Manager simplifies your AWS WAF administration and helps you enforce WAF rules on the resources across all the accounts in an AWS Organization by using AWS Config in the background. AWS Firewall Manager also enables you to selectively apply the rules to specific resources.
+AWS WAF is a web application firewall that lets you monitor the HTTP and HTTPS requests that are forwarded to CloudFront or Application Load Balancer.</description>
+    </item>
+    
+    <item>
+      <title>AWS Global Accelerator</title>
+      <link>https://abiydv.github.io/notes/aws/global-accelerator/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/global-accelerator/</guid>
+      <description>Scope Global service
+Features Provides anycast static IP addresses from AWS Edge Network 2 IPv4, 2 IPv6
+Supports BYOIP
+Static IP are released only when an accelerator is deleted
+TCP termination at edge
+Control traffic % directed to a region
+S3 Multi-Region Access Points
+Types Standard routes traffic based on client location, backend health, and custom policies Endpoints - NLB, ALB, EC2, Elastic IPs across multiple regions Custom routes traffic to private IPs in a subnet Endpoints - vpc subnet.</description>
+    </item>
+    
+    <item>
+      <title>AWS Identity and Access Management (IAM)</title>
+      <link>https://abiydv.github.io/notes/aws/iam/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/iam/</guid>
+      <description>Access Analyzer https://aws.amazon.com/blogs/security/how-to-prioritize-iam-access-analyzer-findings/
+In addition to roles, it also analyzes resource policies on supported resources
+Monitors resources for external access AWS Simple Storage(S3) buckets AWS Identity and Access Management roles AWS Key Management Service Keys AWS Lambda functions and layers AWS Simple Queue Service queues AWS Secrets Manager secrets
+Identity Center SSO for Org
+Policy Conditions Useful to allow/deny actions based on certain conditions in addition to resource arn or patterns.</description>
+    </item>
+    
+    <item>
+      <title>AWS Internet Gateway</title>
+      <link>https://abiydv.github.io/notes/aws/internet-gateway/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/internet-gateway/</guid>
+      <description>If you create a transit gateway attachment using the public subnet, the instance traffic is routed to the internet gateway, but the internet gateway drops the traffic because the instances don&amp;rsquo;t have public IP addresses
+Egress Only Internet Gateway is IPv6 only.
+https://docs.aws.amazon.com/vpc/latest/tgw/transit-gateway-nat-igw.html</description>
+    </item>
+    
+    <item>
+      <title>AWS IoT</title>
+      <link>https://abiydv.github.io/notes/aws/iot/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/iot/</guid>
+      <description>Iot Core Region specific endpoints
+Device Gateway - pub/sub model
+Device Shadow - properties of connected devices, could have been called fingerprint?
+Supports MQTT
+Registry - Organize and track devices. Each device has it&amp;rsquo;s unique handle in the registry @myawesomelightbulb.
+Rules Engine - SQL like rules to filter/transform and forward incoming device metrics/data to other AWS/3rd party services
+Thing Type - Categorize similar devices with common attributes (up tp 50, 3 searchable)</description>
+    </item>
+    
+    <item>
+      <title>AWS IPAM</title>
+      <link>https://abiydv.github.io/notes/aws/ipam/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/ipam/</guid>
+      <description>Refer https://docs.aws.amazon.com/vpc/latest/ipam/what-it-is-ipam.html
+Refer https://aws.amazon.com/blogs/networking-and-content-delivery/collecting-aws-networking-information-in-large-multi-account-environments/</description>
+    </item>
+    
+    <item>
+      <title>AWS Key Management Service (KMS)</title>
+      <link>https://abiydv.github.io/notes/aws/kms/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/kms/</guid>
+      <description>Questions What is a cloudhsm in kms? Use AWS CloudHSM when you need to manage the hardware security modules (HSMs) that generate and store your encryption keys. In AWS CloudHSM, you create and manage HSMs, including creating users and setting their permissions. You also create the symmetric keys and asymmetric key pairs that the HSM stores. Features Think of KMS as an additional layer of authentication and authorization. If a client cannot access the AWS KMS, the public key from an asymmetrical key pair can be used to encrypt the data.</description>
+    </item>
+    
+    <item>
+      <title>AWS Lambda</title>
+      <link>https://abiydv.github.io/notes/aws/lambda/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/lambda/</guid>
+      <description>Scope region scope - specify multiple az
+code in the same region
+Features max runtime 15 mins
+max resource - vcpu ?, memory ?
+Can be triggered by CloudWatch alarm directly now - cross-region
+Alias - allows to test a new version without impacting live traffic which is served via an alias. If testing is successful, point the live alias to the new function version. Sort of, allows you perform [[devops#Canary deployments|canary deployments]] for Lambda.</description>
+    </item>
+    
+    <item>
+      <title>AWS Load Balancers</title>
+      <link>https://abiydv.github.io/notes/aws/load-balancers/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/load-balancers/</guid>
+      <description>AWS Application Load Balancer AWS Network Load Balancer AWS Gateway Load Balancer GWLB’s ability to use 5-tuples or 3-tuples of an IP packet to select specific appliance behind it for life of that flow combined with Transit Gateway appliance mode, provides session stickiness irrespective of source and destination AZ. 1
+A Gateway Load Balancer operates at the third layer of the Open Systems Interconnection (OSI) model, the network layer.
+It maintains stickiness of flows to a specific target appliance using 5-tuple (for TCP/UDP flows) or 3-tuple (for non-TCP/UDP flows).</description>
+    </item>
+    
+    <item>
+      <title>AWS Local Zones</title>
+      <link>https://abiydv.github.io/notes/aws/local-zones/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/local-zones/</guid>
+      <description>What is local zones? AWS Local Zones are a new type of AWS infrastructure designed to run workloads that require single-digit millisecond latency, like video rendering and graphics intensive, virtual desktop applications. Local Zones allow customers to gain all the benefits of having compute and storage resources closer to end-users, without the need to own and operate their own data center infrastructure. Local Zones are available in 33 metros globally. enable the AWS Local Zones for your AWS account before you can deploy resources to them.</description>
+    </item>
+    
+    <item>
+      <title>AWS Network Firewall</title>
+      <link>https://abiydv.github.io/notes/aws/network-firewall/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/network-firewall/</guid>
+      <description>Features Stateful Fully managed IPS (Intrusion Prevention Service) DPI (Deep Packet Inspection) References https://aws.amazon.com/blogs/networking-and-content-delivery/deployment-models-for-aws-network-firewall https://aws.amazon.com/blogs/networking-and-content-delivery/deployment-models-for-aws-network-firewall-with-vpc-routing-enhancements </description>
+    </item>
+    
+    <item>
+      <title>AWS Network Load Balancer (NLB)</title>
+      <link>https://abiydv.github.io/notes/aws/nlb/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/nlb/</guid>
+      <description>Features cross-zone disabled by default
+NLB provides a network interface in each AZ backed by a static IP. This static IP can be used to configure AZ specific DNS records.
+NLB forwards the requests to the same AZ target in which it receives the request. This is useful to maintain AZ affinity and reduce costs due to cross AZ traffic.
+NLB is a layer-4 device, works on layer-4 protocols, and is inherently sticky.</description>
+    </item>
+    
+    <item>
+      <title>AWS Organizations</title>
+      <link>https://abiydv.github.io/notes/aws/organizations/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/organizations/</guid>
+      <description>Multi-account architectures New account - does not inherit all required properties from an org. Ensure details are updated before leaving the org.
+Payment method, Tax information, Contact info, Root password etc.
+Consolidated billing cannot use cost-allocation tags in member accounts, only possible in payer account, which is the management account for an organization. aws support can not do this.
+cannot disable cost savings plan, and reservations in member accounts. only possible to limit it to a particular account from the org management/payer account.</description>
+    </item>
+    
+    <item>
+      <title>AWS Outposts</title>
+      <link>https://abiydv.github.io/notes/aws/outposts/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/outposts/</guid>
+      <description>AWS Outposts are fully managed and configurable compute and storage racks built with AWS-designed hardware that allow customers to run compute and storage on-premises, while seamlessly connecting to AWS’s broad array of services in the cloud. Features Run AWS services on-prem
+Low latency local compute
+Data residency requirements for compliance
+Local data processing for M/L workloads
+Types Racks Servers </description>
+    </item>
+    
+    <item>
+      <title>AWS Private Link</title>
+      <link>https://abiydv.github.io/notes/aws/private-link/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/private-link/</guid>
+      <description>Keywords - SAAS, Private connectivity
+Connect to services outside your VPC using private addresses as if the external service is within your VPC.
+Uses Network load balancer to connect an interface VPC endpoint to a service.
+In service provider VPC (right) Create a VPC endpoint service (VPC &amp;gt; Endpoint services) which points to either a NLB or Gateway Load Balancer. The load balancer then forwards the traffic to the service compute.</description>
+    </item>
+    
+    <item>
+      <title>AWS Redshift</title>
+      <link>https://abiydv.github.io/notes/aws/redshift/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/redshift/</guid>
+      <description>Scope AZ scope
+Features Data warehouse for VERY LARGE amounts of data MPP (Massively parallel processing) sql analytics on exabytes of data for business insights - complex BI workloads provisioned and serverless managed storage - scale storage and compute needs independently Replication to S3 3 9s SLA redshift spectrum to query data lake in S3 data exchange to share/use data in standard formats easily with 3rd parties manual scaling options increase query concurrency = Concurrency Scaling - no downtime increase query throughput, add nodes = Elastic resize - 4 to 8 mins Cloud offering based on ParAccel&amp;rsquo;s solution Redshift Spectrum Query data in S3</description>
+    </item>
+    
+    <item>
+      <title>AWS Relational Database Service (RDS)</title>
+      <link>https://abiydv.github.io/notes/aws/rds/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/rds/</guid>
+      <description>Scope az-scope - provide rds subnet group, collection of multiple az
+multi-az
+cross-region read replicas
+cross-region backup snapshots to help disaster recovery
+Engines Questions RDS MySql vs Aurora MySql? Options group? Deployment Options Which deployment option to choose? https://aws.amazon.com/blogs/database/choose-the-right-amazon-rds-deployment-option-single-az-instance-multi-az-instance-or-multi-az-database-cluster/
+Single AZ Single instance running in a single AZ. Best suited for development workloads.
+A read replica can be configured in the same or a different region. This read replica can be manually promoted if the primary instance fails.</description>
+    </item>
+    
+    <item>
+      <title>AWS Route53</title>
+      <link>https://abiydv.github.io/notes/aws/route53/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/route53/</guid>
+      <description>DNS works on port 53, hence the name route 53
+In a VPC, AWS reserves the network range +2 address for DNS server.
+What are R53 resolvers? Inbound endpoint
+For queries from on-prem systems to resolve AWS hosted domains.
+Outbound endpoint
+For queries from AWS workloads for on-prem systems.
+You can specify rule for directing queries from inbound/outbound EP.
+Limit - 10,000 queries per second per IP Address for an EP.</description>
+    </item>
+    
+    <item>
+      <title>AWS Security Services</title>
+      <link>https://abiydv.github.io/notes/aws/security-services/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/security-services/</guid>
+      <description>Security Hub Add details
+AWS Inspector automated vulnerability management service that continually scans Amazon Elastic Compute Cloud (EC2)
+AWS Lambda functions, and container images in Amazon ECR and within continuous integration and continuous delivery (CI/CD) tools, in near-real time for software vulnerabilities and unintended network exposure.
+Common Vulnerability Scoring System (CVSS) v2 and v3 scores from both National Vulnerability Database (NVD) and vendors
+manage software bill of materials (SBOM) exports for all monitored resources.</description>
+    </item>
+    
+    <item>
+      <title>AWS Simple Email Service (SES)</title>
+      <link>https://abiydv.github.io/notes/aws/ses/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/ses/</guid>
+      <description>Features Send via SMTP - does not support temporary credentials (sts), must create and use an IAM user credential.
+Send via API - use normally with temporary credentials (sts)
+When using SMTP - use STARTTLS (ports 25, 587, 2587) or TLS wrapper (ports 465, 2465)
+Save and use Handlebar templates for sending emails. If using AWS SDK, use the SendTemplatedEmail or SendBulkTemplatedEmail API actions. Data used to render the template is provided via the TemplateData field.</description>
+    </item>
+    
+    <item>
+      <title>AWS Wavelength</title>
+      <link>https://abiydv.github.io/notes/aws/wavelength/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/wavelength/</guid>
+      <description>Wavelength is designed to deliver ultra-low latency applications to 5G devices by extending AWS infrastructure, services, APIs, and tools to 5G networks.
+embeds storage and compute inside telco providers 5G networks to help developers build new applications for 5G end users that require single-digit millisecond latency, like IoT devices, game streaming, autonomous vehicles, and live media production.</description>
+    </item>
+    
+    <item>
+      <title>AWS Well Architected</title>
+      <link>https://abiydv.github.io/notes/aws/aws-well-architected/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/aws-well-architected/</guid>
+      <description>Introduction Pillars 6 pillars of AWS Well Architected framework, as of 05-Dec-2023
+S Security C Cost Optimization O Operational Excellence R Reliability P Performance Efficiency S Sustainability Patterns Static Stability https://aws.amazon.com/builders-library/static-stability-using-availability-zones/
+Be ready for impairments before they happen
+Over-provisioning is not necessarily a bad thing. It can provide some static stability in the sense that an AZ failure will not cause a full outage, the existing capacity in other AZ can continue to handle the load while the fault recovers or additional capacity is provisioned reactively to the AZ failure event.</description>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>https://abiydv.github.io/notes/devops/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/devops/</guid>
+      <description>Deployments Methodologies Blue/Green Canary Like a canary in a coal mine, this is used to assess if there is a danger deploying the latest changes. Initial deployment to a limited set of resources, followed by tests to ensure there are no issues. If successful, deployment can continue to all other resources.</description>
+    </item>
+    
+    <item>
+      <title>Migration to AWS</title>
+      <link>https://abiydv.github.io/notes/aws/migration/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/migration/</guid>
+      <description>Strategies 6 R https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-migration/welcome.html
+Rehosting Lift and shift
+Homogeneous (made of same things before/after) No changes to the applications, simply move the location from on-prem to cloud.
+Tools = VM Import/Export, [[#Application Migration Service (MGN)]]
+Replatforming Lift, tinker and shift
+Homogeneous (made of same things before/after) No big changes to the applications, simply move the location from on-prem to cloud, while choosing some low hanging fruits. Like moving to a database-as-a-service offering.</description>
+    </item>
+    
+    <item>
+      <title>Multi-AZ Architectures</title>
+      <link>https://abiydv.github.io/notes/aws/multi-az-rchitectures/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/multi-az-rchitectures/</guid>
+      <description>Questions What is the scope? AZ, Regional, Global
+When or why will you choose both CloudFront AND Load balancer?
+What is an AZ? AZ or availability zone is an independent data center within a specific geographic region. An AWS Region is a collection of multiple availability zones. Regarded as a fault boundary. Data transfer across AZ is not free. Cross AZ traffic should be controlled for cost optimization and performance efficiency.</description>
+    </item>
+    
+    <item>
+      <title>AWS CloudWatch</title>
+      <link>https://abiydv.github.io/notes/aws/cloudwatch/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/cloudwatch/</guid>
+      <description>info FYI AWS use “CloudWatch” in docs, “cloudwatch“ in cli/sdk, “monitoring” as the API endpoint, and “cloud-watch” in other service API calls like when setting flow logs for VPC, log_destination_type = &amp;ldquo;cloud-watch-logs&amp;rdquo;
+Custom log groups Now it&amp;rsquo;s possible to use a custom log group for a lambda function. Use this to send logs from multiple lambda functions to the same log group - each function gets it&amp;rsquo;s own log stream!</description>
+    </item>
+    
+    <item>
+      <title>AWS API Gateway</title>
+      <link>https://abiydv.github.io/notes/aws/api-gateway/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/api-gateway/</guid>
+      <description>REST API CloudFormation resource AWS::ApiGateway::RestApi Regional service Edge-optimized Can be made private Integration types AWS Use this to create AWS API proxies for virtually any service AWS_PROXY lambda HTTP_PROXY HTTP MOCK Offers caching HTTP API CloudFormation resource AWS::ApiGatewayV2::Api Lightweight version of the REST API Regional service NOT Edge-optimized NOT Private Integration types AWS_PROXY Lambda, SQS, Kinesis Data Stream, AppConfig, Step Functions, EventBridge with proper integration sub-types. Ref HTTP_PROXY WebSocket API Integration types AWS AWS_PROXY Lambda HTTP_PROXY HTTP MOCK Usage plan Set throttling limits and send a 429 Too many requests HTTP response to clients</description>
+    </item>
+    
+    <item>
+      <title>AWS Data Pipeline (Retired)</title>
+      <link>https://abiydv.github.io/notes/aws/data-pipeline/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/data-pipeline/</guid>
+      <description>Retired, not available for new customers. Succeeded by Glue</description>
+    </item>
+    
+    <item>
+      <title>AWS EventBridge</title>
+      <link>https://abiydv.github.io/notes/aws/eventbridge/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/eventbridge/</guid>
+      <description>Formerly called CloudWatch Events</description>
+    </item>
+    
+    <item>
+      <title>AWS Glue</title>
+      <link>https://abiydv.github.io/notes/aws/glue/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/glue/</guid>
+      <description> Data integration service to process/prepare data before analysis. Data catalog to manage data from different sources in a central place. ETL pipelines to load data into data warehouses/data lakes etc. </description>
+    </item>
+    
+    <item>
+      <title>AWS Kinesis Data Firehose</title>
+      <link>https://abiydv.github.io/notes/aws/kinesis-data-firehose/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/kinesis-data-firehose/</guid>
+      <description>What is Kinesis Data Firehose? Streaming ETL or streamig data pipeline. Not this [[data-pipeline|Data Pipeline]] though! Load streaming data into OpenSearch, Redshift, S3, or 3rd party HTTP endpoints. Batch, compress, buffer and encrypt data before loading to minimize storage needs at destination Read streaming data from [[kinesis-data-streams|Kinesis data streams]] Scales elastically with demand Replicates data across AZ for high availability and durability. Use Kinesis Agent installed servers to stream data to Firehose.</description>
+    </item>
+    
+    <item>
+      <title>AWS Kinesis Data Streams</title>
+      <link>https://abiydv.github.io/notes/aws/kinesis-data-streams/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/kinesis-data-streams/</guid>
+      <description>Real-time data ingestion, aggregation and then loading the data into a data-warehouse like [[#Redshift]] or [[#EMR]] cluster. Replicated across 3-AZ, so high availability, and data durability. Auto-scaling Delay between data ingestion, and retrieval is typically less than a second. Multiple applications can consume data from the same stream and do different things in parallel, like for ex - processing and archiving. Use cases Logs intake, processing Real-time metrics and reporting Real-time streaming Complex stream processing like DAG (Directed Acyclic Graphs) by ingesting from multiple [[#Kinesis#Data Streams]].</description>
+    </item>
+    
+    <item>
+      <title>AWS Secrets Manager</title>
+      <link>https://abiydv.github.io/notes/aws/secrets-manager/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/secrets-manager/</guid>
+      <description>Scope Region
+Features Multi region - replicate easily Automatic key rotation, uses lambda Encrypted in-transit, at-rest Supports SecretString, SecretBinary. Within SecretString, it&amp;rsquo;s advisable to save data as json. Ref Alternatives SSM Parameter store</description>
+    </item>
+    
+    <item>
+      <title>AWS Simple Notification Service (SNS)</title>
+      <link>https://abiydv.github.io/notes/aws/sns/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/sns/</guid>
+      <description>Scope Region
+Features Apps PUSH messages to a topic.
+You can subscribe a queue (SQS) or Lambda to a topic cross-region, cross-account. When doing so it is important to use the global condition key SourceArn or SourceAccount in queue resource policy to restrict which topic can publish to the queue.
+Often the first building block of a fan out architectural pattern.
+graph LR src(source) --&gt; sns sns(sns use1) --&gt; q1(sqs1 usw1) --&gt; app1 sns --&gt; q2(sqs2 use1) --&gt; app2 sns --&gt; q3(sqs3 euw1) --&gt; app3 </description>
+    </item>
+    
+    <item>
+      <title>AWS Simple Queue Service (SQS)</title>
+      <link>https://abiydv.github.io/notes/aws/sqs/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/sqs/</guid>
+      <description>Scope Region
+Features Apps PULL messages from a queue, process it and DELETE it. If the message is not deleted by a consumer, it is returned back to the queue after visibility timeout expires.
+FIFO preserves order and ensure once only delivery. Also deduplication. Visibility timeout Retention period - max 14 days, by default 4 days. Delivery delay Redrive allow policy Redrive Move messages from DLQ to the main queue for re-preocessing.</description>
+    </item>
+    
+    <item>
+      <title>AWS Storage Gateway</title>
+      <link>https://abiydv.github.io/notes/aws/storage-gateway/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/storage-gateway/</guid>
+      <description>Features Think of it as a device which exposes the S3 storage as iSCSI, SMB or NFS mounts to on-prem workloads.
+Launch it as a VM in your on-prem data center, or install the [[#Hardware Appliance]]. Reduces the need to re-engineer these workloads to work with S3. Helps with replicating on-prem data to S3 for backups or archival needs. On-prem workloads get access to low latency access to S3 data Data lake access for pre and post processing tasks.</description>
+    </item>
+    
+    <item>
+      <title>AWS Systems Manager (SSM)</title>
+      <link>https://abiydv.github.io/notes/aws/systems-manager/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/systems-manager/</guid>
+      <description>SSM Agent Most SSM functionality depends on this agent being present on the instance to be managed. Pre-installed on Amazon Linux Needs permission AmazonSSMManagedInstanceCore Use VPC endpoint Application Manager Logical grouping of resources to help provide context around resources, and while troubleshooting issues. Discovers related resources automatically, for ex, using CloudFormation templates.
+AppConfig Store and manage configs for environment separate from app code.
+Parameter Store No support for multi region No Rotation Optional encryption in-transit, at-rest Region scope Similar to Secrets Manager Change Management Change Manager Change Calendar: Decide, plan and enforce when changes, can or cannot be made to resources.</description>
+    </item>
+    
+    <item>
+      <title>AWS Virtual Private Gateway</title>
+      <link>https://abiydv.github.io/notes/aws/virtual-private-gateway/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/virtual-private-gateway/</guid>
+      <description>A virtual private gateway is the VPN endpoint on a specific VPC.
+Use a virtual private gateway to connect a site-to-site VPN connection to a AWS VPC.
+Attaches to -
+ONE VPC ONE Direct Connect Gateway (DXGW) ONE Virtual Interface (VIF) </description>
+    </item>
+    
+  </channel>
+</rss>

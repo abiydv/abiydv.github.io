@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>management on @abiydv</title>
+    <link>https://abiydv.github.io/topics/management/</link>
+    <description>Recent content in management on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Organizations</title>
+      <link>https://abiydv.github.io/notes/aws/organizations/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/organizations/</guid>
+      <description>Multi-account architectures New account - does not inherit all required properties from an org. Ensure details are updated before leaving the org.
+Payment method, Tax information, Contact info, Root password etc.
+Consolidated billing cannot use cost-allocation tags in member accounts, only possible in payer account, which is the management account for an organization. aws support can not do this.
+cannot disable cost savings plan, and reservations in member accounts. only possible to limit it to a particular account from the org management/payer account.</description>
+    </item>
+    
+  </channel>
+</rss>

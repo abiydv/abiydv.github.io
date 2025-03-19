@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>cicd on @abiydv</title>
+    <link>https://abiydv.github.io/tags/cicd/</link>
+    <description>Recent content in cicd on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/cicd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terraform, multi-account and multi-region workloads</title>
+      <link>https://abiydv.github.io/posts/terraform-multiaccount-multiregion/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/terraform-multiaccount-multiregion/</guid>
+      <description>Managing multi-account, multi-region workloads using Terraform</description>
+    </item>
+    
+    <item>
+      <title>Terraform, Bitbucket pipelines and OIDC</title>
+      <link>https://abiydv.github.io/posts/terraform-bitbucket-pipeline-oidc/</link>
+      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/terraform-bitbucket-pipeline-oidc/</guid>
+      <description>How to setup a Terraform CI/CD in Bitbucket pipeline using OIDC role based access</description>
+    </item>
+    
+    <item>
+      <title>Github Actions for Python</title>
+      <link>https://abiydv.github.io/posts/python-github-actions/</link>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/python-github-actions/</guid>
+      <description>Using Github actions for a Python project</description>
+    </item>
+    
+  </channel>
+</rss>

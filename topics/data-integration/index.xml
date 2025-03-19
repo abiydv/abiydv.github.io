@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>data-integration on @abiydv</title>
+    <link>https://abiydv.github.io/topics/data-integration/</link>
+    <description>Recent content in data-integration on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/data-integration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Warehouse</title>
+      <link>https://abiydv.github.io/notes/data-warehouse/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/data-warehouse/</guid>
+      <description>Introduction Typically, read only data for business intelligence queries. Companies have multiple different OLTP databases. Data is Extracted from these, Transformed, and Loaded into a data warehouse (OLAP). Why not use OLTP directly for analytics queries? Access controls on business critical data Analytics queries often need aggregation, leads to performance issues when reading large amounts of data. Suitable for column oriented storage. Each record has hundreds of columns, but most queries only read 3 or 4 columns at most.</description>
+    </item>
+    
+    <item>
+      <title>AWS Athena</title>
+      <link>https://abiydv.github.io/notes/aws/athena/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/athena/</guid>
+      <description>Athena Region scope 3x Replication Performance? DocumentDB
+Queries Parameterized Queries Add a prepared statement aws athena create-prepared-statement --statement-name SplitCostItem --query-statement &amp;#34;SELECT line_item_usage_start_date, line_item_usage_end_date, line_item_resource_id, line_item_blended_cost, split_line_item_net_split_cost, split_line_item_split_usage, split_line_item_net_unused_cost, line_item_line_item_type, line_item_usage_type, split_line_item_parent_resource_id FROM &amp;#34;athenacurcfn&amp;#34;.&amp;#34;amazon_athena&amp;#34; where line_item_line_item_type=&amp;#39;Usage&amp;#39; and line_item_resource_id=&amp;#39;?&amp;#39; and year=&amp;#39;?&amp;#39; and month=&amp;#39;?&amp;#39;&amp;#34; --work-group athena-engine-v2 Start query execution aws athena start-query-execution --query-string &amp;#34;Execute SplitCostItem&amp;#34; --query-execution-context &amp;#34;Database&amp;#34;=&amp;#34;default&amp;#34; --result-configuration &amp;#34;OutputLocation&amp;#34;=&amp;#34;s3://query-result-bucket/&amp;#34; --execution-parameters &amp;#34;resource-id&amp;#34; &amp;#34;2024&amp;#34; &amp;#34;1&amp;#34; </description>
+    </item>
+    
+    <item>
+      <title>AWS Elastic Map Reduce (EMR)</title>
+      <link>https://abiydv.github.io/notes/aws/emr/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/emr/</guid>
+      <description>EMR Fleet mix of spot and on-demand instances Provide a list of up to 5 instance types with corresponding weighted capacities and spot bid prices (including spot blocks)! EMR will automatically provision On-Demand and Spot capacity across these instance types when creating your cluster. This can make it easier and more cost effective to quickly obtain and maintain your desired capacity for your clusters. EMR States EMR Alarms, Metrics https://docs.aws.amazon.com/emr/latest/ManagementGuide/UsingEMR_ViewingMetrics.html</description>
+    </item>
+    
+    <item>
+      <title>AWS Redshift</title>
+      <link>https://abiydv.github.io/notes/aws/redshift/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/redshift/</guid>
+      <description>Scope AZ scope
+Features Data warehouse for VERY LARGE amounts of data MPP (Massively parallel processing) sql analytics on exabytes of data for business insights - complex BI workloads provisioned and serverless managed storage - scale storage and compute needs independently Replication to S3 3 9s SLA redshift spectrum to query data lake in S3 data exchange to share/use data in standard formats easily with 3rd parties manual scaling options increase query concurrency = Concurrency Scaling - no downtime increase query throughput, add nodes = Elastic resize - 4 to 8 mins Cloud offering based on ParAccel&amp;rsquo;s solution Redshift Spectrum Query data in S3</description>
+    </item>
+    
+    <item>
+      <title>AWS Glue</title>
+      <link>https://abiydv.github.io/notes/aws/glue/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/glue/</guid>
+      <description> Data integration service to process/prepare data before analysis. Data catalog to manage data from different sources in a central place. ETL pipelines to load data into data warehouses/data lakes etc. </description>
+    </item>
+    
+  </channel>
+</rss>

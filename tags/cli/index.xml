@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>cli on @abiydv</title>
+    <link>https://abiydv.github.io/tags/cli/</link>
+    <description>Recent content in cli on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terraform, multi-account and multi-region workloads</title>
+      <link>https://abiydv.github.io/posts/terraform-multiaccount-multiregion/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/terraform-multiaccount-multiregion/</guid>
+      <description>Managing multi-account, multi-region workloads using Terraform</description>
+    </item>
+    
+    <item>
+      <title>AWS CLI MFA Login</title>
+      <link>https://abiydv.github.io/posts/aws-cli-mfa-login/</link>
+      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/aws-cli-mfa-login/</guid>
+      <description>Authenticate using MFA using AWS CLI</description>
+    </item>
+    
+  </channel>
+</rss>
