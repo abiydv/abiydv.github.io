@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>containers on @abiydv</title>
+    <link>https://abiydv.github.io/topics/containers/</link>
+    <description>Recent content in containers on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/containers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Containers</title>
+      <link>https://abiydv.github.io/notes/containers/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/containers/</guid>
+      <description>Introduction traditional runtime env is physical/virutal host
+self contained, no dependency problems
+portable, platform independent
+OCI Open containers initiative ensures compatibility between containers created in different container engine env
+Architecture build on top of linux kernel features
+namespaces provide strict isolation at kernel level
+cgroups provide resource allocation to ensure dedicated resources to containers
+selinux helps enforce security, can also secure access to containers from the kernel
+Container Images Built in multiple layers of filesystem</description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://abiydv.github.io/notes/docker/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/docker/</guid>
+      <description>Introduction Dockerfile FROM =&amp;gt; a base image to use while building image ADD =&amp;gt; copy from local to container RUN =&amp;gt; execute commands to generate the image, this does not run when container starts CMD [&amp;#34;/usr/bin/nmap&amp;#34;, &amp;#34;-s&amp;#34;, &amp;#34;172.17.0.0/24&amp;#34;] =&amp;gt; default command to run at container startup, if not specified, container starts and stops immediately Docker cli docker build . -t myawesomeimage:v1 docker run myawesomeimage:v1 pull image myawesomeimage:v1, and run container docker run -d nginx run a container in background docker run -it ubuntu:latest /bin/bash open an interactive shell within the container ctrl-p, ctrl-q does not kill the container started with it flag docker inspect container_name json output of all properties of the container docker inspect &amp;lt;container id&amp;gt; --format=&#39;{{.</description>
+    </item>
+    
+    <item>
+      <title>K8s Scheduling</title>
+      <link>https://abiydv.github.io/notes/k8s-scheduling/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/k8s-scheduling/</guid>
+      <description>Which pod goes where?
+How does it help? Opportunities for cost saving by utilizing better scheduling. snorkel ai case-study Restrict workloads to specific nodes. Ex - run gpu workloads on gpu nodes, or don&amp;rsquo;t run cpu-only workloads on gpu nodes. Some users want to put multiple pods that communicate with one another in the same zone to avoid inter-zone traffic charges [[aws-well-architected#AZ Affinity]]
+Anti-affinity is useful to spread pods across failure domains/topology (AZ or Region)</description>
+    </item>
+    
+    <item>
+      <title>K8s Helm Charts</title>
+      <link>https://abiydv.github.io/notes/k8s-helm/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/k8s-helm/</guid>
+      <description>Package manager for all the manifests that need to be deployed to a cluster
+Components
+chart.yaml - metadata about the chart values.yaml - values for variables exposed by the chart author templates dir - yaml manifest that define the rsources/objects to be deployed, variables are replaces with values as specified in values.yaml Search charts called database in default repository helm seach hub database
+Add a custom repository helm add repo myrep https://myrepo.</description>
+    </item>
+    
+    <item>
+      <title>K8s Kubernetes</title>
+      <link>https://abiydv.github.io/notes/k8s-main/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/k8s-main/</guid>
+      <description>Architecture graph LR; c1(Cluster) --&gt; n1(node1) --&gt; p11[pod 1] n1 --&gt; p12[pod 2] c1 --&gt; n2(node2) --&gt; p21[pod 1] API docs - https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.24/
+Insert diagram about control nodes + worker nodes + api servers etc.
+#refine https://kubernetes.io/docs/concepts/architecture/
+Components Metric Server Use HostNetwork
+Helps monitor pods Can run kubectl top pod to check resource usage for pods kubectl top nodes
+CNCF Project status graph LR; a(Sandbox
+New) --&gt; b(Incubating
+More wide-spread adoption, active development) --&gt; c[Graduated</description>
+    </item>
+    
+  </channel>
+</rss>

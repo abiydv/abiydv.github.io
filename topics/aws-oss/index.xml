@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>aws-oss on @abiydv</title>
+    <link>https://abiydv.github.io/topics/aws-oss/</link>
+    <description>Recent content in aws-oss on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/aws-oss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amazon MQ</title>
+      <link>https://abiydv.github.io/notes/aws/mq/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/mq/</guid>
+      <description>Amazon MQ is a managed message broker service for Apache ActiveMQ and RabbitMQ
+Amazon MQ supports industry standard APIs such as JMS and NMS, and protocols for messaging, including AMQP, STOMP, MQTT, and WebSocket.
+two types of broker storage – durability optimized (EFS), and throughput optimized (EBS).
+For high volume applications, throughput optimized storage is better, can provide the required throughput and optimize costs by reducing the number of brokers required.</description>
+    </item>
+    
+    <item>
+      <title>AWS DocumentDB</title>
+      <link>https://abiydv.github.io/notes/aws/document-db/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/document-db/</guid>
+      <description>NoSql, MongoDB compatible
+Questions What is on-demand mode for DocumentDB </description>
+    </item>
+    
+    <item>
+      <title>AWS Elastic Kubernetes Service (EKS)</title>
+      <link>https://abiydv.github.io/notes/aws/eks/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/eks/</guid>
+      <description>Workshop - https://www.eksworkshop.com/docs/introduction/
+Pricing Static cost of a cluster is $0.1 per hour, so ~$70 per month.
+In extended support (old k8s versions), each cluster costs $0.6 per hours (6x), so ~$420 per month.
+Update kubeconfig to access EKS aws eks update-kubeconfig --name my-cluster --region us-east-1 If cluster admin role is different from current role used to aut
+aws eks update-kubeconfig --name my-cluster --role-arn arn:aws:iam::123456789000:role/eksrole --region us-east-1 More here - https://docs.</description>
+    </item>
+    
+    <item>
+      <title>AWS Elastic Map Reduce (EMR)</title>
+      <link>https://abiydv.github.io/notes/aws/emr/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/emr/</guid>
+      <description>EMR Fleet mix of spot and on-demand instances Provide a list of up to 5 instance types with corresponding weighted capacities and spot bid prices (including spot blocks)! EMR will automatically provision On-Demand and Spot capacity across these instance types when creating your cluster. This can make it easier and more cost effective to quickly obtain and maintain your desired capacity for your clusters. EMR States EMR Alarms, Metrics https://docs.aws.amazon.com/emr/latest/ManagementGuide/UsingEMR_ViewingMetrics.html</description>
+    </item>
+    
+    <item>
+      <title>AWS ElastiCache</title>
+      <link>https://abiydv.github.io/notes/aws/elasticache/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/elasticache/</guid>
+      <description>open-source project, deployed on, and managed by AWS
+In-memory key-value NoSql database. An in-memory cache can help improve application performance and user experience.
+Scope AZ scope
+Supports Multi-AZ (read replicas)
+Supports Auto-scaling (shards)
+Features Async Replication
+Enable in-transit encryption TransitEncryptionEnabled:true
+Enable at-rest enryption AtRestEncryptionEnabled:true
+It can only be enabled at the time of creation, can have some performance impact due to encryption/decryption
+Redis Redis is the most popular option for caching relational database queries.</description>
+    </item>
+    
+  </channel>
+</rss>

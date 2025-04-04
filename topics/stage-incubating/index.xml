@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>stage/incubating on @abiydv</title>
+    <link>https://abiydv.github.io/topics/stage-incubating/</link>
+    <description>Recent content in stage/incubating on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://abiydv.github.io/topics/stage-incubating/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>K8s Scheduling</title>
+      <link>https://abiydv.github.io/notes/k8s-scheduling/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/k8s-scheduling/</guid>
+      <description>Which pod goes where?
+How does it help? Opportunities for cost saving by utilizing better scheduling. snorkel ai case-study Restrict workloads to specific nodes. Ex - run gpu workloads on gpu nodes, or don&amp;rsquo;t run cpu-only workloads on gpu nodes. Some users want to put multiple pods that communicate with one another in the same zone to avoid inter-zone traffic charges [[aws-well-architected#AZ Affinity]]
+Anti-affinity is useful to spread pods across failure domains/topology (AZ or Region)</description>
+    </item>
+    
+    <item>
+      <title>K8s Kubernetes</title>
+      <link>https://abiydv.github.io/notes/k8s-main/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/k8s-main/</guid>
+      <description>Architecture graph LR; c1(Cluster) --&gt; n1(node1) --&gt; p11[pod 1] n1 --&gt; p12[pod 2] c1 --&gt; n2(node2) --&gt; p21[pod 1] API docs - https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.24/
+Insert diagram about control nodes + worker nodes + api servers etc.
+#refine https://kubernetes.io/docs/concepts/architecture/
+Components Metric Server Use HostNetwork
+Helps monitor pods Can run kubectl top pod to check resource usage for pods kubectl top nodes
+CNCF Project status graph LR; a(Sandbox
+New) --&gt; b(Incubating
+More wide-spread adoption, active development) --&gt; c[Graduated</description>
+    </item>
+    
+    <item>
+      <title>AWS CloudFront</title>
+      <link>https://abiydv.github.io/notes/aws/cloudfront/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/cloudfront/</guid>
+      <description>Scope Global scope Supports multiple regions - multiple origins Health check for origin failovers - can be useful in disaster recovery supports active/active, active/standby architectures
+Questions How is CloudFront different from Global Accelerator? https://docs.aws.amazon.com/global-accelerator/latest/dg/about-accelerators.html
+What is Origin Group? ORIGIN Group - configure 2 origins, mark one as primary, and the other as secondary. Configure status codes to trigger fail over. If primary origin returns one these configured status codes, CloudFront then sends the request to the secondary origin.</description>
+    </item>
+    
+    <item>
+      <title>AWS Elastic Cloud Compute (EC2)</title>
+      <link>https://abiydv.github.io/notes/aws/ec2/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/ec2/</guid>
+      <description>Scope az scope - specify 1 az
+Multi region replication? AMI = replicate via lambda, or life cycle rules or AWS Backup
+AutoScaling AutoScaling groups - can use launch templates or launch configs.
+Launch templates allow using latest EC2 features including selecting instances based on defined attributes rather than adding a fixed instance type.
+Lifecycle hooks Lifecycle hooks provide a way to trigger custom workflows based on the scale-in or scale-out activity in an auto scaling group.</description>
+    </item>
+    
+    <item>
+      <title>AWS Direct Connect</title>
+      <link>https://abiydv.github.io/notes/aws/direct-connect/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/direct-connect/</guid>
+      <description>While VPN connections are OK, for some critical workloads, VPN over internet may not be stable or available enough.
+If a customer doesn&amp;rsquo;t want to connect to AWS over the internet, they can alternatively use Direct Connect. This ensures the traffic to/from AWS flows through the customer&amp;rsquo;s network directely on to AWS backbone network without going over the internet.
+Cost effective, secure, performant private network connectivity between on-prem private network and AWS.</description>
+    </item>
+    
+    <item>
+      <title>AWS Transit Gateway</title>
+      <link>https://abiydv.github.io/notes/aws/transit-gateway/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/transit-gateway/</guid>
+      <description>Managed service which offers a hub and spoke model for connecting AWS VPCs and on prem networks. Low operational overhead but not the cheapest.
+Features Multiple VPCs can connect to a single transit gateway, which can allow on-prem connectivity via direct connect or cross region connectivity via transit gateway peering.
+When using a VPN, or direct-connect, each VPC must only be connected to the TGW, which in turn is coonected to the DC or VPN.</description>
+    </item>
+    
+    <item>
+      <title>AWS Virtual Private Cloud (VPC)</title>
+      <link>https://abiydv.github.io/notes/aws/vpc/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/vpc/</guid>
+      <description>What is a VPC? Virtual Private Cloud
+An isolated virtual network present in your AWS account. There is a default VPC present. However, it is recommended to create your own custom VPC based on your environment.
+You can create a IPv4 only or Dual stack (IPv4 + IPv6) VPC.
+Default VPC You can modify, delete, recreate a default VPC Creating a default VPC does not need VPC specific permissions as all resources are created by AWS</description>
+    </item>
+    
+    <item>
+      <title>AWS Simple Storage Service (S3)</title>
+      <link>https://abiydv.github.io/notes/aws/s3/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/s3/</guid>
+      <description>Object storage offering 99.999999999% (11 nines) data durability.
+Internals Based on Amazon Dynamo (not the same as DynamoDB) - technology developed internally at amazon for a incrementally scalable, highly available key-value storage system.
+This article by DR. Werner Vogels, is an interesting read on how S3 came to be!
+Scope Regional, although AWS does call it global at places.
+Can you create a bucket without specifying a region?
+Consistency read-after-write consistency for PUT, and DELETE requests Strongly consistent for reads, always returns the most recent data.</description>
+    </item>
+    
+  </channel>
+</rss>

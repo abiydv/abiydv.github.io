@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>serverless on @abiydv</title>
+    <link>https://abiydv.github.io/topics/serverless/</link>
+    <description>Recent content in serverless on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/serverless/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Aurora</title>
+      <link>https://abiydv.github.io/notes/aws/aurora/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/aurora/</guid>
+      <description>Relational Database, MySQL, PostgreSQL
+Scope = AZ based, needs 3 subnets during creation.
+Global Database = Global, available across regions
+Auto-scaling upto 128 TB/db instance. Fault tolerant, Cross-AZ replication Self healing = divides data into 10GB chunk and each chuck is replicated 6 times, including across 3 AZ, can handle loss of 2 copies of data w/o affecting write ability, and 3 copies without affecting read ability. Continuous backups to S3 upto 15 low-latency read replicas</description>
+    </item>
+    
+    <item>
+      <title>AWS DynamoDB</title>
+      <link>https://abiydv.github.io/notes/aws/dynamodb/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/dynamodb/</guid>
+      <description>Internals Depends on single leader replication, do not confuse with Amazon Dynamo which uses leaderless replication and is primarily used in S3.
+Scope standard tables - regional global tables - global (cross-region replication) Table classes Standard Standard-IA infrequently accessed data. Similar to S3 storage classes? consider standard-IA if the storage cost &amp;gt; 50% throughput cost (read/write units) Capacity Modes on-demand provisioned throughput Cache DAX, DAX cluster - Dynamodb accelerator provisioned in a VPC.</description>
+    </item>
+    
+    <item>
+      <title>AWS Elastic File Storage (EFS)</title>
+      <link>https://abiydv.github.io/notes/aws/efs/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/efs/</guid>
+      <description>Scope AZ scope - multi-AZ (provide a list of subnets (AZs) to create)
+Replication across AZ
+Types Regional One zone Features 4 9s SLA
+Only for Linux
+Supports NFS v4.1 - higher performance Supports Portable Operating System Interface (POSIX) permissions
+Access Control POSIX IAM Network controls like security groups, access control lists etc. Throughput Modes General Purpose Elastic </description>
+    </item>
+    
+    <item>
+      <title>AWS File Storage (FSx)</title>
+      <link>https://abiydv.github.io/notes/aws/fsx/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/fsx/</guid>
+      <description>Scope AZ scope
+Features 4 9s SLA
+Connect to S3 using &amp;ldquo;Data Repository&amp;rdquo;
+Auto import, auto export to keep data in FSx in sync with data in S3
+Lazy loads the files as they are accessed so there could be latency when the file is first accessed
+FSx, and S3 bucket should be in same region to setup auto-import
+POSIX permissions are maintained when moving data between S3 and FSx</description>
+    </item>
+    
+    <item>
+      <title>AWS Lambda</title>
+      <link>https://abiydv.github.io/notes/aws/lambda/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/lambda/</guid>
+      <description>Scope region scope - specify multiple az
+code in the same region
+Features max runtime 15 mins
+max resource - vcpu ?, memory ?
+Can be triggered by CloudWatch alarm directly now - cross-region
+Alias - allows to test a new version without impacting live traffic which is served via an alias. If testing is successful, point the live alias to the new function version. Sort of, allows you perform [[devops#Canary deployments|canary deployments]] for Lambda.</description>
+    </item>
+    
+    <item>
+      <title>AWS Transit Gateway</title>
+      <link>https://abiydv.github.io/notes/aws/transit-gateway/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/transit-gateway/</guid>
+      <description>Managed service which offers a hub and spoke model for connecting AWS VPCs and on prem networks. Low operational overhead but not the cheapest.
+Features Multiple VPCs can connect to a single transit gateway, which can allow on-prem connectivity via direct connect or cross region connectivity via transit gateway peering.
+When using a VPN, or direct-connect, each VPC must only be connected to the TGW, which in turn is coonected to the DC or VPN.</description>
+    </item>
+    
+    <item>
+      <title>AWS API Gateway</title>
+      <link>https://abiydv.github.io/notes/aws/api-gateway/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/api-gateway/</guid>
+      <description>REST API CloudFormation resource AWS::ApiGateway::RestApi Regional service Edge-optimized Can be made private Integration types AWS Use this to create AWS API proxies for virtually any service AWS_PROXY lambda HTTP_PROXY HTTP MOCK Offers caching HTTP API CloudFormation resource AWS::ApiGatewayV2::Api Lightweight version of the REST API Regional service NOT Edge-optimized NOT Private Integration types AWS_PROXY Lambda, SQS, Kinesis Data Stream, AppConfig, Step Functions, EventBridge with proper integration sub-types. Ref HTTP_PROXY WebSocket API Integration types AWS AWS_PROXY Lambda HTTP_PROXY HTTP MOCK Usage plan Set throttling limits and send a 429 Too many requests HTTP response to clients</description>
+    </item>
+    
+    <item>
+      <title>AWS Glue</title>
+      <link>https://abiydv.github.io/notes/aws/glue/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/glue/</guid>
+      <description> Data integration service to process/prepare data before analysis. Data catalog to manage data from different sources in a central place. ETL pipelines to load data into data warehouses/data lakes etc. </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>aws on @abiydv</title>
+    <link>https://abiydv.github.io/tags/aws/</link>
+    <description>Recent content in aws on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 28 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Service Control Policies and BDD</title>
+      <link>https://abiydv.github.io/posts/aws-scp-test-bdd/</link>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/aws-scp-test-bdd/</guid>
+      <description>Deploy AWS service control policies reliably using BDD tests</description>
+    </item>
+    
+    <item>
+      <title>AWS EKS Okta Auth</title>
+      <link>https://abiydv.github.io/posts/aws-eks-okta-auth/</link>
+      <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/aws-eks-okta-auth/</guid>
+      <description>Authenticate to AWS EKS with Okta</description>
+    </item>
+    
+    <item>
+      <title>Terraform, multi-account and multi-region workloads</title>
+      <link>https://abiydv.github.io/posts/terraform-multiaccount-multiregion/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/terraform-multiaccount-multiregion/</guid>
+      <description>Managing multi-account, multi-region workloads using Terraform</description>
+    </item>
+    
+    <item>
+      <title>Terraform, Bitbucket pipelines and OIDC</title>
+      <link>https://abiydv.github.io/posts/terraform-bitbucket-pipeline-oidc/</link>
+      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/terraform-bitbucket-pipeline-oidc/</guid>
+      <description>How to setup a Terraform CI/CD in Bitbucket pipeline using OIDC role based access</description>
+    </item>
+    
+    <item>
+      <title>S3 Presigned URLs</title>
+      <link>https://abiydv.github.io/posts/s3-presigned-urls/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/s3-presigned-urls/</guid>
+      <description>Secure data transfer to/from S3</description>
+    </item>
+    
+    <item>
+      <title>AWS Certified Security Specialty (SCS-C01) - My Experience</title>
+      <link>https://abiydv.github.io/posts/certified-security-speciality/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/certified-security-speciality/</guid>
+      <description>Introduction Amazon Web Services (AWS) offers certifications in 4 broad categories - Foundational, Associate, Professional and Speciality. I recently cleared the Solutions Architect Associate certification. This time, wanted to attempt a &amp;ldquo;Speciality&amp;rdquo; certification. And what better topic to delve into than Cloud security. As much of a boon cloud is, it&amp;rsquo;s Achilies&amp;rsquo; heel remains unsecure workloads. Although AWS provides a ton of tools to mitigate and potentially limit security incidents, but they still do happen and often cost not just in monetary terms but also reduced customer confidence.</description>
+    </item>
+    
+    <item>
+      <title>Index Logs to Elasticsearch</title>
+      <link>https://abiydv.github.io/posts/index-elasticsearch/</link>
+      <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/index-elasticsearch/</guid>
+      <description>Guide to index logs from S3 to Elasticsearch</description>
+    </item>
+    
+    <item>
+      <title>AWS Certified Solutions Architect (SAA-C02) - My Experience</title>
+      <link>https://abiydv.github.io/posts/certified-solutions-architect/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/certified-solutions-architect/</guid>
+      <description>Introduction In their own words, Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform, offering over 175 fully featured services from data centers globally. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—are using AWS to lower costs, become more agile, and innovate faster.
+I had always read about their certification paths, but never got around to dig deeper. Until last week. Decided to have a go at it, to validate my knowledge and experience.</description>
+    </item>
+    
+    <item>
+      <title>AWS CLI MFA Login</title>
+      <link>https://abiydv.github.io/posts/aws-cli-mfa-login/</link>
+      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/aws-cli-mfa-login/</guid>
+      <description>Authenticate using MFA using AWS CLI</description>
+    </item>
+    
+    <item>
+      <title>Elasticsearch Ingest Pipelines</title>
+      <link>https://abiydv.github.io/posts/elasticsearch-ingest-pipelines/</link>
+      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/elasticsearch-ingest-pipelines/</guid>
+      <description>Guide to Elasticsearch Ingest Pipelines</description>
+    </item>
+    
+  </channel>
+</rss>

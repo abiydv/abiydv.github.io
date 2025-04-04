@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>identity on @abiydv</title>
+    <link>https://abiydv.github.io/topics/identity/</link>
+    <description>Recent content in identity on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 24 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/identity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Active Directory</title>
+      <link>https://abiydv.github.io/notes/active-directory/</link>
+      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/active-directory/</guid>
+      <description>Questions What is an Active Directory? It is sort of a database, and holds information about entities and their properties.
+Why use an AD? Centralized identity management Who provides AD? Who can use AD? What is Posix? What is LDAP and DNS What is kerberos </description>
+    </item>
+    
+    <item>
+      <title>AWS Identity and Access Management (IAM)</title>
+      <link>https://abiydv.github.io/notes/aws/iam/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/iam/</guid>
+      <description>Access Analyzer https://aws.amazon.com/blogs/security/how-to-prioritize-iam-access-analyzer-findings/
+In addition to roles, it also analyzes resource policies on supported resources
+Monitors resources for external access AWS Simple Storage(S3) buckets AWS Identity and Access Management roles AWS Key Management Service Keys AWS Lambda functions and layers AWS Simple Queue Service queues AWS Secrets Manager secrets
+Identity Center SSO for Org
+Policy Conditions Useful to allow/deny actions based on certain conditions in addition to resource arn or patterns.</description>
+    </item>
+    
+  </channel>
+</rss>

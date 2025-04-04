@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>cache on @abiydv</title>
+    <link>https://abiydv.github.io/topics/cache/</link>
+    <description>Recent content in cache on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/cache/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS ElastiCache</title>
+      <link>https://abiydv.github.io/notes/aws/elasticache/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/elasticache/</guid>
+      <description>open-source project, deployed on, and managed by AWS
+In-memory key-value NoSql database. An in-memory cache can help improve application performance and user experience.
+Scope AZ scope
+Supports Multi-AZ (read replicas)
+Supports Auto-scaling (shards)
+Features Async Replication
+Enable in-transit encryption TransitEncryptionEnabled:true
+Enable at-rest enryption AtRestEncryptionEnabled:true
+It can only be enabled at the time of creation, can have some performance impact due to encryption/decryption
+Redis Redis is the most popular option for caching relational database queries.</description>
+    </item>
+    
+  </channel>
+</rss>

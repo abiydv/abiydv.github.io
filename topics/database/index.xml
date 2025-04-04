@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>database on @abiydv</title>
+    <link>https://abiydv.github.io/topics/database/</link>
+    <description>Recent content in database on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/database/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Aurora</title>
+      <link>https://abiydv.github.io/notes/aws/aurora/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/aurora/</guid>
+      <description>Relational Database, MySQL, PostgreSQL
+Scope = AZ based, needs 3 subnets during creation.
+Global Database = Global, available across regions
+Auto-scaling upto 128 TB/db instance. Fault tolerant, Cross-AZ replication Self healing = divides data into 10GB chunk and each chuck is replicated 6 times, including across 3 AZ, can handle loss of 2 copies of data w/o affecting write ability, and 3 copies without affecting read ability. Continuous backups to S3 upto 15 low-latency read replicas</description>
+    </item>
+    
+    <item>
+      <title>AWS DocumentDB</title>
+      <link>https://abiydv.github.io/notes/aws/document-db/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/document-db/</guid>
+      <description>NoSql, MongoDB compatible
+Questions What is on-demand mode for DocumentDB </description>
+    </item>
+    
+    <item>
+      <title>AWS DynamoDB</title>
+      <link>https://abiydv.github.io/notes/aws/dynamodb/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/dynamodb/</guid>
+      <description>Internals Depends on single leader replication, do not confuse with Amazon Dynamo which uses leaderless replication and is primarily used in S3.
+Scope standard tables - regional global tables - global (cross-region replication) Table classes Standard Standard-IA infrequently accessed data. Similar to S3 storage classes? consider standard-IA if the storage cost &amp;gt; 50% throughput cost (read/write units) Capacity Modes on-demand provisioned throughput Cache DAX, DAX cluster - Dynamodb accelerator provisioned in a VPC.</description>
+    </item>
+    
+    <item>
+      <title>AWS Redshift</title>
+      <link>https://abiydv.github.io/notes/aws/redshift/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/redshift/</guid>
+      <description>Scope AZ scope
+Features Data warehouse for VERY LARGE amounts of data MPP (Massively parallel processing) sql analytics on exabytes of data for business insights - complex BI workloads provisioned and serverless managed storage - scale storage and compute needs independently Replication to S3 3 9s SLA redshift spectrum to query data lake in S3 data exchange to share/use data in standard formats easily with 3rd parties manual scaling options increase query concurrency = Concurrency Scaling - no downtime increase query throughput, add nodes = Elastic resize - 4 to 8 mins Cloud offering based on ParAccel&amp;rsquo;s solution Redshift Spectrum Query data in S3</description>
+    </item>
+    
+    <item>
+      <title>AWS Relational Database Service (RDS)</title>
+      <link>https://abiydv.github.io/notes/aws/rds/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/rds/</guid>
+      <description>Scope az-scope - provide rds subnet group, collection of multiple az
+multi-az
+cross-region read replicas
+cross-region backup snapshots to help disaster recovery
+Engines Questions RDS MySql vs Aurora MySql? Options group? Deployment Options Which deployment option to choose? https://aws.amazon.com/blogs/database/choose-the-right-amazon-rds-deployment-option-single-az-instance-multi-az-instance-or-multi-az-database-cluster/
+Single AZ Single instance running in a single AZ. Best suited for development workloads.
+A read replica can be configured in the same or a different region. This read replica can be manually promoted if the primary instance fails.</description>
+    </item>
+    
+  </channel>
+</rss>

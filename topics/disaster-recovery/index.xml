@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>disaster-recovery on @abiydv</title>
+    <link>https://abiydv.github.io/topics/disaster-recovery/</link>
+    <description>Recent content in disaster-recovery on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/disaster-recovery/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Backup</title>
+      <link>https://abiydv.github.io/notes/aws/aws-backup/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/aws-backup/</guid>
+      <description>Questions What is lifecycle tiering? Transition backups from warm storage to cold storage. Only available for EFS, DynamoDB, Timestream database, VMWare VMs
+Backup plan defines when and how to backup resources
+Backup vault Encrypted storage location (per region) that stores the backups
+Audit and report compliance of data protection policies Deploy central backup policies via AWS Organizations
+cloud S3 EFS FSx EBS EC2 Windows VSS services on EC2 SAP HANA on EC2 DynamoDB RDS Aurora DB Cluster Neptune DB DocumentDB Redshift manual snapshot Timestream database Cloudformation stacks</description>
+    </item>
+    
+    <item>
+      <title>AWS Elastic Disaster Recovery Service (DRS)</title>
+      <link>https://abiydv.github.io/notes/aws/drs/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/drs/</guid>
+      <description>Questions How does it compare with other AWS tools like VM import/export, Server Migration Service, AWS Migration Service (MGN) Unique property others don&amp;rsquo;t have - failover orchestration.
+Elastic Disaster Recovery (DRS) The full name is Elastic Disaster Recovery. However, the short form is DRS (Disaster Recovery Service).
+What does it do? Failover from on-prem to AWS Failover from any cloud to AWS Failover from 1 AWS region to another AWS region No need to maintain a duplicate recovery site Agent based - need to install an agent on source server to replicate data to AWS.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>curl on @abiydv</title>
+    <link>https://abiydv.github.io/tags/curl/</link>
+    <description>Recent content in curl on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 10 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/curl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>S3 Presigned URLs</title>
+      <link>https://abiydv.github.io/posts/s3-presigned-urls/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/s3-presigned-urls/</guid>
+      <description>Secure data transfer to/from S3</description>
+    </item>
+    
+    <item>
+      <title>Curl Cheatsheet</title>
+      <link>https://abiydv.github.io/posts/curl-cheatsheet/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/curl-cheatsheet/</guid>
+      <description>Some helpful curl commands</description>
+    </item>
+    
+  </channel>
+</rss>

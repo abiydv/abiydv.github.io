@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>streaming on @abiydv</title>
+    <link>https://abiydv.github.io/topics/streaming/</link>
+    <description>Recent content in streaming on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 13 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/streaming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Kinesis Data Firehose</title>
+      <link>https://abiydv.github.io/notes/aws/kinesis-data-firehose/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/kinesis-data-firehose/</guid>
+      <description>What is Kinesis Data Firehose? Streaming ETL or streamig data pipeline. Not this [[data-pipeline|Data Pipeline]] though! Load streaming data into OpenSearch, Redshift, S3, or 3rd party HTTP endpoints. Batch, compress, buffer and encrypt data before loading to minimize storage needs at destination Read streaming data from [[kinesis-data-streams|Kinesis data streams]] Scales elastically with demand Replicates data across AZ for high availability and durability. Use Kinesis Agent installed servers to stream data to Firehose.</description>
+    </item>
+    
+    <item>
+      <title>AWS Kinesis Data Streams</title>
+      <link>https://abiydv.github.io/notes/aws/kinesis-data-streams/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/kinesis-data-streams/</guid>
+      <description>Real-time data ingestion, aggregation and then loading the data into a data-warehouse like [[#Redshift]] or [[#EMR]] cluster. Replicated across 3-AZ, so high availability, and data durability. Auto-scaling Delay between data ingestion, and retrieval is typically less than a second. Multiple applications can consume data from the same stream and do different things in parallel, like for ex - processing and archiving. Use cases Logs intake, processing Real-time metrics and reporting Real-time streaming Complex stream processing like DAG (Directed Acyclic Graphs) by ingesting from multiple [[#Kinesis#Data Streams]].</description>
+    </item>
+    
+  </channel>
+</rss>

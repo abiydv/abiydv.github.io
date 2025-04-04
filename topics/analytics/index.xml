@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>analytics on @abiydv</title>
+    <link>https://abiydv.github.io/topics/analytics/</link>
+    <description>Recent content in analytics on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Athena</title>
+      <link>https://abiydv.github.io/notes/aws/athena/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/athena/</guid>
+      <description>Athena Region scope 3x Replication Performance? DocumentDB
+Queries Parameterized Queries Add a prepared statement aws athena create-prepared-statement --statement-name SplitCostItem --query-statement &amp;#34;SELECT line_item_usage_start_date, line_item_usage_end_date, line_item_resource_id, line_item_blended_cost, split_line_item_net_split_cost, split_line_item_split_usage, split_line_item_net_unused_cost, line_item_line_item_type, line_item_usage_type, split_line_item_parent_resource_id FROM &amp;#34;athenacurcfn&amp;#34;.&amp;#34;amazon_athena&amp;#34; where line_item_line_item_type=&amp;#39;Usage&amp;#39; and line_item_resource_id=&amp;#39;?&amp;#39; and year=&amp;#39;?&amp;#39; and month=&amp;#39;?&amp;#39;&amp;#34; --work-group athena-engine-v2 Start query execution aws athena start-query-execution --query-string &amp;#34;Execute SplitCostItem&amp;#34; --query-execution-context &amp;#34;Database&amp;#34;=&amp;#34;default&amp;#34; --result-configuration &amp;#34;OutputLocation&amp;#34;=&amp;#34;s3://query-result-bucket/&amp;#34; --execution-parameters &amp;#34;resource-id&amp;#34; &amp;#34;2024&amp;#34; &amp;#34;1&amp;#34; </description>
+    </item>
+    
+    <item>
+      <title>AWS Elastic Map Reduce (EMR)</title>
+      <link>https://abiydv.github.io/notes/aws/emr/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/emr/</guid>
+      <description>EMR Fleet mix of spot and on-demand instances Provide a list of up to 5 instance types with corresponding weighted capacities and spot bid prices (including spot blocks)! EMR will automatically provision On-Demand and Spot capacity across these instance types when creating your cluster. This can make it easier and more cost effective to quickly obtain and maintain your desired capacity for your clusters. EMR States EMR Alarms, Metrics https://docs.aws.amazon.com/emr/latest/ManagementGuide/UsingEMR_ViewingMetrics.html</description>
+    </item>
+    
+    <item>
+      <title>AWS Glue</title>
+      <link>https://abiydv.github.io/notes/aws/glue/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/glue/</guid>
+      <description> Data integration service to process/prepare data before analysis. Data catalog to manage data from different sources in a central place. ETL pipelines to load data into data warehouses/data lakes etc. </description>
+    </item>
+    
+    <item>
+      <title>AWS Kinesis Data Firehose</title>
+      <link>https://abiydv.github.io/notes/aws/kinesis-data-firehose/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/kinesis-data-firehose/</guid>
+      <description>What is Kinesis Data Firehose? Streaming ETL or streamig data pipeline. Not this [[data-pipeline|Data Pipeline]] though! Load streaming data into OpenSearch, Redshift, S3, or 3rd party HTTP endpoints. Batch, compress, buffer and encrypt data before loading to minimize storage needs at destination Read streaming data from [[kinesis-data-streams|Kinesis data streams]] Scales elastically with demand Replicates data across AZ for high availability and durability. Use Kinesis Agent installed servers to stream data to Firehose.</description>
+    </item>
+    
+    <item>
+      <title>AWS Kinesis Data Streams</title>
+      <link>https://abiydv.github.io/notes/aws/kinesis-data-streams/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/kinesis-data-streams/</guid>
+      <description>Real-time data ingestion, aggregation and then loading the data into a data-warehouse like [[#Redshift]] or [[#EMR]] cluster. Replicated across 3-AZ, so high availability, and data durability. Auto-scaling Delay between data ingestion, and retrieval is typically less than a second. Multiple applications can consume data from the same stream and do different things in parallel, like for ex - processing and archiving. Use cases Logs intake, processing Real-time metrics and reporting Real-time streaming Complex stream processing like DAG (Directed Acyclic Graphs) by ingesting from multiple [[#Kinesis#Data Streams]].</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>integrations on @abiydv</title>
+    <link>https://abiydv.github.io/topics/integrations/</link>
+    <description>Recent content in integrations on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/integrations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amazon MQ</title>
+      <link>https://abiydv.github.io/notes/aws/mq/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/mq/</guid>
+      <description>Amazon MQ is a managed message broker service for Apache ActiveMQ and RabbitMQ
+Amazon MQ supports industry standard APIs such as JMS and NMS, and protocols for messaging, including AMQP, STOMP, MQTT, and WebSocket.
+two types of broker storage – durability optimized (EFS), and throughput optimized (EBS).
+For high volume applications, throughput optimized storage is better, can provide the required throughput and optimize costs by reducing the number of brokers required.</description>
+    </item>
+    
+    <item>
+      <title>AWS IoT</title>
+      <link>https://abiydv.github.io/notes/aws/iot/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/iot/</guid>
+      <description>Iot Core Region specific endpoints
+Device Gateway - pub/sub model
+Device Shadow - properties of connected devices, could have been called fingerprint?
+Supports MQTT
+Registry - Organize and track devices. Each device has it&amp;rsquo;s unique handle in the registry @myawesomelightbulb.
+Rules Engine - SQL like rules to filter/transform and forward incoming device metrics/data to other AWS/3rd party services
+Thing Type - Categorize similar devices with common attributes (up tp 50, 3 searchable)</description>
+    </item>
+    
+    <item>
+      <title>AWS Simple Email Service (SES)</title>
+      <link>https://abiydv.github.io/notes/aws/ses/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/ses/</guid>
+      <description>Features Send via SMTP - does not support temporary credentials (sts), must create and use an IAM user credential.
+Send via API - use normally with temporary credentials (sts)
+When using SMTP - use STARTTLS (ports 25, 587, 2587) or TLS wrapper (ports 465, 2465)
+Save and use Handlebar templates for sending emails. If using AWS SDK, use the SendTemplatedEmail or SendBulkTemplatedEmail API actions. Data used to render the template is provided via the TemplateData field.</description>
+    </item>
+    
+    <item>
+      <title>AWS EventBridge</title>
+      <link>https://abiydv.github.io/notes/aws/eventbridge/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/eventbridge/</guid>
+      <description>Formerly called CloudWatch Events</description>
+    </item>
+    
+    <item>
+      <title>AWS Simple Notification Service (SNS)</title>
+      <link>https://abiydv.github.io/notes/aws/sns/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/sns/</guid>
+      <description>Scope Region
+Features Apps PUSH messages to a topic.
+You can subscribe a queue (SQS) or Lambda to a topic cross-region, cross-account. When doing so it is important to use the global condition key SourceArn or SourceAccount in queue resource policy to restrict which topic can publish to the queue.
+Often the first building block of a fan out architectural pattern.
+graph LR src(source) --&gt; sns sns(sns use1) --&gt; q1(sqs1 usw1) --&gt; app1 sns --&gt; q2(sqs2 use1) --&gt; app2 sns --&gt; q3(sqs3 euw1) --&gt; app3 </description>
+    </item>
+    
+    <item>
+      <title>AWS Simple Queue Service (SQS)</title>
+      <link>https://abiydv.github.io/notes/aws/sqs/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/sqs/</guid>
+      <description>Scope Region
+Features Apps PULL messages from a queue, process it and DELETE it. If the message is not deleted by a consumer, it is returned back to the queue after visibility timeout expires.
+FIFO preserves order and ensure once only delivery. Also deduplication. Visibility timeout Retention period - max 14 days, by default 4 days. Delivery delay Redrive allow policy Redrive Move messages from DLQ to the main queue for re-preocessing.</description>
+    </item>
+    
+  </channel>
+</rss>

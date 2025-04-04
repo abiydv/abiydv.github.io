@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>hashicorp on @abiydv</title>
+    <link>https://abiydv.github.io/tags/hashicorp/</link>
+    <description>Recent content in hashicorp on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 11 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/hashicorp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hashicorp Certified Terraform Associate - My Experience</title>
+      <link>https://abiydv.github.io/posts/certified-terraform-associate/</link>
+      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/certified-terraform-associate/</guid>
+      <description>Introduction Terraform has evolved and established itself as the defacto tool for implementing IAC (Infrastructure As Code) across cloud and other service providers. The Google trends graph is a testament to it&amp;rsquo;s growing popularity.
+I have been using it for the last few years for my projects and it&amp;rsquo;s a great fit in most situations.
+I had always read about their certification, but never got around to dig deeper. Until last week.</description>
+    </item>
+    
+  </channel>
+</rss>

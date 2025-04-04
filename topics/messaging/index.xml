@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>messaging on @abiydv</title>
+    <link>https://abiydv.github.io/topics/messaging/</link>
+    <description>Recent content in messaging on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/messaging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amazon MQ</title>
+      <link>https://abiydv.github.io/notes/aws/mq/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/mq/</guid>
+      <description>Amazon MQ is a managed message broker service for Apache ActiveMQ and RabbitMQ
+Amazon MQ supports industry standard APIs such as JMS and NMS, and protocols for messaging, including AMQP, STOMP, MQTT, and WebSocket.
+two types of broker storage – durability optimized (EFS), and throughput optimized (EBS).
+For high volume applications, throughput optimized storage is better, can provide the required throughput and optimize costs by reducing the number of brokers required.</description>
+    </item>
+    
+    <item>
+      <title>AWS Simple Queue Service (SQS)</title>
+      <link>https://abiydv.github.io/notes/aws/sqs/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/sqs/</guid>
+      <description>Scope Region
+Features Apps PULL messages from a queue, process it and DELETE it. If the message is not deleted by a consumer, it is returned back to the queue after visibility timeout expires.
+FIFO preserves order and ensure once only delivery. Also deduplication. Visibility timeout Retention period - max 14 days, by default 4 days. Delivery delay Redrive allow policy Redrive Move messages from DLQ to the main queue for re-preocessing.</description>
+    </item>
+    
+  </channel>
+</rss>
