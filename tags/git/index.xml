@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>git on @abiydv</title>
+    <link>https://abiydv.github.io/tags/git/</link>
+    <description>Recent content in git on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 08 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Hooks Redux</title>
+      <link>https://abiydv.github.io/posts/git-hooks-redux/</link>
+      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/git-hooks-redux/</guid>
+      <description>Use a default commit message hook which works for all local repos</description>
+    </item>
+    
+    <item>
+      <title>Git History Wars</title>
+      <link>https://abiydv.github.io/posts/git-history/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/git-history/</guid>
+      <description>Git history - which side are you on?</description>
+    </item>
+    
+    <item>
+      <title>Git Hooks</title>
+      <link>https://abiydv.github.io/posts/git-hooks/</link>
+      <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/git-hooks/</guid>
+      <description>Rewrite history, one commit at a time!</description>
+    </item>
+    
+  </channel>
+</rss>

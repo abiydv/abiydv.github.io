@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>iot on @abiydv</title>
+    <link>https://abiydv.github.io/topics/iot/</link>
+    <description>Recent content in iot on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/iot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS IoT</title>
+      <link>https://abiydv.github.io/notes/aws/iot/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/iot/</guid>
+      <description>Iot Core Region specific endpoints
+Device Gateway - pub/sub model
+Device Shadow - properties of connected devices, could have been called fingerprint?
+Supports MQTT
+Registry - Organize and track devices. Each device has it&amp;rsquo;s unique handle in the registry @myawesomelightbulb.
+Rules Engine - SQL like rules to filter/transform and forward incoming device metrics/data to other AWS/3rd party services
+Thing Type - Categorize similar devices with common attributes (up tp 50, 3 searchable)</description>
+    </item>
+    
+  </channel>
+</rss>

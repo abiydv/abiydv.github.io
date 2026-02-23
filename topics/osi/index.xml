@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>osi on @abiydv</title>
+    <link>https://abiydv.github.io/topics/osi/</link>
+    <description>Recent content in osi on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/osi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Network</title>
+      <link>https://abiydv.github.io/notes/network/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/network/</guid>
+      <description>Layers Layer Name Function Devices OSI Layer 4 Application HTTP, FTP, SMB, SMTP, DHCP etc. AWS ALB L5-7 3 Transport packets, TCP, UDP Routers, nlb L4 2 Internet IPv4, IPv6, ICMP, IPSEC Switches L3 1 Link Physical medium Cables L2 OSI Open Systems Interconnection Model Why? Useful for defining standards so computers from different manufacturers could &amp;ldquo;talk&amp;rdquo; to each other.
+Layer Name Function Devices 7 Application HTTP, FTP, SMB, SMTP, DHCP etc.</description>
+    </item>
+    
+  </channel>
+</rss>

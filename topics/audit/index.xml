@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>audit on @abiydv</title>
+    <link>https://abiydv.github.io/topics/audit/</link>
+    <description>Recent content in audit on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/audit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS CloudTrail</title>
+      <link>https://abiydv.github.io/notes/aws/cloudtrail/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/cloudtrail/</guid>
+      <description>Trails No IAM roles needed for cross-account delivery. #todo What principal does it show if you enable data events on the log delivery bucket?
+Lake Ingest events into an event data source, and run sql queries on this data source.
+Data can be collected from AWS (like CloudTrail events), custom application or 3rd parties (like okta system log)
+Pricing is based on data ingestion, analysis and retention. It can retain data up to a maximum of 10 years.</description>
+    </item>
+    
+    <item>
+      <title>AWS Config</title>
+      <link>https://abiydv.github.io/notes/aws/config/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/config/</guid>
+      <description>What is it? AWS Config records and saves configuration of supported resources.
+You can use these records to audit whether the resources align to best practices, or org specific patterns/rules. It can also highlight 2-way relationships between different resources. For ex - an instance is related to a vpc, a subnet, and a security group. This relation will show up in both the instance, and vpc records under relationships.
+Resource Schema https://github.</description>
+    </item>
+    
+  </channel>
+</rss>

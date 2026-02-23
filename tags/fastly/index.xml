@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>fastly on @abiydv</title>
+    <link>https://abiydv.github.io/tags/fastly/</link>
+    <description>Recent content in fastly on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 06 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/tags/fastly/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fastly Geolocation Service</title>
+      <link>https://abiydv.github.io/posts/fastly-geo-service/</link>
+      <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/fastly-geo-service/</guid>
+      <description>Fastly service which returns information about a public IP</description>
+    </item>
+    
+    <item>
+      <title>Fastly Meta Service</title>
+      <link>https://abiydv.github.io/posts/fastly-meta-service/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/fastly-meta-service/</guid>
+      <description>Fastly service which returns information about you</description>
+    </item>
+    
+    <item>
+      <title>Fastly BDD</title>
+      <link>https://abiydv.github.io/posts/fastly-bdd/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/posts/fastly-bdd/</guid>
+      <description>Implement BDD for Fastly</description>
+    </item>
+    
+  </channel>
+</rss>

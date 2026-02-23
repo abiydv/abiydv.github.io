@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>js on @abiydv</title>
+    <link>https://abiydv.github.io/topics/js/</link>
+    <description>Recent content in js on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mermaid Diagrams</title>
+      <link>https://abiydv.github.io/notes/mermaid-diagrams/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/mermaid-diagrams/</guid>
+      <description>Diagrams as code!
+Live test - https://mermaid.live
+Documentation - https://mermaid.js.org/intro/getting-started.html
+Examples Flowchart (Top to Bottom) --- config: --- flowchart TD A[Christmas] --Get money--&gt; B(Go shopping) B --&gt; C{Let me think} C --&gt;|One| D[Laptop] C --&gt;|Two| E[iPhone] C --&gt;|Three| F[fa:fa-car Car] Code
+--- config: --- flowchart TD A[Christmas] --Get money--&amp;gt; B(Go shopping) B --&amp;gt; C{Let me think} C --&amp;gt;|One| D[Laptop] C --&amp;gt;|Two| E[iPhone] C --&amp;gt;|Three| F[fa:fa-car Car] Flowchart (Left to Right) --- config: --- flowchart LR A[Christmas] --Get money--&gt; B(Go shopping) B --&gt; C{Let me think} C --&gt;|One| D[Laptop] C --&gt;|Two| E[iPhone] C --&gt;|Three| F[fa:fa-car Car] Code</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>finops on @abiydv</title>
+    <link>https://abiydv.github.io/topics/finops/</link>
+    <description>Recent content in finops on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/finops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Cost and Billing</title>
+      <link>https://abiydv.github.io/notes/aws/billing-and-cost/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/billing-and-cost/</guid>
+      <description>Consolidated Billing Cost Allocation Tags Cost Categories Cost and Usage Report v1 v2 Compute Optimizer Trusted Advisor Cost Explorer CUR-Athena-QuickSight Alerts Example here https://github.com/abiydv/aws-cost-alerts
+Budgets Anomaly Detector </description>
+    </item>
+    
+  </channel>
+</rss>

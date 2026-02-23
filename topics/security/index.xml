@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>security on @abiydv</title>
+    <link>https://abiydv.github.io/topics/security/</link>
+    <description>Recent content in security on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 04 Jun 2024 12:15:01 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trusted Advisor</title>
+      <link>https://abiydv.github.io/notes/aws/trusted-advisor/</link>
+      <pubDate>Tue, 04 Jun 2024 12:15:01 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/trusted-advisor/</guid>
+      <description>Pre-requisites Full access with Business/Enterprise support plan, otherwise full access to service limit checks, and 6 security checks.
+This applies to accounts in an org as well. If the management account has Enterprise access, but the member account only has a Basic support plan, full checks for the member account will not be available.
+Features Checks are refreshed automatically every week, you can force a manual refresh as well for all or a specific check (api/console) Configure upto 50 reports with region/OU filters etc.</description>
+    </item>
+    
+    <item>
+      <title>AWS CloudTrail</title>
+      <link>https://abiydv.github.io/notes/aws/cloudtrail/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/cloudtrail/</guid>
+      <description>Trails No IAM roles needed for cross-account delivery. #todo What principal does it show if you enable data events on the log delivery bucket?
+Lake Ingest events into an event data source, and run sql queries on this data source.
+Data can be collected from AWS (like CloudTrail events), custom application or 3rd parties (like okta system log)
+Pricing is based on data ingestion, analysis and retention. It can retain data up to a maximum of 10 years.</description>
+    </item>
+    
+    <item>
+      <title>AWS Config</title>
+      <link>https://abiydv.github.io/notes/aws/config/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/config/</guid>
+      <description>What is it? AWS Config records and saves configuration of supported resources.
+You can use these records to audit whether the resources align to best practices, or org specific patterns/rules. It can also highlight 2-way relationships between different resources. For ex - an instance is related to a vpc, a subnet, and a security group. This relation will show up in both the instance, and vpc records under relationships.
+Resource Schema https://github.</description>
+    </item>
+    
+    <item>
+      <title>AWS Firewall Manager</title>
+      <link>https://abiydv.github.io/notes/aws/firewall-manager/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/firewall-manager/</guid>
+      <description>AWS Firewall Manager simplifies your AWS WAF administration and helps you enforce WAF rules on the resources across all the accounts in an AWS Organization by using AWS Config in the background. AWS Firewall Manager also enables you to selectively apply the rules to specific resources.
+AWS WAF is a web application firewall that lets you monitor the HTTP and HTTPS requests that are forwarded to CloudFront or Application Load Balancer.</description>
+    </item>
+    
+    <item>
+      <title>AWS Identity and Access Management (IAM)</title>
+      <link>https://abiydv.github.io/notes/aws/iam/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/iam/</guid>
+      <description>Access Analyzer https://aws.amazon.com/blogs/security/how-to-prioritize-iam-access-analyzer-findings/
+In addition to roles, it also analyzes resource policies on supported resources
+Monitors resources for external access AWS Simple Storage(S3) buckets AWS Identity and Access Management roles AWS Key Management Service Keys AWS Lambda functions and layers AWS Simple Queue Service queues AWS Secrets Manager secrets
+Identity Center SSO for Org
+Policy Conditions Useful to allow/deny actions based on certain conditions in addition to resource arn or patterns.</description>
+    </item>
+    
+    <item>
+      <title>AWS Key Management Service (KMS)</title>
+      <link>https://abiydv.github.io/notes/aws/kms/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/kms/</guid>
+      <description>Questions What is a cloudhsm in kms? Use AWS CloudHSM when you need to manage the hardware security modules (HSMs) that generate and store your encryption keys. In AWS CloudHSM, you create and manage HSMs, including creating users and setting their permissions. You also create the symmetric keys and asymmetric key pairs that the HSM stores. Features Think of KMS as an additional layer of authentication and authorization. If a client cannot access the AWS KMS, the public key from an asymmetrical key pair can be used to encrypt the data.</description>
+    </item>
+    
+    <item>
+      <title>AWS Network Firewall</title>
+      <link>https://abiydv.github.io/notes/aws/network-firewall/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/network-firewall/</guid>
+      <description>Features Stateful Fully managed IPS (Intrusion Prevention Service) DPI (Deep Packet Inspection) References https://aws.amazon.com/blogs/networking-and-content-delivery/deployment-models-for-aws-network-firewall https://aws.amazon.com/blogs/networking-and-content-delivery/deployment-models-for-aws-network-firewall-with-vpc-routing-enhancements </description>
+    </item>
+    
+    <item>
+      <title>AWS Security Services</title>
+      <link>https://abiydv.github.io/notes/aws/security-services/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/security-services/</guid>
+      <description>Security Hub Add details
+AWS Inspector automated vulnerability management service that continually scans Amazon Elastic Compute Cloud (EC2)
+AWS Lambda functions, and container images in Amazon ECR and within continuous integration and continuous delivery (CI/CD) tools, in near-real time for software vulnerabilities and unintended network exposure.
+Common Vulnerability Scoring System (CVSS) v2 and v3 scores from both National Vulnerability Database (NVD) and vendors
+manage software bill of materials (SBOM) exports for all monitored resources.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>compute on @abiydv</title>
+    <link>https://abiydv.github.io/topics/compute/</link>
+    <description>Recent content in compute on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/compute/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Beanstalk</title>
+      <link>https://abiydv.github.io/notes/aws/beanstalk/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/beanstalk/</guid>
+      <description>Beanstalk az scope, auto-scaling in multi-az code source should be in same region</description>
+    </item>
+    
+    <item>
+      <title>AWS Elastic Cloud Compute (EC2)</title>
+      <link>https://abiydv.github.io/notes/aws/ec2/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/ec2/</guid>
+      <description>Scope az scope - specify 1 az
+Multi region replication? AMI = replicate via lambda, or life cycle rules or AWS Backup
+AutoScaling AutoScaling groups - can use launch templates or launch configs.
+Launch templates allow using latest EC2 features including selecting instances based on defined attributes rather than adding a fixed instance type.
+Lifecycle hooks Lifecycle hooks provide a way to trigger custom workflows based on the scale-in or scale-out activity in an auto scaling group.</description>
+    </item>
+    
+    <item>
+      <title>AWS Elastic Container Service (ECS)</title>
+      <link>https://abiydv.github.io/notes/aws/ecs/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/ecs/</guid>
+      <description>Scope az-scope
+auto-scaling in multi-az
+images from anywhere, any region</description>
+    </item>
+    
+    <item>
+      <title>AWS Lambda</title>
+      <link>https://abiydv.github.io/notes/aws/lambda/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/lambda/</guid>
+      <description>Scope region scope - specify multiple az
+code in the same region
+Features max runtime 15 mins
+max resource - vcpu ?, memory ?
+Can be triggered by CloudWatch alarm directly now - cross-region
+Alias - allows to test a new version without impacting live traffic which is served via an alias. If testing is successful, point the live alias to the new function version. Sort of, allows you perform [[devops#Canary deployments|canary deployments]] for Lambda.</description>
+    </item>
+    
+    <item>
+      <title>AWS Local Zones</title>
+      <link>https://abiydv.github.io/notes/aws/local-zones/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/local-zones/</guid>
+      <description>What is local zones? AWS Local Zones are a new type of AWS infrastructure designed to run workloads that require single-digit millisecond latency, like video rendering and graphics intensive, virtual desktop applications. Local Zones allow customers to gain all the benefits of having compute and storage resources closer to end-users, without the need to own and operate their own data center infrastructure. Local Zones are available in 33 metros globally. enable the AWS Local Zones for your AWS account before you can deploy resources to them.</description>
+    </item>
+    
+    <item>
+      <title>AWS Outposts</title>
+      <link>https://abiydv.github.io/notes/aws/outposts/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/outposts/</guid>
+      <description>AWS Outposts are fully managed and configurable compute and storage racks built with AWS-designed hardware that allow customers to run compute and storage on-premises, while seamlessly connecting to AWS’s broad array of services in the cloud. Features Run AWS services on-prem
+Low latency local compute
+Data residency requirements for compliance
+Local data processing for M/L workloads
+Types Racks Servers </description>
+    </item>
+    
+    <item>
+      <title>AWS Wavelength</title>
+      <link>https://abiydv.github.io/notes/aws/wavelength/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/wavelength/</guid>
+      <description>Wavelength is designed to deliver ultra-low latency applications to 5G devices by extending AWS infrastructure, services, APIs, and tools to 5G networks.
+embeds storage and compute inside telco providers 5G networks to help developers build new applications for 5G end users that require single-digit millisecond latency, like IoT devices, game streaming, autonomous vehicles, and live media production.</description>
+    </item>
+    
+  </channel>
+</rss>

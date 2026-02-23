@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ec2 on @abiydv</title>
+    <link>https://abiydv.github.io/topics/ec2/</link>
+    <description>Recent content in ec2 on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 13 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/ec2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Systems Manager (SSM)</title>
+      <link>https://abiydv.github.io/notes/aws/systems-manager/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/systems-manager/</guid>
+      <description>SSM Agent Most SSM functionality depends on this agent being present on the instance to be managed. Pre-installed on Amazon Linux Needs permission AmazonSSMManagedInstanceCore Use VPC endpoint Application Manager Logical grouping of resources to help provide context around resources, and while troubleshooting issues. Discovers related resources automatically, for ex, using CloudFormation templates.
+AppConfig Store and manage configs for environment separate from app code.
+Parameter Store No support for multi region No Rotation Optional encryption in-transit, at-rest Region scope Similar to Secrets Manager Change Management Change Manager Change Calendar: Decide, plan and enforce when changes, can or cannot be made to resources.</description>
+    </item>
+    
+  </channel>
+</rss>

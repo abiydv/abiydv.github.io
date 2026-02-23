@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>network on @abiydv</title>
+    <link>https://abiydv.github.io/topics/network/</link>
+    <description>Recent content in network on @abiydv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 29 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abiydv.github.io/topics/network/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Service Mesh</title>
+      <link>https://abiydv.github.io/notes/service-mesh/</link>
+      <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/service-mesh/</guid>
+      <description>What is a service mesh, and where to use one?</description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>https://abiydv.github.io/notes/network/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/network/</guid>
+      <description>Layers Layer Name Function Devices OSI Layer 4 Application HTTP, FTP, SMB, SMTP, DHCP etc. AWS ALB L5-7 3 Transport packets, TCP, UDP Routers, nlb L4 2 Internet IPv4, IPv6, ICMP, IPSEC Switches L3 1 Link Physical medium Cables L2 OSI Open Systems Interconnection Model Why? Useful for defining standards so computers from different manufacturers could &amp;ldquo;talk&amp;rdquo; to each other.
+Layer Name Function Devices 7 Application HTTP, FTP, SMB, SMTP, DHCP etc.</description>
+    </item>
+    
+    <item>
+      <title>AWS CloudFront</title>
+      <link>https://abiydv.github.io/notes/aws/cloudfront/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/cloudfront/</guid>
+      <description>Scope Global scope Supports multiple regions - multiple origins Health check for origin failovers - can be useful in disaster recovery supports active/active, active/standby architectures
+Questions How is CloudFront different from Global Accelerator? https://docs.aws.amazon.com/global-accelerator/latest/dg/about-accelerators.html
+What is Origin Group? ORIGIN Group - configure 2 origins, mark one as primary, and the other as secondary. Configure status codes to trigger fail over. If primary origin returns one these configured status codes, CloudFront then sends the request to the secondary origin.</description>
+    </item>
+    
+    <item>
+      <title>AWS Firewall Manager</title>
+      <link>https://abiydv.github.io/notes/aws/firewall-manager/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/firewall-manager/</guid>
+      <description>AWS Firewall Manager simplifies your AWS WAF administration and helps you enforce WAF rules on the resources across all the accounts in an AWS Organization by using AWS Config in the background. AWS Firewall Manager also enables you to selectively apply the rules to specific resources.
+AWS WAF is a web application firewall that lets you monitor the HTTP and HTTPS requests that are forwarded to CloudFront or Application Load Balancer.</description>
+    </item>
+    
+    <item>
+      <title>AWS Global Accelerator</title>
+      <link>https://abiydv.github.io/notes/aws/global-accelerator/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/global-accelerator/</guid>
+      <description>Scope Global service
+Features Provides anycast static IP addresses from AWS Edge Network 2 IPv4, 2 IPv6
+Supports BYOIP
+Static IP are released only when an accelerator is deleted
+TCP termination at edge
+Control traffic % directed to a region
+S3 Multi-Region Access Points
+Types Standard routes traffic based on client location, backend health, and custom policies Endpoints - NLB, ALB, EC2, Elastic IPs across multiple regions Custom routes traffic to private IPs in a subnet Endpoints - vpc subnet.</description>
+    </item>
+    
+    <item>
+      <title>AWS Internet Gateway</title>
+      <link>https://abiydv.github.io/notes/aws/internet-gateway/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/internet-gateway/</guid>
+      <description>If you create a transit gateway attachment using the public subnet, the instance traffic is routed to the internet gateway, but the internet gateway drops the traffic because the instances don&amp;rsquo;t have public IP addresses
+Egress Only Internet Gateway is IPv6 only.
+https://docs.aws.amazon.com/vpc/latest/tgw/transit-gateway-nat-igw.html</description>
+    </item>
+    
+    <item>
+      <title>AWS IPAM</title>
+      <link>https://abiydv.github.io/notes/aws/ipam/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/ipam/</guid>
+      <description>Refer https://docs.aws.amazon.com/vpc/latest/ipam/what-it-is-ipam.html
+Refer https://aws.amazon.com/blogs/networking-and-content-delivery/collecting-aws-networking-information-in-large-multi-account-environments/</description>
+    </item>
+    
+    <item>
+      <title>AWS Load Balancers</title>
+      <link>https://abiydv.github.io/notes/aws/load-balancers/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/load-balancers/</guid>
+      <description>AWS Application Load Balancer AWS Network Load Balancer AWS Gateway Load Balancer GWLB’s ability to use 5-tuples or 3-tuples of an IP packet to select specific appliance behind it for life of that flow combined with Transit Gateway appliance mode, provides session stickiness irrespective of source and destination AZ. 1
+A Gateway Load Balancer operates at the third layer of the Open Systems Interconnection (OSI) model, the network layer.
+It maintains stickiness of flows to a specific target appliance using 5-tuple (for TCP/UDP flows) or 3-tuple (for non-TCP/UDP flows).</description>
+    </item>
+    
+    <item>
+      <title>AWS Network Firewall</title>
+      <link>https://abiydv.github.io/notes/aws/network-firewall/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/network-firewall/</guid>
+      <description>Features Stateful Fully managed IPS (Intrusion Prevention Service) DPI (Deep Packet Inspection) References https://aws.amazon.com/blogs/networking-and-content-delivery/deployment-models-for-aws-network-firewall https://aws.amazon.com/blogs/networking-and-content-delivery/deployment-models-for-aws-network-firewall-with-vpc-routing-enhancements </description>
+    </item>
+    
+    <item>
+      <title>AWS Network Load Balancer (NLB)</title>
+      <link>https://abiydv.github.io/notes/aws/nlb/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/nlb/</guid>
+      <description>Features cross-zone disabled by default
+NLB provides a network interface in each AZ backed by a static IP. This static IP can be used to configure AZ specific DNS records.
+NLB forwards the requests to the same AZ target in which it receives the request. This is useful to maintain AZ affinity and reduce costs due to cross AZ traffic.
+NLB is a layer-4 device, works on layer-4 protocols, and is inherently sticky.</description>
+    </item>
+    
+    <item>
+      <title>AWS Private Link</title>
+      <link>https://abiydv.github.io/notes/aws/private-link/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/private-link/</guid>
+      <description>Keywords - SAAS, Private connectivity
+Connect to services outside your VPC using private addresses as if the external service is within your VPC.
+Uses Network load balancer to connect an interface VPC endpoint to a service.
+In service provider VPC (right) Create a VPC endpoint service (VPC &amp;gt; Endpoint services) which points to either a NLB or Gateway Load Balancer. The load balancer then forwards the traffic to the service compute.</description>
+    </item>
+    
+    <item>
+      <title>AWS Route53</title>
+      <link>https://abiydv.github.io/notes/aws/route53/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/route53/</guid>
+      <description>DNS works on port 53, hence the name route 53
+In a VPC, AWS reserves the network range +2 address for DNS server.
+What are R53 resolvers? Inbound endpoint
+For queries from on-prem systems to resolve AWS hosted domains.
+Outbound endpoint
+For queries from AWS workloads for on-prem systems.
+You can specify rule for directing queries from inbound/outbound EP.
+Limit - 10,000 queries per second per IP Address for an EP.</description>
+    </item>
+    
+    <item>
+      <title>AWS Direct Connect</title>
+      <link>https://abiydv.github.io/notes/aws/direct-connect/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/direct-connect/</guid>
+      <description>While VPN connections are OK, for some critical workloads, VPN over internet may not be stable or available enough.
+If a customer doesn&amp;rsquo;t want to connect to AWS over the internet, they can alternatively use Direct Connect. This ensures the traffic to/from AWS flows through the customer&amp;rsquo;s network directely on to AWS backbone network without going over the internet.
+Cost effective, secure, performant private network connectivity between on-prem private network and AWS.</description>
+    </item>
+    
+    <item>
+      <title>AWS Transit Gateway</title>
+      <link>https://abiydv.github.io/notes/aws/transit-gateway/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/transit-gateway/</guid>
+      <description>Managed service which offers a hub and spoke model for connecting AWS VPCs and on prem networks. Low operational overhead but not the cheapest.
+Features Multiple VPCs can connect to a single transit gateway, which can allow on-prem connectivity via direct connect or cross region connectivity via transit gateway peering.
+When using a VPN, or direct-connect, each VPC must only be connected to the TGW, which in turn is coonected to the DC or VPN.</description>
+    </item>
+    
+    <item>
+      <title>AWS Virtual Private Cloud (VPC)</title>
+      <link>https://abiydv.github.io/notes/aws/vpc/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/vpc/</guid>
+      <description>What is a VPC? Virtual Private Cloud
+An isolated virtual network present in your AWS account. There is a default VPC present. However, it is recommended to create your own custom VPC based on your environment.
+You can create a IPv4 only or Dual stack (IPv4 + IPv6) VPC.
+Default VPC You can modify, delete, recreate a default VPC Creating a default VPC does not need VPC specific permissions as all resources are created by AWS</description>
+    </item>
+    
+    <item>
+      <title>AWS API Gateway</title>
+      <link>https://abiydv.github.io/notes/aws/api-gateway/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/api-gateway/</guid>
+      <description>REST API CloudFormation resource AWS::ApiGateway::RestApi Regional service Edge-optimized Can be made private Integration types AWS Use this to create AWS API proxies for virtually any service AWS_PROXY lambda HTTP_PROXY HTTP MOCK Offers caching HTTP API CloudFormation resource AWS::ApiGatewayV2::Api Lightweight version of the REST API Regional service NOT Edge-optimized NOT Private Integration types AWS_PROXY Lambda, SQS, Kinesis Data Stream, AppConfig, Step Functions, EventBridge with proper integration sub-types. Ref HTTP_PROXY WebSocket API Integration types AWS AWS_PROXY Lambda HTTP_PROXY HTTP MOCK Usage plan Set throttling limits and send a 429 Too many requests HTTP response to clients</description>
+    </item>
+    
+    <item>
+      <title>AWS Virtual Private Gateway</title>
+      <link>https://abiydv.github.io/notes/aws/virtual-private-gateway/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://abiydv.github.io/notes/aws/virtual-private-gateway/</guid>
+      <description>A virtual private gateway is the VPN endpoint on a specific VPC.
+Use a virtual private gateway to connect a site-to-site VPN connection to a AWS VPC.
+Attaches to -
+ONE VPC ONE Direct Connect Gateway (DXGW) ONE Virtual Interface (VIF) </description>
+    </item>
+    
+  </channel>
+</rss>
